@@ -1,0 +1,108 @@
+C:\Users\LloyDog\Desktop\OIKO 0.8\bin\Debug\Oiko.exe.config
+C:\Users\LloyDog\Desktop\OIKO 0.8\bin\Debug\OikoDataBase.mdf
+C:\Users\LloyDog\Desktop\OIKO 0.8\bin\Debug\OikoDataBase_log.ldf
+C:\Users\LloyDog\Desktop\OIKO 0.8\bin\Debug\Oiko.exe
+C:\Users\LloyDog\Desktop\OIKO 0.8\obj\x86\Debug\Oiko.Principal.resources
+C:\Users\LloyDog\Desktop\OIKO 0.8\obj\x86\Debug\Oiko.Properties.Resources.resources
+C:\Users\LloyDog\Desktop\OIKO 0.8\obj\x86\Debug\Oiko.Splash.resources
+C:\Users\LloyDog\Desktop\OIKO 0.8\obj\x86\Debug\Oiko.csproj.GenerateResource.Cache
+C:\Users\LloyDog\Desktop\OIKO 0.8\obj\x86\Debug\Oiko.exe
+C:\Users\LloyDog\Desktop\OIKO 0.8\obj\x86\Debug\Oiko.pdb
+C:\Users\LloyDog\Desktop\OIKO 0.8\bin\Debug\Oiko.pdb
+C:\Users\LloyDog\Desktop\OIKO 0.8\obj\x86\Debug\Oiko.csprojResolveAssemblyReference.cache
+C:\Users\LloyDog\Desktop\OIKO 0.8\obj\x86\Debug\Oiko.Preferencias.resources
+C:\Users\LloyDog\Desktop\OIKO 0.9\bin\Debug\Oiko.exe.config
+C:\Users\LloyDog\Desktop\OIKO 0.9\obj\x86\Debug\Oiko.exe
+C:\Users\LloyDog\Desktop\OIKO 0.9\obj\x86\Debug\Oiko.pdb
+C:\Users\LloyDog\Desktop\OIKO 0.9\bin\Debug\OikoDataBase.mdf
+C:\Users\LloyDog\Desktop\OIKO 0.9\bin\Debug\OikoDataBase_log.ldf
+C:\Users\LloyDog\Desktop\OIKO 0.9\bin\Debug\Oiko.exe
+C:\Users\LloyDog\Desktop\OIKO 0.9\bin\Debug\Oiko.pdb
+C:\Users\LloyDog\Desktop\OIKO 0.9\obj\x86\Debug\Oiko.csprojResolveAssemblyReference.cache
+C:\Users\LloyDog\Desktop\OIKO 0.9\obj\x86\Debug\Oiko.Preferencias.resources
+C:\Users\LloyDog\Desktop\OIKO 0.9\obj\x86\Debug\Oiko.Principal.resources
+C:\Users\LloyDog\Desktop\OIKO 0.9\obj\x86\Debug\Oiko.Properties.Resources.resources
+C:\Users\LloyDog\Desktop\OIKO 0.9\obj\x86\Debug\Oiko.Splash.resources
+C:\Users\LloyDog\Desktop\OIKO 0.9\obj\x86\Debug\Oiko.csproj.GenerateResource.Cache
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO\OIKO 0.9.1\bin\Debug\Oiko.exe.config
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO\OIKO 0.9.1\obj\x86\Debug\Oiko.exe
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO\OIKO 0.9.1\obj\x86\Debug\Oiko.pdb
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO\OIKO 0.9.2\bin\Debug\Oiko.exe.config
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO\OIKO 0.9.2\obj\x86\Debug\Oiko.exe
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO\OIKO 0.9.2\obj\x86\Debug\Oiko.pdb
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO\OIKO 0.9.2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO\OIKO 0.9.2\obj\x86\Debug\Oiko.Preferencias.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO\OIKO 0.9.2\obj\x86\Debug\Oiko.Principal.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO\OIKO 0.9.2\obj\x86\Debug\Oiko.Properties.Resources.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO\OIKO 0.9.2\obj\x86\Debug\Oiko.Splash.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO\OIKO 0.9.2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO\OIKO 0.9.2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO\OIKO 0.9.2\bin\Debug\Oiko.exe
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO\OIKO 0.9.2\bin\Debug\Oiko.pdb
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.2\bin\Debug\Oiko.exe.config
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.2\obj\x86\Debug\Oiko.exe
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.2\obj\x86\Debug\Oiko.pdb
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.2\obj\x86\Debug\Oiko.Preferencias.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.2\obj\x86\Debug\Oiko.Principal.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.2\obj\x86\Debug\Oiko.Properties.Resources.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.2\obj\x86\Debug\Oiko.Splash.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.2\bin\Debug\Oiko.exe
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.2\bin\Debug\Oiko.pdb
+C:\Users\LloyDog\Desktop\OIKO 0.9.2\bin\Debug\Oiko.exe.config
+C:\Users\LloyDog\Desktop\OIKO 0.9.2\obj\x86\Debug\Oiko.exe
+C:\Users\LloyDog\Desktop\OIKO 0.9.2\obj\x86\Debug\Oiko.pdb
+C:\Users\LloyDog\Desktop\OIKO 0.9.2\bin\Debug\Oiko.exe
+C:\Users\LloyDog\Desktop\OIKO 0.9.2\bin\Debug\Oiko.pdb
+C:\Users\LloyDog\Desktop\OIKO 0.9.2\obj\x86\Debug\Oiko.csprojResolveAssemblyReference.cache
+C:\Users\LloyDog\Desktop\OIKO 0.9.2\obj\x86\Debug\Oiko.Preferencias.resources
+C:\Users\LloyDog\Desktop\OIKO 0.9.2\obj\x86\Debug\Oiko.Principal.resources
+C:\Users\LloyDog\Desktop\OIKO 0.9.2\obj\x86\Debug\Oiko.Properties.Resources.resources
+C:\Users\LloyDog\Desktop\OIKO 0.9.2\obj\x86\Debug\Oiko.Splash.resources
+C:\Users\LloyDog\Desktop\OIKO 0.9.2\obj\x86\Debug\Oiko.csproj.GenerateResource.Cache
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.4\bin\Debug\Oiko.exe.config
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.4\obj\x86\Debug\Oiko.exe
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.4\obj\x86\Debug\Oiko.pdb
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.4\bin\Debug\Oiko.exe
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.4\bin\Debug\Oiko.pdb
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.4\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.4\obj\x86\Debug\Oiko.Preferencias.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.4\obj\x86\Debug\Oiko.Principal.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.4\obj\x86\Debug\Oiko.Properties.Resources.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.4\obj\x86\Debug\Oiko.Splash.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.4\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO 0.9.4\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\bin\Debug\Oiko.exe.config
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Debug\Oiko.exe
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Debug\Oiko.pdb
+C:\Users\LloyDog\Documents\GitHub\OIKOBase\OIKO\bin\Debug\Oiko.exe.config
+C:\Users\LloyDog\Documents\GitHub\OIKOBase\OIKO\obj\x86\Debug\Oiko.exe
+C:\Users\LloyDog\Documents\GitHub\OIKOBase\OIKO\obj\x86\Debug\Oiko.pdb
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\bin\Debug\Oiko.exe
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\bin\Debug\Oiko.pdb
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Debug\Oiko.Preferencias.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Debug\Oiko.Principal.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Debug\Oiko.Properties.Resources.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Debug\Oiko.Splash.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\bin\Debug\OikoDataBase.mdf
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\bin\Debug\OikoDataBase_log.ldf
+C:\Users\LloyDog\Documents\GitHub\OIKOBase\OIKO\bin\Debug\OikoDataBase.mdf
+C:\Users\LloyDog\Documents\GitHub\OIKOBase\OIKO\bin\Debug\OikoDataBase_log.ldf
+C:\Users\LloyDog\Documents\GitHub\OIKOBase\OIKO\bin\Debug\Oiko.exe
+C:\Users\LloyDog\Documents\GitHub\OIKOBase\OIKO\bin\Debug\Oiko.pdb
+C:\Users\LloyDog\Documents\GitHub\OIKOBase\OIKO\obj\x86\Debug\Oiko.csprojResolveAssemblyReference.cache
+C:\Users\LloyDog\Documents\GitHub\OIKOBase\OIKO\obj\x86\Debug\Oiko.Preferencias.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase\OIKO\obj\x86\Debug\Oiko.Principal.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase\OIKO\obj\x86\Debug\Oiko.Properties.Resources.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase\OIKO\obj\x86\Debug\Oiko.Splash.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase\OIKO\obj\x86\Debug\Oiko.csproj.GenerateResource.Cache
+C:\Users\LloyDog\Documents\GitHub\OIKOBase\OIKO\obj\x86\Debug\Oiko.Sobre.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Debug\Oiko.Sobre.resources
+D:\OIKO\bin\Debug\Oiko.exe.config
+D:\OIKO\obj\x86\Debug\Oiko.exe
+D:\OIKO\obj\x86\Debug\Oiko.pdb

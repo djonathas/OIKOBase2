@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="OikoDataBase" Class="OikoDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;AttachDbFilename=|DataDirectory|\OikoDataBase.mdf;User ID=sa;User Instance=False" SettingsObjectName="Oiko.Properties.Settings" SettingsPropertyName="OikoDataBaseConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Categoria" Member="Categoria">
+    <Type Name="Categoria">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nome" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="tipo" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="Categoria_Lancamento" Member="Lancamento" ThisKey="id" OtherKey="idCategoria" Type="Lancamento" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Usuario" Member="Usuario">
+    <Type Name="Usuario">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nome" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="login" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="senha" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Usuario_Lancamento" Member="Lancamento" ThisKey="id" OtherKey="idUsuario" Type="Lancamento" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Conta" Member="Conta">
+    <Type Name="Conta">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nome" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="saldo" Type="System.Decimal" DbType="Decimal(18,2) NOT NULL" CanBeNull="false" />
+      <Column Name="saldoNegativo" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Conta_Lancamento" Member="Lancamento" ThisKey="id" OtherKey="idConta" Type="Lancamento" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FormaPagamento" Member="FormaPagamento">
+    <Type Name="FormaPagamento">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nome" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Association Name="FormaPagamento_Lancamento" Member="Lancamento" ThisKey="id" OtherKey="idFormaPagamento" Type="Lancamento" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Lancamento" Member="Lancamento">
+    <Type Name="Lancamento">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="dataLancamento" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="descricao" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="valor" Type="System.Decimal" DbType="Decimal(18,2) NOT NULL" CanBeNull="false" />
+      <Column Name="tipo" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="jurosPorDia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="multa" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="dataRecebimentoPagamento" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="status" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="idFormaPagamento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idUsuario" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idConta" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idCategoria" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Categoria_Lancamento" Member="Categoria" ThisKey="idCategoria" OtherKey="id" Type="Categoria" IsForeignKey="true" />
+      <Association Name="Conta_Lancamento" Member="Conta" ThisKey="idConta" OtherKey="id" Type="Conta" IsForeignKey="true" />
+      <Association Name="FormaPagamento_Lancamento" Member="FormaPagamento" ThisKey="idFormaPagamento" OtherKey="id" Type="FormaPagamento" IsForeignKey="true" />
+      <Association Name="Usuario_Lancamento" Member="Usuario" ThisKey="idUsuario" OtherKey="id" Type="Usuario" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

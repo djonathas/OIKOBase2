@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 11.25" name="DataClassesOiko">
+  <DataContextMoniker Name="/OikoDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d5880fcd-4c95-44fd-ac0e-d810915d334c" absoluteBounds="0.75, 4.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/OikoDataContext/Categoria" />
+      <nestedChildShapes>
+        <elementListCompartment Id="00dcf01a-5eac-4704-87f6-f89033fb32fc" absoluteBounds="0.765, 5.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5ea14d5c-174b-4d57-ad3f-c52f5c16ec21" absoluteBounds="0.75, 9.25, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/OikoDataContext/Usuario" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a9798a82-f94b-4ff2-b18b-a902090a121b" absoluteBounds="0.765, 9.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7cfe353a-dd93-4458-acef-4344d5de321e" absoluteBounds="0.75, 6.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/OikoDataContext/Conta" />
+      <nestedChildShapes>
+        <elementListCompartment Id="58dc3550-9f95-4634-a4b4-fba5d2b80ab6" absoluteBounds="0.765, 7.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="85d526b0-e344-4264-9ffe-764a2bff8780" absoluteBounds="0.75, 2, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/OikoDataContext/FormaPagamento" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f285fbaa-79d9-4203-bb2d-2e162fd141bd" absoluteBounds="0.765, 2.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="50d05633-ad0a-40f8-aa96-112fc345eab9" absoluteBounds="3.5, 1, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/OikoDataContext/Lancamento" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2af00f6d-d21c-4c0f-a7bd-15ebcc361263" absoluteBounds="3.515, 1.46, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 5.44314697265625); (3.88541416666667 : 5.44314697265625 : JumpStart); (4.05208083333333 : 5.44314697265625 : JumpEnd); (4.5 : 5.44314697265625); (4.5 : 4.30930826822917)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/OikoDataContext/Categoria/Categoria_Lancamento" />
+      <nodes>
+        <classShapeMoniker Id="d5880fcd-4c95-44fd-ac0e-d810915d334c" />
+        <classShapeMoniker Id="50d05633-ad0a-40f8-aa96-112fc345eab9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 7.66429768880208); (3.9687475 : 7.66429768880208); (3.9687475 : 4.30930826822917)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/OikoDataContext/Conta/Conta_Lancamento" />
+      <nodes>
+        <classShapeMoniker Id="7cfe353a-dd93-4458-acef-4344d5de321e" />
+        <classShapeMoniker Id="50d05633-ad0a-40f8-aa96-112fc345eab9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.59699625651042); (3.5 : 2.59699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/OikoDataContext/FormaPagamento/FormaPagamento_Lancamento" />
+      <nodes>
+        <classShapeMoniker Id="85d526b0-e344-4264-9ffe-764a2bff8780" />
+        <classShapeMoniker Id="50d05633-ad0a-40f8-aa96-112fc345eab9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 10.1354484049479); (5.0312525 : 10.1354484049479); (5.0312525 : 4.30930826822917)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/OikoDataContext/Usuario/Usuario_Lancamento" />
+      <nodes>
+        <classShapeMoniker Id="5ea14d5c-174b-4d57-ad3f-c52f5c16ec21" />
+        <classShapeMoniker Id="50d05633-ad0a-40f8-aa96-112fc345eab9" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

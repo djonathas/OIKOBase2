@@ -1,0 +1,25 @@
+C:\Users\LloyDog\Desktop\OIKO 0.8\bin\Release\OikoDataBase.mdf
+C:\Users\LloyDog\Desktop\OIKO 0.8\bin\Release\OikoDataBase_log.ldf
+C:\Users\LloyDog\Desktop\OIKO 0.8\bin\Release\Oiko.exe.config
+C:\Users\LloyDog\Desktop\OIKO 0.8\bin\Release\Oiko.exe
+C:\Users\LloyDog\Desktop\OIKO 0.8\bin\Release\Oiko.pdb
+C:\Users\LloyDog\Desktop\OIKO 0.8\obj\x86\Release\Oiko.csprojResolveAssemblyReference.cache
+C:\Users\LloyDog\Desktop\OIKO 0.8\obj\x86\Release\Oiko.Login.resources
+C:\Users\LloyDog\Desktop\OIKO 0.8\obj\x86\Release\Oiko.Principal.resources
+C:\Users\LloyDog\Desktop\OIKO 0.8\obj\x86\Release\Oiko.Properties.Resources.resources
+C:\Users\LloyDog\Desktop\OIKO 0.8\obj\x86\Release\Oiko.Splash.resources
+C:\Users\LloyDog\Desktop\OIKO 0.8\obj\x86\Release\Oiko.csproj.GenerateResource.Cache
+C:\Users\LloyDog\Desktop\OIKO 0.8\obj\x86\Release\Oiko.exe
+C:\Users\LloyDog\Desktop\OIKO 0.8\obj\x86\Release\Oiko.pdb
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\bin\Release\Oiko.exe.config
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\bin\Release\Oiko.exe
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\bin\Release\Oiko.pdb
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Release\Oiko.Preferencias.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Release\Oiko.Principal.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Release\Oiko.Properties.Resources.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Release\Oiko.Splash.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Release\Oiko.exe
+C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Release\Oiko.pdb

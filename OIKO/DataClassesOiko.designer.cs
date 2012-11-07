@@ -48,7 +48,7 @@ namespace Oiko
     #endregion
 		
 		public OikoDataContext() : 
-				base(global::Oiko.Properties.Settings.Default.OikoDataBaseConnectionString1, mappingSource)
+				base(global::Oiko.Properties.Settings.Default.OikoDataBaseConnectionString4, mappingSource)
 		{
 			OnCreated();
 		}

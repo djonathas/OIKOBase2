@@ -121,3 +121,17 @@ C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Sobre.resour
 C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Splash.resources
 C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.csproj.GenerateResource.Cache
 C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Login.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\bin\Debug\Oiko.exe.config
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.exe
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.pdb
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\bin\Debug\Oiko.exe
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\bin\Debug\Oiko.pdb
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Login.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Preferencias.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Principal.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Properties.Resources.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Sobre.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Splash.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\GenerateResource.write.1.tlog

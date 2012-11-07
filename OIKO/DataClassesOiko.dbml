@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="OikoDataBase" Class="OikoDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=.;AttachDbFilename=|DataDirectory|\OikoDataBase.mdf;User ID=sa;User Instance=False" SettingsObjectName="Oiko.Properties.Settings" SettingsPropertyName="OikoDataBaseConnectionString1" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;AttachDbFilename=&quot;C:\Users\Djonathas\Documents\GitHub\OIKOBase2\Banco de Dados\OikoDataBase.mdf&quot;;Persist Security Info=True;User ID=sa;Connect Timeout=30;User Instance=False" SettingsObjectName="Oiko.Properties.Settings" SettingsPropertyName="OikoDataBaseConnectionString4" Provider="System.Data.SqlClient" />
   <Table Name="dbo.Categoria" Member="Categoria">
     <Type Name="Categoria">
       <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />

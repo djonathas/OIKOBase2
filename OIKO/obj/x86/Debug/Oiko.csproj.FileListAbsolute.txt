@@ -121,3 +121,11 @@ C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Sobre.resour
 C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Splash.resources
 C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.csproj.GenerateResource.Cache
 C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Login.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form5_Lançamentos.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form2_Login.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form7_Planejamento.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form8_Preferencias.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form3_Principal.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form6_Relatorio.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form9_Sobre.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form4_VisaoGeral.resources

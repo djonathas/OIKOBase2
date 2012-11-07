@@ -1,6 +1,6 @@
 ﻿namespace Oiko
 {
-    partial class Login
+    partial class Form2_Login
     {
         /// <summary>
         /// Required designer variable.

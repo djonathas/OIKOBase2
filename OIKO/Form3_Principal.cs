@@ -10,9 +10,9 @@ using Oiko.controllers;
 
 namespace Oiko
 {
-    public partial class Principal : Form
+    public partial class Form3_Principal : Form
     {
-        public Principal()
+        public Form3_Principal()
         {
             InitializeComponent();
 
@@ -42,13 +42,13 @@ namespace Oiko
 
         private void ToolStripMenuItemCategorias_Click(object sender, EventArgs e)
         {
-            Preferencias preferencias = new Preferencias("categoria");
+            Form8_Preferencias preferencias = new Form8_Preferencias("categoria");
             preferencias.Show();
         }
 
         private void toolStripButton_Preferencia_Click(object sender, EventArgs e)
         {
-            Preferencias f = new Preferencias();
+            Form8_Preferencias f = new Form8_Preferencias();
             f.MdiParent = this;
             //f.WindowState = FormWindowState.Normal;
             tabControl_Geral.Dispose();
@@ -326,7 +326,7 @@ namespace Oiko
 
         private void ToolStripMenuItem_Sobre_Click(object sender, EventArgs e)
         {
-            Sobre s = new Sobre();
+            Form9_Sobre s = new Form9_Sobre();
             s.Show();
         }
 

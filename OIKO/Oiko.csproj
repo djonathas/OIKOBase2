@@ -72,23 +72,35 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataClassesOiko.dbml</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="Form5_Lançamentos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="Form5_Lançamentos.Designer.cs">
+      <DependentUpon>Form5_Lançamentos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Preferencias.cs">
+    <Compile Include="Form2_Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Preferencias.Designer.cs">
-      <DependentUpon>Preferencias.cs</DependentUpon>
+    <Compile Include="Form2_Login.Designer.cs">
+      <DependentUpon>Form2_Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Principal.cs">
+    <Compile Include="Form7_Planejamento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Principal.Designer.cs">
-      <DependentUpon>Principal.cs</DependentUpon>
+    <Compile Include="Form7_Planejamento.Designer.cs">
+      <DependentUpon>Form7_Planejamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8_Preferencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8_Preferencias.Designer.cs">
+      <DependentUpon>Form8_Preferencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_Principal.Designer.cs">
+      <DependentUpon>Form3_Principal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -97,26 +109,44 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Sobre.cs">
+    <Compile Include="Form6_Relatorio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sobre.Designer.cs">
-      <DependentUpon>Sobre.cs</DependentUpon>
+    <Compile Include="Form6_Relatorio.Designer.cs">
+      <DependentUpon>Form6_Relatorio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Splash.cs">
+    <Compile Include="Form9_Sobre.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Splash.Designer.cs">
-      <DependentUpon>Splash.cs</DependentUpon>
+    <Compile Include="Form9_Sobre.Designer.cs">
+      <DependentUpon>Form9_Sobre.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="Form1_Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1_Splash.Designer.cs">
+      <DependentUpon>Form1_Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4_VisaoGeral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4_VisaoGeral.Designer.cs">
+      <DependentUpon>Form4_VisaoGeral.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form5_Lançamentos.resx">
+      <DependentUpon>Form5_Lançamentos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Preferencias.resx">
-      <DependentUpon>Preferencias.cs</DependentUpon>
+    <EmbeddedResource Include="Form2_Login.resx">
+      <DependentUpon>Form2_Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Principal.resx">
-      <DependentUpon>Principal.cs</DependentUpon>
+    <EmbeddedResource Include="Form7_Planejamento.resx">
+      <DependentUpon>Form7_Planejamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8_Preferencias.resx">
+      <DependentUpon>Form8_Preferencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_Principal.resx">
+      <DependentUpon>Form3_Principal.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -124,11 +154,17 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sobre.resx">
-      <DependentUpon>Sobre.cs</DependentUpon>
+    <EmbeddedResource Include="Form6_Relatorio.resx">
+      <DependentUpon>Form6_Relatorio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Splash.resx">
-      <DependentUpon>Splash.cs</DependentUpon>
+    <EmbeddedResource Include="Form9_Sobre.resx">
+      <DependentUpon>Form9_Sobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1_Splash.resx">
+      <DependentUpon>Form1_Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4_VisaoGeral.resx">
+      <DependentUpon>Form4_VisaoGeral.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config">
       <SubType>Designer</SubType>

@@ -1,6 +1,6 @@
 ﻿namespace Oiko
 {
-    partial class Sobre
+    partial class Form9_Sobre
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sobre));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form9_Sobre));
             this.label_Sobre_Text1 = new System.Windows.Forms.Label();
             this.label_Sobre_Text2 = new System.Windows.Forms.Label();
             this.label_Sobre_Text3 = new System.Windows.Forms.Label();

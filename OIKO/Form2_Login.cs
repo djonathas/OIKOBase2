@@ -9,16 +9,16 @@ using System.Windows.Forms;
 
 namespace Oiko
 {
-    public partial class Login : Form
+    public partial class Form2_Login : Form
     {
-        public Login()
+        public Form2_Login()
         {
             InitializeComponent();
         }
 
         private void button_Login_Entrar_Click(object sender, EventArgs e)
         {
-            Principal p = new Principal();
+            Form3_Principal p = new Form3_Principal();
             p.Show();
             this.Hide();
         }

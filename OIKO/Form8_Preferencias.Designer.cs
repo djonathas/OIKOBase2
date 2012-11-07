@@ -1,6 +1,6 @@
 ﻿namespace Oiko
 {
-    partial class Preferencias
+    partial class Form8_Preferencias
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Preferencias));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form8_Preferencias));
             this.tabControl_Menu_Cadastros = new System.Windows.Forms.TabControl();
             this.tabPage_PrefeA1_MeusDados = new System.Windows.Forms.TabPage();
             this.textBox_PrefeA1_Login = new System.Windows.Forms.TextBox();

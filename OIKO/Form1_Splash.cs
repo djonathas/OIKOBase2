@@ -25,7 +25,7 @@ namespace Oiko
             else
             {
                 timer_Splash.Enabled = false;
-                Login nf = new Login();
+                Form2_Login nf = new Form2_Login();
                 nf.Show();
                 this.Hide();
             }

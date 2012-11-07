@@ -32,16 +32,19 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Splash));
             this.progressBar_Splash = new System.Windows.Forms.ProgressBar();
             this.timer_Splash = new System.Windows.Forms.Timer(this.components);
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.label_Sobre_Text2 = new System.Windows.Forms.Label();
+            this.label_Sobre_Text3 = new System.Windows.Forms.Label();
+            this.label_Sobre_Text1 = new System.Windows.Forms.Label();
+            this.pictureBox_Sobre = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Sobre)).BeginInit();
             this.SuspendLayout();
             // 
             // progressBar_Splash
             // 
-            this.progressBar_Splash.Dock = System.Windows.Forms.DockStyle.Top;
-            this.progressBar_Splash.Location = new System.Drawing.Point(0, 0);
+            this.progressBar_Splash.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.progressBar_Splash.Location = new System.Drawing.Point(0, 297);
             this.progressBar_Splash.Name = "progressBar_Splash";
-            this.progressBar_Splash.Size = new System.Drawing.Size(380, 10);
+            this.progressBar_Splash.Size = new System.Drawing.Size(520, 10);
             this.progressBar_Splash.TabIndex = 1;
             // 
             // timer_Splash
@@ -49,38 +52,81 @@
             this.timer_Splash.Enabled = true;
             this.timer_Splash.Tick += new System.EventHandler(this.timer_Splash_Tick);
             // 
-            // pictureBox1
+            // label_Sobre_Text2
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Oiko.Properties.Resources.Splash1;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(380, 210);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.label_Sobre_Text2.AutoSize = true;
+            this.label_Sobre_Text2.BackColor = System.Drawing.Color.Transparent;
+            this.label_Sobre_Text2.Font = new System.Drawing.Font("Eras Bold ITC", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Sobre_Text2.ForeColor = System.Drawing.Color.DimGray;
+            this.label_Sobre_Text2.Location = new System.Drawing.Point(4, 249);
+            this.label_Sobre_Text2.Name = "label_Sobre_Text2";
+            this.label_Sobre_Text2.Size = new System.Drawing.Size(140, 33);
+            this.label_Sobre_Text2.TabIndex = 9;
+            this.label_Sobre_Text2.Text = "Oiko 1.0";
+            // 
+            // label_Sobre_Text3
+            // 
+            this.label_Sobre_Text3.AutoSize = true;
+            this.label_Sobre_Text3.BackColor = System.Drawing.Color.Transparent;
+            this.label_Sobre_Text3.Font = new System.Drawing.Font("Eras Demi ITC", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Sobre_Text3.Location = new System.Drawing.Point(7, 278);
+            this.label_Sobre_Text3.Name = "label_Sobre_Text3";
+            this.label_Sobre_Text3.Size = new System.Drawing.Size(220, 16);
+            this.label_Sobre_Text3.TabIndex = 10;
+            this.label_Sobre_Text3.Text = "Seu Gerenciador Financeiro Pessoal";
+            // 
+            // label_Sobre_Text1
+            // 
+            this.label_Sobre_Text1.AutoSize = true;
+            this.label_Sobre_Text1.BackColor = System.Drawing.Color.Transparent;
+            this.label_Sobre_Text1.Font = new System.Drawing.Font("Eras Demi ITC", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Sobre_Text1.Location = new System.Drawing.Point(7, 236);
+            this.label_Sobre_Text1.Name = "label_Sobre_Text1";
+            this.label_Sobre_Text1.Size = new System.Drawing.Size(129, 16);
+            this.label_Sobre_Text1.TabIndex = 12;
+            this.label_Sobre_Text1.Text = "Seja Bem Vindo ao...";
+            // 
+            // pictureBox_Sobre
+            // 
+            this.pictureBox_Sobre.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox_Sobre.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox_Sobre.Image = global::Oiko.Properties.Resources.MiniLogo___Oiko;
+            this.pictureBox_Sobre.Location = new System.Drawing.Point(242, 1);
+            this.pictureBox_Sobre.Name = "pictureBox_Sobre";
+            this.pictureBox_Sobre.Size = new System.Drawing.Size(307, 309);
+            this.pictureBox_Sobre.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_Sobre.TabIndex = 13;
+            this.pictureBox_Sobre.TabStop = false;
             // 
             // Splash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(380, 210);
+            this.BackgroundImage = global::Oiko.Properties.Resources.Background;
+            this.ClientSize = new System.Drawing.Size(520, 307);
             this.Controls.Add(this.progressBar_Splash);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox_Sobre);
+            this.Controls.Add(this.label_Sobre_Text1);
+            this.Controls.Add(this.label_Sobre_Text2);
+            this.Controls.Add(this.label_Sobre_Text3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Splash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Splash";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Sobre)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ProgressBar progressBar_Splash;
         private System.Windows.Forms.Timer timer_Splash;
+        private System.Windows.Forms.Label label_Sobre_Text2;
+        private System.Windows.Forms.Label label_Sobre_Text3;
+        private System.Windows.Forms.Label label_Sobre_Text1;
+        private System.Windows.Forms.PictureBox pictureBox_Sobre;
     }
 }

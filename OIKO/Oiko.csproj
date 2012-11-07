@@ -72,6 +72,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataClassesOiko.dbml</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Preferencias.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +109,9 @@
     <Compile Include="Splash.Designer.cs">
       <DependentUpon>Splash.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Preferencias.resx">
       <DependentUpon>Preferencias.cs</DependentUpon>
     </EmbeddedResource>
@@ -242,6 +251,7 @@
     <None Include="img\config.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="img\MiniLogo - Oiko.png" />
     <Content Include="OikoDataBase.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -25,7 +25,7 @@ namespace Oiko
             else
             {
                 timer_Splash.Enabled = false;
-                Principal nf = new Principal();
+                Login nf = new Login();
                 nf.Show();
                 this.Hide();
             }

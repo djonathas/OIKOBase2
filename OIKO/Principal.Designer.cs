@@ -254,6 +254,7 @@
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.splitContainer11 = new System.Windows.Forms.SplitContainer();
             this.menuStrip_Principal.SuspendLayout();
             this.tabControl_Geral.SuspendLayout();
             this.tabPage_A1_VisaoGeral.SuspendLayout();
@@ -343,6 +344,8 @@
             this.panel_A4_BarInfo.SuspendLayout();
             this.statusStrip_Principal.SuspendLayout();
             this.toolStrip_Principal.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer11)).BeginInit();
+            this.splitContainer11.SuspendLayout();
             this.SuspendLayout();
             // 
             // toolStripSeparator4
@@ -436,6 +439,7 @@
             this.ToolStripMenuItem_Sair.Name = "ToolStripMenuItem_Sair";
             this.ToolStripMenuItem_Sair.Size = new System.Drawing.Size(188, 22);
             this.ToolStripMenuItem_Sair.Text = "Sair";
+            this.ToolStripMenuItem_Sair.Click += new System.EventHandler(this.ToolStripMenuItem_Sair_Click);
             // 
             // ToolStripMenuItem_Consultar
             // 
@@ -632,6 +636,7 @@
             // button_A1_Despesa
             // 
             this.button_A1_Despesa.BackColor = System.Drawing.Color.Red;
+            this.button_A1_Despesa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_A1_Despesa.ForeColor = System.Drawing.Color.White;
             this.button_A1_Despesa.Location = new System.Drawing.Point(120, 24);
             this.button_A1_Despesa.Name = "button_A1_Despesa";
@@ -644,6 +649,7 @@
             // button_A1_Receita
             // 
             this.button_A1_Receita.BackColor = System.Drawing.Color.ForestGreen;
+            this.button_A1_Receita.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_A1_Receita.ForeColor = System.Drawing.Color.White;
             this.button_A1_Receita.Location = new System.Drawing.Point(7, 24);
             this.button_A1_Receita.Name = "button_A1_Receita";
@@ -674,13 +680,15 @@
             // 
             // button_A1_Lancar
             // 
+            this.button_A1_Lancar.BackColor = System.Drawing.SystemColors.Control;
+            this.button_A1_Lancar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_A1_Lancar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_A1_Lancar.Location = new System.Drawing.Point(184, 215);
             this.button_A1_Lancar.Name = "button_A1_Lancar";
             this.button_A1_Lancar.Size = new System.Drawing.Size(92, 23);
             this.button_A1_Lancar.TabIndex = 10;
             this.button_A1_Lancar.Text = "Lançar";
-            this.button_A1_Lancar.UseVisualStyleBackColor = true;
+            this.button_A1_Lancar.UseVisualStyleBackColor = false;
             // 
             // label_A1_Catego
             // 
@@ -1122,6 +1130,7 @@
             // button_A2_Despesa
             // 
             this.button_A2_Despesa.BackColor = System.Drawing.Color.Red;
+            this.button_A2_Despesa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_A2_Despesa.ForeColor = System.Drawing.Color.White;
             this.button_A2_Despesa.Location = new System.Drawing.Point(128, 6);
             this.button_A2_Despesa.Name = "button_A2_Despesa";
@@ -1134,6 +1143,7 @@
             // button_A2_Receita
             // 
             this.button_A2_Receita.BackColor = System.Drawing.Color.ForestGreen;
+            this.button_A2_Receita.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_A2_Receita.ForeColor = System.Drawing.Color.White;
             this.button_A2_Receita.Location = new System.Drawing.Point(18, 6);
             this.button_A2_Receita.Name = "button_A2_Receita";
@@ -1204,13 +1214,15 @@
             // 
             // button_A2_Lancar
             // 
+            this.button_A2_Lancar.BackColor = System.Drawing.SystemColors.Control;
+            this.button_A2_Lancar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_A2_Lancar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_A2_Lancar.Location = new System.Drawing.Point(299, 246);
             this.button_A2_Lancar.Name = "button_A2_Lancar";
             this.button_A2_Lancar.Size = new System.Drawing.Size(98, 23);
             this.button_A2_Lancar.TabIndex = 21;
             this.button_A2_Lancar.Text = "Lançar";
-            this.button_A2_Lancar.UseVisualStyleBackColor = true;
+            this.button_A2_Lancar.UseVisualStyleBackColor = false;
             this.button_A2_Lancar.Click += new System.EventHandler(this.buttonLancar_Click);
             // 
             // label_A2_Valor
@@ -1600,9 +1612,9 @@
             this.button_A2_ExcluirLancamento.BackgroundImage = global::Oiko.Properties.Resources.editar;
             this.button_A2_ExcluirLancamento.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button_A2_ExcluirLancamento.Enabled = false;
-            this.button_A2_ExcluirLancamento.Location = new System.Drawing.Point(246, 3);
+            this.button_A2_ExcluirLancamento.Location = new System.Drawing.Point(247, 4);
             this.button_A2_ExcluirLancamento.Name = "button_A2_ExcluirLancamento";
-            this.button_A2_ExcluirLancamento.Size = new System.Drawing.Size(43, 40);
+            this.button_A2_ExcluirLancamento.Size = new System.Drawing.Size(42, 39);
             this.button_A2_ExcluirLancamento.TabIndex = 25;
             this.button_A2_ExcluirLancamento.UseVisualStyleBackColor = true;
             // 
@@ -1611,9 +1623,9 @@
             this.button_A2_BaixaLancamento.BackgroundImage = global::Oiko.Properties.Resources.baixar;
             this.button_A2_BaixaLancamento.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button_A2_BaixaLancamento.Enabled = false;
-            this.button_A2_BaixaLancamento.Location = new System.Drawing.Point(148, 2);
+            this.button_A2_BaixaLancamento.Location = new System.Drawing.Point(149, 3);
             this.button_A2_BaixaLancamento.Name = "button_A2_BaixaLancamento";
-            this.button_A2_BaixaLancamento.Size = new System.Drawing.Size(43, 40);
+            this.button_A2_BaixaLancamento.Size = new System.Drawing.Size(42, 39);
             this.button_A2_BaixaLancamento.TabIndex = 24;
             this.button_A2_BaixaLancamento.UseVisualStyleBackColor = true;
             this.button_A2_BaixaLancamento.Click += new System.EventHandler(this.button_A2_BaixaLancamento_Click);
@@ -1623,9 +1635,9 @@
             this.button_A2_EditarLancamento.BackgroundImage = global::Oiko.Properties.Resources.editar;
             this.button_A2_EditarLancamento.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button_A2_EditarLancamento.Enabled = false;
-            this.button_A2_EditarLancamento.Location = new System.Drawing.Point(197, 2);
+            this.button_A2_EditarLancamento.Location = new System.Drawing.Point(198, 3);
             this.button_A2_EditarLancamento.Name = "button_A2_EditarLancamento";
-            this.button_A2_EditarLancamento.Size = new System.Drawing.Size(43, 40);
+            this.button_A2_EditarLancamento.Size = new System.Drawing.Size(42, 39);
             this.button_A2_EditarLancamento.TabIndex = 23;
             this.button_A2_EditarLancamento.UseVisualStyleBackColor = true;
             this.button_A2_EditarLancamento.Click += new System.EventHandler(this.button_A2_EditarLancamento_Click);
@@ -1865,6 +1877,7 @@
             // 
             // tabPage_A3_ReceDesp
             // 
+            this.tabPage_A3_ReceDesp.Controls.Add(this.splitContainer11);
             this.tabPage_A3_ReceDesp.Controls.Add(this.panel_A3_BarGrafi_RecDesp);
             this.tabPage_A3_ReceDesp.Location = new System.Drawing.Point(4, 29);
             this.tabPage_A3_ReceDesp.Name = "tabPage_A3_ReceDesp";
@@ -1876,7 +1889,7 @@
             // 
             // panel_A3_BarGrafi_RecDesp
             // 
-            this.panel_A3_BarGrafi_RecDesp.BackColor = System.Drawing.Color.DarkCyan;
+            this.panel_A3_BarGrafi_RecDesp.BackColor = System.Drawing.Color.SlateGray;
             this.panel_A3_BarGrafi_RecDesp.Controls.Add(this.label_A3_Grafi_RecDesp);
             this.panel_A3_BarGrafi_RecDesp.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_A3_BarGrafi_RecDesp.Location = new System.Drawing.Point(3, 3);
@@ -2154,7 +2167,7 @@
             // button_A4_ExcluirMeta
             // 
             this.button_A4_ExcluirMeta.BackColor = System.Drawing.Color.White;
-            this.button_A4_ExcluirMeta.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button_A4_ExcluirMeta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_A4_ExcluirMeta.Location = new System.Drawing.Point(156, 7);
             this.button_A4_ExcluirMeta.Margin = new System.Windows.Forms.Padding(1);
             this.button_A4_ExcluirMeta.Name = "button_A4_ExcluirMeta";
@@ -2166,7 +2179,7 @@
             // button_A4_AdicionarMeta
             // 
             this.button_A4_AdicionarMeta.BackColor = System.Drawing.Color.White;
-            this.button_A4_AdicionarMeta.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button_A4_AdicionarMeta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_A4_AdicionarMeta.Location = new System.Drawing.Point(34, 7);
             this.button_A4_AdicionarMeta.Name = "button_A4_AdicionarMeta";
             this.button_A4_AdicionarMeta.Size = new System.Drawing.Size(116, 28);
@@ -2206,6 +2219,7 @@
             // 
             // button_A4_Cancelar
             // 
+            this.button_A4_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_A4_Cancelar.Location = new System.Drawing.Point(147, 327);
             this.button_A4_Cancelar.Name = "button_A4_Cancelar";
             this.button_A4_Cancelar.Size = new System.Drawing.Size(92, 23);
@@ -2236,6 +2250,7 @@
             // button_A4_ControlarDespe
             // 
             this.button_A4_ControlarDespe.BackColor = System.Drawing.Color.Red;
+            this.button_A4_ControlarDespe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_A4_ControlarDespe.ForeColor = System.Drawing.Color.White;
             this.button_A4_ControlarDespe.Location = new System.Drawing.Point(83, 106);
             this.button_A4_ControlarDespe.Name = "button_A4_ControlarDespe";
@@ -2246,6 +2261,7 @@
             // 
             // button_A4_Salvar
             // 
+            this.button_A4_Salvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_A4_Salvar.Location = new System.Drawing.Point(48, 327);
             this.button_A4_Salvar.Name = "button_A4_Salvar";
             this.button_A4_Salvar.Size = new System.Drawing.Size(92, 23);
@@ -2265,6 +2281,7 @@
             // button_A4_ControlarRece
             // 
             this.button_A4_ControlarRece.BackColor = System.Drawing.Color.ForestGreen;
+            this.button_A4_ControlarRece.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_A4_ControlarRece.ForeColor = System.Drawing.Color.White;
             this.button_A4_ControlarRece.Location = new System.Drawing.Point(83, 74);
             this.button_A4_ControlarRece.Name = "button_A4_ControlarRece";
@@ -2338,7 +2355,7 @@
             // 
             this.columnHeader27.Text = "Meta (R$)";
             this.columnHeader27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader27.Width = 85;
+            this.columnHeader27.Width = 83;
             // 
             // panel_A4_BarDespesas
             // 
@@ -2659,6 +2676,25 @@
             this.toolStripButton2.Size = new System.Drawing.Size(47, 37);
             this.toolStripButton2.Text = "Gráficos";
             // 
+            // splitContainer11
+            // 
+            this.splitContainer11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer11.Location = new System.Drawing.Point(3, 29);
+            this.splitContainer11.Name = "splitContainer11";
+            // 
+            // splitContainer11.Panel1
+            // 
+            this.splitContainer11.Panel1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.splitContainer11.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            // 
+            // splitContainer11.Panel2
+            // 
+            this.splitContainer11.Panel2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.splitContainer11.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.splitContainer11.Size = new System.Drawing.Size(990, 473);
+            this.splitContainer11.SplitterDistance = 501;
+            this.splitContainer11.TabIndex = 12;
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2676,6 +2712,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Oiko - Gerenciador Financeiro Pessoal ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Principal_FormClosing);
             this.Load += new System.EventHandler(this.Principal_Load);
             this.menuStrip_Principal.ResumeLayout(false);
             this.menuStrip_Principal.PerformLayout();
@@ -2784,6 +2821,8 @@
             this.statusStrip_Principal.PerformLayout();
             this.toolStrip_Principal.ResumeLayout(false);
             this.toolStrip_Principal.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer11)).EndInit();
+            this.splitContainer11.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3015,6 +3054,7 @@
         private System.Windows.Forms.ColumnHeader columnCategoria;
         private System.Windows.Forms.ColumnHeader columnValor;
         private System.Windows.Forms.ColumnHeader columnStatus;
+        private System.Windows.Forms.SplitContainer splitContainer11;
     }
 }
 

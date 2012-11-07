@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sobre));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label_Sobre_Text1 = new System.Windows.Forms.Label();
             this.label_Sobre_Text2 = new System.Windows.Forms.Label();
             this.label_Sobre_Text3 = new System.Windows.Forms.Label();
@@ -37,19 +36,9 @@
             this.linkLabel_Sobre_Text1 = new System.Windows.Forms.LinkLabel();
             this.label_Sobre_Text4 = new System.Windows.Forms.Label();
             this.label_Sobre_Text5 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Oiko.Properties.Resources.LogoOiko;
-            this.pictureBox1.Location = new System.Drawing.Point(219, -31);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(998, 375);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // label_Sobre_Text1
             // 
@@ -131,6 +120,17 @@
             this.label_Sobre_Text5.TabIndex = 7;
             this.label_Sobre_Text5.Text = "Palmas-TO\r\n2012/2";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Image = global::Oiko.Properties.Resources.MiniLogo___Oiko;
+            this.pictureBox1.Location = new System.Drawing.Point(278, -2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(301, 309);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
             // Sobre
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -138,6 +138,7 @@
             this.BackgroundImage = global::Oiko.Properties.Resources.Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(579, 307);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label_Sobre_Text1);
             this.Controls.Add(this.label_Sobre_Text5);
             this.Controls.Add(this.label_Sobre_Text4);
@@ -145,7 +146,6 @@
             this.Controls.Add(this.linkLabel_Sobre_Text2);
             this.Controls.Add(this.label_Sobre_Text3);
             this.Controls.Add(this.label_Sobre_Text2);
-            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -161,7 +161,6 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label_Sobre_Text1;
         private System.Windows.Forms.Label label_Sobre_Text2;
         private System.Windows.Forms.Label label_Sobre_Text3;
@@ -169,5 +168,6 @@
         private System.Windows.Forms.LinkLabel linkLabel_Sobre_Text1;
         private System.Windows.Forms.Label label_Sobre_Text4;
         private System.Windows.Forms.Label label_Sobre_Text5;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

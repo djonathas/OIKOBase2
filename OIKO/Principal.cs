@@ -317,6 +317,22 @@ namespace Oiko
             s.Show();
         }
 
+        private void ToolStripMenuItem_Sair_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Principal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult resu = MessageBox.Show("Tem certeza que deseja sair?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (resu == DialogResult.Yes)
+            {
+                System.Environment.Exit(0);
+            }
+            else
+                e.Cancel = true;
+        }
+
         // -------- FIM - Aba de Lançamentos --------
 
     }

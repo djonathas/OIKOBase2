@@ -55,10 +55,10 @@
             // 
             this.label_Login_Text2.AutoSize = true;
             this.label_Login_Text2.BackColor = System.Drawing.Color.Transparent;
-            this.label_Login_Text2.Font = new System.Drawing.Font("Eras Demi ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Login_Text2.Font = new System.Drawing.Font("Eras Medium ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Login_Text2.Location = new System.Drawing.Point(12, 42);
             this.label_Login_Text2.Name = "label_Login_Text2";
-            this.label_Login_Text2.Size = new System.Drawing.Size(244, 19);
+            this.label_Login_Text2.Size = new System.Drawing.Size(239, 19);
             this.label_Login_Text2.TabIndex = 10;
             this.label_Login_Text2.Text = "Gerenciador Financeiro Pessoal";
             // 
@@ -78,10 +78,10 @@
             // 
             this.label_Login_Usuario.AutoSize = true;
             this.label_Login_Usuario.BackColor = System.Drawing.Color.Transparent;
-            this.label_Login_Usuario.Font = new System.Drawing.Font("Eras Medium ITC", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Login_Usuario.Location = new System.Drawing.Point(11, 146);
+            this.label_Login_Usuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.label_Login_Usuario.Location = new System.Drawing.Point(12, 146);
             this.label_Login_Usuario.Name = "label_Login_Usuario";
-            this.label_Login_Usuario.Size = new System.Drawing.Size(55, 15);
+            this.label_Login_Usuario.Size = new System.Drawing.Size(58, 16);
             this.label_Login_Usuario.TabIndex = 12;
             this.label_Login_Usuario.Text = "Usuário:";
             // 
@@ -103,10 +103,10 @@
             // 
             this.label_Login_Senha.AutoSize = true;
             this.label_Login_Senha.BackColor = System.Drawing.Color.Transparent;
-            this.label_Login_Senha.Font = new System.Drawing.Font("Eras Medium ITC", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Login_Senha.Location = new System.Drawing.Point(12, 205);
+            this.label_Login_Senha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.label_Login_Senha.Location = new System.Drawing.Point(13, 205);
             this.label_Login_Senha.Name = "label_Login_Senha";
-            this.label_Login_Senha.Size = new System.Drawing.Size(46, 15);
+            this.label_Login_Senha.Size = new System.Drawing.Size(50, 16);
             this.label_Login_Senha.TabIndex = 14;
             this.label_Login_Senha.Text = "Senha:";
             // 

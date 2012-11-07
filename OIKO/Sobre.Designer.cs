@@ -66,10 +66,10 @@
             // 
             this.label_Sobre_Text3.AutoSize = true;
             this.label_Sobre_Text3.BackColor = System.Drawing.Color.Transparent;
-            this.label_Sobre_Text3.Font = new System.Drawing.Font("Eras Demi ITC", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Sobre_Text3.Font = new System.Drawing.Font("Eras Medium ITC", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Sobre_Text3.Location = new System.Drawing.Point(18, 79);
             this.label_Sobre_Text3.Name = "label_Sobre_Text3";
-            this.label_Sobre_Text3.Size = new System.Drawing.Size(218, 64);
+            this.label_Sobre_Text3.Size = new System.Drawing.Size(213, 60);
             this.label_Sobre_Text3.TabIndex = 3;
             this.label_Sobre_Text3.Text = "Projeto elaborado sob a orientação\r\ndo professor Edeilson, na disciplina\r\nde Ling" +
     "uagem de Programação\r\nComercial.";
@@ -102,10 +102,10 @@
             // 
             this.label_Sobre_Text4.AutoSize = true;
             this.label_Sobre_Text4.BackColor = System.Drawing.Color.Transparent;
-            this.label_Sobre_Text4.Font = new System.Drawing.Font("Eras Demi ITC", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Sobre_Text4.Font = new System.Drawing.Font("Eras Medium ITC", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Sobre_Text4.Location = new System.Drawing.Point(18, 158);
             this.label_Sobre_Text4.Name = "label_Sobre_Text4";
-            this.label_Sobre_Text4.Size = new System.Drawing.Size(235, 16);
+            this.label_Sobre_Text4.Size = new System.Drawing.Size(224, 15);
             this.label_Sobre_Text4.TabIndex = 6;
             this.label_Sobre_Text4.Text = "Acadêmicos (Sistemas de Informação)";
             // 
@@ -113,10 +113,10 @@
             // 
             this.label_Sobre_Text5.AutoSize = true;
             this.label_Sobre_Text5.BackColor = System.Drawing.Color.Transparent;
-            this.label_Sobre_Text5.Font = new System.Drawing.Font("Eras Demi ITC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Sobre_Text5.Font = new System.Drawing.Font("Eras Medium ITC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Sobre_Text5.Location = new System.Drawing.Point(18, 251);
             this.label_Sobre_Text5.Name = "label_Sobre_Text5";
-            this.label_Sobre_Text5.Size = new System.Drawing.Size(85, 36);
+            this.label_Sobre_Text5.Size = new System.Drawing.Size(78, 36);
             this.label_Sobre_Text5.TabIndex = 7;
             this.label_Sobre_Text5.Text = "Palmas-TO\r\n2012/2";
             // 

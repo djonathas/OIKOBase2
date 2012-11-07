@@ -56,11 +56,11 @@
             // 
             this.label_Sobre_Text2.AutoSize = true;
             this.label_Sobre_Text2.BackColor = System.Drawing.Color.Transparent;
-            this.label_Sobre_Text2.Font = new System.Drawing.Font("Eras Bold ITC", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Sobre_Text2.Font = new System.Drawing.Font("Eras Bold ITC", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Sobre_Text2.ForeColor = System.Drawing.Color.DimGray;
-            this.label_Sobre_Text2.Location = new System.Drawing.Point(4, 249);
+            this.label_Sobre_Text2.Location = new System.Drawing.Point(1, 246);
             this.label_Sobre_Text2.Name = "label_Sobre_Text2";
-            this.label_Sobre_Text2.Size = new System.Drawing.Size(140, 33);
+            this.label_Sobre_Text2.Size = new System.Drawing.Size(168, 40);
             this.label_Sobre_Text2.TabIndex = 9;
             this.label_Sobre_Text2.Text = "Oiko 1.0";
             // 
@@ -68,10 +68,10 @@
             // 
             this.label_Sobre_Text3.AutoSize = true;
             this.label_Sobre_Text3.BackColor = System.Drawing.Color.Transparent;
-            this.label_Sobre_Text3.Font = new System.Drawing.Font("Eras Demi ITC", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Sobre_Text3.Font = new System.Drawing.Font("Eras Medium ITC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Sobre_Text3.Location = new System.Drawing.Point(7, 278);
             this.label_Sobre_Text3.Name = "label_Sobre_Text3";
-            this.label_Sobre_Text3.Size = new System.Drawing.Size(220, 16);
+            this.label_Sobre_Text3.Size = new System.Drawing.Size(243, 18);
             this.label_Sobre_Text3.TabIndex = 10;
             this.label_Sobre_Text3.Text = "Seu Gerenciador Financeiro Pessoal";
             // 
@@ -79,12 +79,12 @@
             // 
             this.label_Sobre_Text1.AutoSize = true;
             this.label_Sobre_Text1.BackColor = System.Drawing.Color.Transparent;
-            this.label_Sobre_Text1.Font = new System.Drawing.Font("Eras Demi ITC", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Sobre_Text1.Location = new System.Drawing.Point(7, 236);
+            this.label_Sobre_Text1.Font = new System.Drawing.Font("Eras Medium ITC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Sobre_Text1.Location = new System.Drawing.Point(7, 233);
             this.label_Sobre_Text1.Name = "label_Sobre_Text1";
-            this.label_Sobre_Text1.Size = new System.Drawing.Size(129, 16);
+            this.label_Sobre_Text1.Size = new System.Drawing.Size(133, 18);
             this.label_Sobre_Text1.TabIndex = 12;
-            this.label_Sobre_Text1.Text = "Seja Bem Vindo ao...";
+            this.label_Sobre_Text1.Text = "Seja Bem Vindo ao";
             // 
             // pictureBox_Sobre
             // 
@@ -104,11 +104,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Oiko.Properties.Resources.Background;
             this.ClientSize = new System.Drawing.Size(520, 307);
+            this.Controls.Add(this.label_Sobre_Text3);
             this.Controls.Add(this.progressBar_Splash);
             this.Controls.Add(this.pictureBox_Sobre);
             this.Controls.Add(this.label_Sobre_Text1);
             this.Controls.Add(this.label_Sobre_Text2);
-            this.Controls.Add(this.label_Sobre_Text3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Splash";

@@ -49,9 +49,9 @@ namespace Oiko
         private void toolStripButton_Preferencia_Click(object sender, EventArgs e)
         {
             Preferencias f = new Preferencias();
-            //f.MdiParent = this;
+            f.MdiParent = this;
             //f.WindowState = FormWindowState.Normal;
-            //tabControl_Geral.Visible = false;
+            tabControl_Geral.Dispose();
             f.Show();
         }
 
@@ -101,26 +101,31 @@ namespace Oiko
 
         private void buttonReceita_Click(object sender, EventArgs e)
         {
-            tabControl_A2_NovoLancamento.SelectedTab.BackgroundImage = Oiko.Properties.Resources.green;
+            //tabControl_A2_NovoLancamento.SelectedTab.BackgroundImage = Oiko.Properties.Resources.green;
             button_A2_Despesa.Enabled = true;
             button_A2_Receita.Enabled = false;
             label_A2_FormaPaga.Enabled = false;
             comboBox_A2_FormaPaga.Enabled = false;
+            textBox_A2_Valor.Select();
 
             OikoDataContext bd = new OikoDataContext();
             var consulta = from c in bd.Categoria
                            where c.tipo == "Receita"
                            select new { c.id, c.nome };
             categoriaBindingSource.DataSource = consulta;
+
+            panel_A1_BarStatus.BackColor = Color.Green;
+            panel_A2_BarStatus.BackColor = Color.Green;
         }
 
         private void buttonDespesa_Click(object sender, EventArgs e)
         {
-            tabControl_A2_NovoLancamento.SelectedTab.BackgroundImage = Oiko.Properties.Resources.red;
+            //tabControl_A2_NovoLancamento.SelectedTab.BackgroundImage = Oiko.Properties.Resources.red;
             button_A2_Despesa.Enabled = false;
             button_A2_Receita.Enabled = true;
             label_A2_FormaPaga.Enabled = true;
             comboBox_A2_FormaPaga.Enabled = true;
+            textBox_A2_Valor.Select();
 
             OikoDataContext bd = new OikoDataContext();
             var consulta = from c in bd.Categoria
@@ -128,6 +133,9 @@ namespace Oiko
                            select new { c.id, c.nome };
             categoriaBindingSource.DataSource = consulta;
             formaPagamentoBindingSource.DataSource = bd.FormaPagamento;
+
+            panel_A1_BarStatus.BackColor = Color.Red;
+            panel_A2_BarStatus.BackColor = Color.Red;
         }
 
         public void AtualizarListaLancamentos()
@@ -218,11 +226,13 @@ namespace Oiko
 
             if (lancamento.tipo == "Receita")
             {
-                tabPage_A2_DetalhesLancamento.BackgroundImage = Oiko.Properties.Resources.green;
+                //tabPage_A2_DetalhesLancamento.BackgroundImage = Oiko.Properties.Resources.green;
+                panel_A2_BarStatus2.BackColor = Color.Green;
             }
             else
             {
-                tabPage_A2_DetalhesLancamento.BackgroundImage = Oiko.Properties.Resources.red;
+                //tabPage_A2_DetalhesLancamento.BackgroundImage = Oiko.Properties.Resources.red;
+                panel_A2_BarStatus2.BackColor = Color.Red;
             }
             label_A2_IdLanca2.Text = idLancamento.ToString();
             label_A2_DescricaoLanca2.Text = lancamento.descricao;
@@ -273,7 +283,9 @@ namespace Oiko
 
             if (lancamento.tipo == "Receita")
             {
-                tabControl_A2_NovoLancamento.SelectedTab.BackgroundImage = Oiko.Properties.Resources.green;
+                //tabControl_A2_NovoLancamento.SelectedTab.BackgroundImage = Oiko.Properties.Resources.green;
+                panel_A2_BarStatus2.BackColor = Color.Green;
+
                 button_A2_Despesa.Enabled = false;
                 button_A2_Receita.Enabled = false;
                 label_A2_FormaPaga.Enabled = false;
@@ -287,7 +299,8 @@ namespace Oiko
             }
             else
             {
-                tabPage_A2_DetalhesLancamento.BackgroundImage = Oiko.Properties.Resources.red;
+                //tabPage_A2_DetalhesLancamento.BackgroundImage = Oiko.Properties.Resources.red;
+                panel_A2_BarStatus2.BackColor = Color.Red;
             }
         }
 
@@ -333,7 +346,40 @@ namespace Oiko
                 e.Cancel = true;
         }
 
-        // -------- FIM - Aba de Lançamentos --------
+        //-------------BARRA DE ICONES (SB)-----------------------
 
+        //Icone Lançar Receita
+        private void toolStripButton_LancarRece_Click(object sender, EventArgs e)
+        {
+            tabControl_Geral.SelectedTab = tabPage_A2_Lancamentos;
+            buttonReceita_Click(sender, e);
+        }
+
+        //Icone Lançar Despesas
+        private void toolStripButtontoolStripButton_LancarDespe_Click(object sender, EventArgs e)
+        {
+            tabControl_Geral.SelectedTab = tabPage_A2_Lancamentos;
+            buttonDespesa_Click(sender, e);
+        }
+
+        //Icone Contas a Receber
+        private void toolStripButton_ContasReceber_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        //Icone Contas a Pagar
+        private void toolStripButton_ContasPagar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void toolStripButton_Relatorios_Click(object sender, EventArgs e)
+        {
+            tabControl_Geral.SelectedTab = tabPage_A3_Relatorios;
+        }
+
+        // -------- FIM - Aba de Lançamentos --------
     }
 }

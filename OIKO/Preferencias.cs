@@ -424,6 +424,10 @@ namespace Oiko
             textBoxFormaPagamento.Clear();
         }
 
+        private void Preferencias_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Close();
+        }
         // -------- FIM - Aba de Formas de Pagamento --------
     }
 }

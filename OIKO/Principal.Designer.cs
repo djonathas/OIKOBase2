@@ -59,6 +59,7 @@
             this.splitContainer_A1_Logo = new System.Windows.Forms.SplitContainer();
             this.splitContainer_A1_LancamentoPlanejamento = new System.Windows.Forms.SplitContainer();
             this.groupBox_A1_LancRapido = new System.Windows.Forms.GroupBox();
+            this.panel_A1_BarStatus = new System.Windows.Forms.Panel();
             this.comboBox_A1_Conta = new System.Windows.Forms.ComboBox();
             this.contaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.label_A1_Conta = new System.Windows.Forms.Label();
@@ -101,6 +102,7 @@
             this.splitContainerNovoLancamento = new System.Windows.Forms.SplitContainer();
             this.tabControl_A2_NovoLancamento = new System.Windows.Forms.TabControl();
             this.tabPage_A2_NovoLancamento = new System.Windows.Forms.TabPage();
+            this.panel_A2_BarStatus = new System.Windows.Forms.Panel();
             this.comboBox_A2_FormaPaga = new System.Windows.Forms.ComboBox();
             this.formaPagamentoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.label_A2_FormaPaga = new System.Windows.Forms.Label();
@@ -124,6 +126,7 @@
             this.label_A2_Multa = new System.Windows.Forms.Label();
             this.tabControl_A2_DetalhesLancamento = new System.Windows.Forms.TabControl();
             this.tabPage_A2_DetalhesLancamento = new System.Windows.Forms.TabPage();
+            this.panel_A2_BarStatus2 = new System.Windows.Forms.Panel();
             this.label_A2_ContaUtilizada2 = new System.Windows.Forms.Label();
             this.label_A2_ContaUtilizada = new System.Windows.Forms.Label();
             this.label_A2_DataRecePaga2 = new System.Windows.Forms.Label();
@@ -170,9 +173,10 @@
             this.columnCategoria = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnValor = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnStatus = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tabPage_Relatorios = new System.Windows.Forms.TabPage();
+            this.tabPage_A3_Relatorios = new System.Windows.Forms.TabPage();
             this.tabControl_A3_Relatorios_CRD = new System.Windows.Forms.TabControl();
             this.tabPage_A3_ReceDesp = new System.Windows.Forms.TabPage();
+            this.splitContainer11 = new System.Windows.Forms.SplitContainer();
             this.panel_A3_BarGrafi_RecDesp = new System.Windows.Forms.Panel();
             this.label_A3_Grafi_RecDesp = new System.Windows.Forms.Label();
             this.tabPage_A3_LancCategoria = new System.Windows.Forms.TabPage();
@@ -193,7 +197,7 @@
             this.columnHeader16 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel_A3_BarDespesas = new System.Windows.Forms.Panel();
             this.label_A3_BarDespesas = new System.Windows.Forms.Label();
-            this.tabPage_Planejamento = new System.Windows.Forms.TabPage();
+            this.tabPage_A4_Planejamento = new System.Windows.Forms.TabPage();
             this.splitContainer_A4 = new System.Windows.Forms.SplitContainer();
             this.label_A4_Mes = new System.Windows.Forms.Label();
             this.panel_A4_BarButton = new System.Windows.Forms.Panel();
@@ -254,7 +258,6 @@
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.splitContainer11 = new System.Windows.Forms.SplitContainer();
             this.menuStrip_Principal.SuspendLayout();
             this.tabControl_Geral.SuspendLayout();
             this.tabPage_A1_VisaoGeral.SuspendLayout();
@@ -310,9 +313,11 @@
             this.splitContainer_A2_HistoricoLancamentos.Panel1.SuspendLayout();
             this.splitContainer_A2_HistoricoLancamentos.Panel2.SuspendLayout();
             this.splitContainer_A2_HistoricoLancamentos.SuspendLayout();
-            this.tabPage_Relatorios.SuspendLayout();
+            this.tabPage_A3_Relatorios.SuspendLayout();
             this.tabControl_A3_Relatorios_CRD.SuspendLayout();
             this.tabPage_A3_ReceDesp.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer11)).BeginInit();
+            this.splitContainer11.SuspendLayout();
             this.panel_A3_BarGrafi_RecDesp.SuspendLayout();
             this.tabPage_A3_LancCategoria.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer7)).BeginInit();
@@ -329,7 +334,7 @@
             this.splitContainer9.Panel2.SuspendLayout();
             this.splitContainer9.SuspendLayout();
             this.panel_A3_BarDespesas.SuspendLayout();
-            this.tabPage_Planejamento.SuspendLayout();
+            this.tabPage_A4_Planejamento.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer_A4)).BeginInit();
             this.splitContainer_A4.Panel1.SuspendLayout();
             this.splitContainer_A4.Panel2.SuspendLayout();
@@ -344,8 +349,6 @@
             this.panel_A4_BarInfo.SuspendLayout();
             this.statusStrip_Principal.SuspendLayout();
             this.toolStrip_Principal.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer11)).BeginInit();
-            this.splitContainer11.SuspendLayout();
             this.SuspendLayout();
             // 
             // toolStripSeparator4
@@ -517,8 +520,8 @@
             this.tabControl_Geral.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar;
             this.tabControl_Geral.Controls.Add(this.tabPage_A1_VisaoGeral);
             this.tabControl_Geral.Controls.Add(this.tabPage_A2_Lancamentos);
-            this.tabControl_Geral.Controls.Add(this.tabPage_Relatorios);
-            this.tabControl_Geral.Controls.Add(this.tabPage_Planejamento);
+            this.tabControl_Geral.Controls.Add(this.tabPage_A3_Relatorios);
+            this.tabControl_Geral.Controls.Add(this.tabPage_A4_Planejamento);
             this.tabControl_Geral.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl_Geral.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl_Geral.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -583,6 +586,7 @@
             // groupBox_A1_LancRapido
             // 
             this.groupBox_A1_LancRapido.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox_A1_LancRapido.Controls.Add(this.panel_A1_BarStatus);
             this.groupBox_A1_LancRapido.Controls.Add(this.comboBox_A1_Conta);
             this.groupBox_A1_LancRapido.Controls.Add(this.label_A1_Conta);
             this.groupBox_A1_LancRapido.Controls.Add(this.button_A1_Despesa);
@@ -606,6 +610,15 @@
             this.groupBox_A1_LancRapido.TabIndex = 0;
             this.groupBox_A1_LancRapido.TabStop = false;
             this.groupBox_A1_LancRapido.Text = "Lançamento Rápido";
+            // 
+            // panel_A1_BarStatus
+            // 
+            this.panel_A1_BarStatus.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel_A1_BarStatus.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel_A1_BarStatus.Location = new System.Drawing.Point(3, 279);
+            this.panel_A1_BarStatus.Name = "panel_A1_BarStatus";
+            this.panel_A1_BarStatus.Size = new System.Drawing.Size(363, 7);
+            this.panel_A1_BarStatus.TabIndex = 35;
             // 
             // comboBox_A1_Conta
             // 
@@ -837,7 +850,7 @@
             // 
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(200, 8);
+            this.textBox1.Location = new System.Drawing.Point(200, 5);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(135, 22);
@@ -849,7 +862,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(176, 11);
+            this.label1.Location = new System.Drawing.Point(176, 8);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(25, 16);
             this.label1.TabIndex = 15;
@@ -860,7 +873,7 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(13, 11);
+            this.label2.Location = new System.Drawing.Point(13, 8);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 16);
             this.label2.TabIndex = 13;
@@ -1069,8 +1082,8 @@
             // 
             // tabPage_A2_NovoLancamento
             // 
-            this.tabPage_A2_NovoLancamento.BackgroundImage = global::Oiko.Properties.Resources.green;
             this.tabPage_A2_NovoLancamento.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage_A2_NovoLancamento.Controls.Add(this.panel_A2_BarStatus);
             this.tabPage_A2_NovoLancamento.Controls.Add(this.comboBox_A2_FormaPaga);
             this.tabPage_A2_NovoLancamento.Controls.Add(this.label_A2_FormaPaga);
             this.tabPage_A2_NovoLancamento.Controls.Add(this.button_A2_Despesa);
@@ -1098,6 +1111,15 @@
             this.tabPage_A2_NovoLancamento.TabIndex = 0;
             this.tabPage_A2_NovoLancamento.Text = "Novo Lançamento";
             this.tabPage_A2_NovoLancamento.UseVisualStyleBackColor = true;
+            // 
+            // panel_A2_BarStatus
+            // 
+            this.panel_A2_BarStatus.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel_A2_BarStatus.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel_A2_BarStatus.Location = new System.Drawing.Point(3, 272);
+            this.panel_A2_BarStatus.Name = "panel_A2_BarStatus";
+            this.panel_A2_BarStatus.Size = new System.Drawing.Size(430, 7);
+            this.panel_A2_BarStatus.TabIndex = 33;
             // 
             // comboBox_A2_FormaPaga
             // 
@@ -1217,7 +1239,7 @@
             this.button_A2_Lancar.BackColor = System.Drawing.SystemColors.Control;
             this.button_A2_Lancar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_A2_Lancar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_A2_Lancar.Location = new System.Drawing.Point(299, 246);
+            this.button_A2_Lancar.Location = new System.Drawing.Point(299, 243);
             this.button_A2_Lancar.Name = "button_A2_Lancar";
             this.button_A2_Lancar.Size = new System.Drawing.Size(98, 23);
             this.button_A2_Lancar.TabIndex = 21;
@@ -1329,6 +1351,7 @@
             // 
             this.tabPage_A2_DetalhesLancamento.BackColor = System.Drawing.Color.White;
             this.tabPage_A2_DetalhesLancamento.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage_A2_DetalhesLancamento.Controls.Add(this.panel_A2_BarStatus2);
             this.tabPage_A2_DetalhesLancamento.Controls.Add(this.label_A2_ContaUtilizada2);
             this.tabPage_A2_DetalhesLancamento.Controls.Add(this.label_A2_ContaUtilizada);
             this.tabPage_A2_DetalhesLancamento.Controls.Add(this.label_A2_DataRecePaga2);
@@ -1352,11 +1375,20 @@
             this.tabPage_A2_DetalhesLancamento.TabIndex = 1;
             this.tabPage_A2_DetalhesLancamento.Text = "Detalhes do Lançamento";
             // 
+            // panel_A2_BarStatus2
+            // 
+            this.panel_A2_BarStatus2.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel_A2_BarStatus2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel_A2_BarStatus2.Location = new System.Drawing.Point(3, 138);
+            this.panel_A2_BarStatus2.Name = "panel_A2_BarStatus2";
+            this.panel_A2_BarStatus2.Size = new System.Drawing.Size(430, 7);
+            this.panel_A2_BarStatus2.TabIndex = 34;
+            // 
             // label_A2_ContaUtilizada2
             // 
             this.label_A2_ContaUtilizada2.AutoSize = true;
             this.label_A2_ContaUtilizada2.BackColor = System.Drawing.Color.Transparent;
-            this.label_A2_ContaUtilizada2.Location = new System.Drawing.Point(7, 131);
+            this.label_A2_ContaUtilizada2.Location = new System.Drawing.Point(7, 127);
             this.label_A2_ContaUtilizada2.Name = "label_A2_ContaUtilizada2";
             this.label_A2_ContaUtilizada2.Size = new System.Drawing.Size(15, 16);
             this.label_A2_ContaUtilizada2.TabIndex = 15;
@@ -1367,7 +1399,7 @@
             this.label_A2_ContaUtilizada.AutoSize = true;
             this.label_A2_ContaUtilizada.BackColor = System.Drawing.Color.Transparent;
             this.label_A2_ContaUtilizada.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_A2_ContaUtilizada.Location = new System.Drawing.Point(7, 115);
+            this.label_A2_ContaUtilizada.Location = new System.Drawing.Point(7, 113);
             this.label_A2_ContaUtilizada.Name = "label_A2_ContaUtilizada";
             this.label_A2_ContaUtilizada.Size = new System.Drawing.Size(110, 14);
             this.label_A2_ContaUtilizada.TabIndex = 14;
@@ -1378,7 +1410,7 @@
             this.label_A2_DataRecePaga2.AutoSize = true;
             this.label_A2_DataRecePaga2.BackColor = System.Drawing.Color.Transparent;
             this.label_A2_DataRecePaga2.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_A2_DataRecePaga2.Location = new System.Drawing.Point(153, 93);
+            this.label_A2_DataRecePaga2.Location = new System.Drawing.Point(153, 92);
             this.label_A2_DataRecePaga2.Name = "label_A2_DataRecePaga2";
             this.label_A2_DataRecePaga2.Size = new System.Drawing.Size(16, 14);
             this.label_A2_DataRecePaga2.TabIndex = 13;
@@ -1400,7 +1432,7 @@
             this.label_A2_DataLancaVenc2.AutoSize = true;
             this.label_A2_DataLancaVenc2.BackColor = System.Drawing.Color.Transparent;
             this.label_A2_DataLancaVenc2.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_A2_DataLancaVenc2.Location = new System.Drawing.Point(7, 95);
+            this.label_A2_DataLancaVenc2.Location = new System.Drawing.Point(7, 94);
             this.label_A2_DataLancaVenc2.Name = "label_A2_DataLancaVenc2";
             this.label_A2_DataLancaVenc2.Size = new System.Drawing.Size(16, 14);
             this.label_A2_DataLancaVenc2.TabIndex = 11;
@@ -1422,7 +1454,7 @@
             this.label_A2_JurosLanca2.AutoSize = true;
             this.label_A2_JurosLanca2.BackColor = System.Drawing.Color.Transparent;
             this.label_A2_JurosLanca2.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_A2_JurosLanca2.Location = new System.Drawing.Point(220, 59);
+            this.label_A2_JurosLanca2.Location = new System.Drawing.Point(220, 58);
             this.label_A2_JurosLanca2.Name = "label_A2_JurosLanca2";
             this.label_A2_JurosLanca2.Size = new System.Drawing.Size(16, 14);
             this.label_A2_JurosLanca2.TabIndex = 9;
@@ -1433,7 +1465,7 @@
             this.label_A2_JurosLanca.AutoSize = true;
             this.label_A2_JurosLanca.BackColor = System.Drawing.Color.Transparent;
             this.label_A2_JurosLanca.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_A2_JurosLanca.Location = new System.Drawing.Point(220, 43);
+            this.label_A2_JurosLanca.Location = new System.Drawing.Point(220, 42);
             this.label_A2_JurosLanca.Name = "label_A2_JurosLanca";
             this.label_A2_JurosLanca.Size = new System.Drawing.Size(98, 14);
             this.label_A2_JurosLanca.TabIndex = 8;
@@ -1444,7 +1476,7 @@
             this.label_A2_MultaLanca2.AutoSize = true;
             this.label_A2_MultaLanca2.BackColor = System.Drawing.Color.Transparent;
             this.label_A2_MultaLanca2.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_A2_MultaLanca2.Location = new System.Drawing.Point(153, 59);
+            this.label_A2_MultaLanca2.Location = new System.Drawing.Point(153, 58);
             this.label_A2_MultaLanca2.Name = "label_A2_MultaLanca2";
             this.label_A2_MultaLanca2.Size = new System.Drawing.Size(16, 14);
             this.label_A2_MultaLanca2.TabIndex = 7;
@@ -1455,7 +1487,7 @@
             this.label_A2_MultaLanca.AutoSize = true;
             this.label_A2_MultaLanca.BackColor = System.Drawing.Color.Transparent;
             this.label_A2_MultaLanca.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_A2_MultaLanca.Location = new System.Drawing.Point(153, 43);
+            this.label_A2_MultaLanca.Location = new System.Drawing.Point(153, 42);
             this.label_A2_MultaLanca.Name = "label_A2_MultaLanca";
             this.label_A2_MultaLanca.Size = new System.Drawing.Size(48, 14);
             this.label_A2_MultaLanca.TabIndex = 6;
@@ -1466,7 +1498,7 @@
             this.label_A2_Status2.AutoSize = true;
             this.label_A2_Status2.BackColor = System.Drawing.Color.Transparent;
             this.label_A2_Status2.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_A2_Status2.Location = new System.Drawing.Point(7, 59);
+            this.label_A2_Status2.Location = new System.Drawing.Point(7, 58);
             this.label_A2_Status2.Name = "label_A2_Status2";
             this.label_A2_Status2.Size = new System.Drawing.Size(16, 14);
             this.label_A2_Status2.TabIndex = 5;
@@ -1477,7 +1509,7 @@
             this.label_A2_Status.AutoSize = true;
             this.label_A2_Status.BackColor = System.Drawing.Color.Transparent;
             this.label_A2_Status.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_A2_Status.Location = new System.Drawing.Point(7, 43);
+            this.label_A2_Status.Location = new System.Drawing.Point(7, 42);
             this.label_A2_Status.Name = "label_A2_Status";
             this.label_A2_Status.Size = new System.Drawing.Size(54, 14);
             this.label_A2_Status.TabIndex = 4;
@@ -1544,12 +1576,14 @@
             // 
             // button_A2_ConcluirBaixa
             // 
-            this.button_A2_ConcluirBaixa.Location = new System.Drawing.Point(179, 119);
+            this.button_A2_ConcluirBaixa.BackColor = System.Drawing.SystemColors.Control;
+            this.button_A2_ConcluirBaixa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_A2_ConcluirBaixa.Location = new System.Drawing.Point(9, 119);
             this.button_A2_ConcluirBaixa.Name = "button_A2_ConcluirBaixa";
-            this.button_A2_ConcluirBaixa.Size = new System.Drawing.Size(75, 23);
+            this.button_A2_ConcluirBaixa.Size = new System.Drawing.Size(92, 23);
             this.button_A2_ConcluirBaixa.TabIndex = 17;
             this.button_A2_ConcluirBaixa.Text = "Concluir";
-            this.button_A2_ConcluirBaixa.UseVisualStyleBackColor = true;
+            this.button_A2_ConcluirBaixa.UseVisualStyleBackColor = false;
             // 
             // comboBoxContaOrigemRecebimento
             // 
@@ -1557,7 +1591,7 @@
             this.comboBoxContaOrigemRecebimento.DisplayMember = "nome";
             this.comboBoxContaOrigemRecebimento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxContaOrigemRecebimento.FormattingEnabled = true;
-            this.comboBoxContaOrigemRecebimento.Location = new System.Drawing.Point(111, 87);
+            this.comboBoxContaOrigemRecebimento.Location = new System.Drawing.Point(9, 89);
             this.comboBoxContaOrigemRecebimento.Name = "comboBoxContaOrigemRecebimento";
             this.comboBoxContaOrigemRecebimento.Size = new System.Drawing.Size(212, 24);
             this.comboBoxContaOrigemRecebimento.TabIndex = 16;
@@ -1567,7 +1601,7 @@
             // 
             this.dateTimePicker_A2_DataRecebimentoPagamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker_A2_DataRecebimentoPagamento.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker_A2_DataRecebimentoPagamento.Location = new System.Drawing.Point(108, 29);
+            this.dateTimePicker_A2_DataRecebimentoPagamento.Location = new System.Drawing.Point(9, 31);
             this.dateTimePicker_A2_DataRecebimentoPagamento.Name = "dateTimePicker_A2_DataRecebimentoPagamento";
             this.dateTimePicker_A2_DataRecebimentoPagamento.Size = new System.Drawing.Size(215, 22);
             this.dateTimePicker_A2_DataRecebimentoPagamento.TabIndex = 14;
@@ -1577,7 +1611,7 @@
             this.label_A2_DataReceb.AutoSize = true;
             this.label_A2_DataReceb.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_A2_DataReceb.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_A2_DataReceb.Location = new System.Drawing.Point(108, 10);
+            this.label_A2_DataReceb.Location = new System.Drawing.Point(6, 12);
             this.label_A2_DataReceb.Name = "label_A2_DataReceb";
             this.label_A2_DataReceb.Size = new System.Drawing.Size(217, 16);
             this.label_A2_DataReceb.TabIndex = 13;
@@ -1588,7 +1622,7 @@
             this.label_A2_RecebReceita.AutoSize = true;
             this.label_A2_RecebReceita.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_A2_RecebReceita.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_A2_RecebReceita.Location = new System.Drawing.Point(125, 68);
+            this.label_A2_RecebReceita.Location = new System.Drawing.Point(6, 70);
             this.label_A2_RecebReceita.Name = "label_A2_RecebReceita";
             this.label_A2_RecebReceita.Size = new System.Drawing.Size(189, 16);
             this.label_A2_RecebReceita.TabIndex = 15;
@@ -1851,16 +1885,16 @@
             this.columnStatus.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnStatus.Width = 90;
             // 
-            // tabPage_Relatorios
+            // tabPage_A3_Relatorios
             // 
-            this.tabPage_Relatorios.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage_Relatorios.Controls.Add(this.tabControl_A3_Relatorios_CRD);
-            this.tabPage_Relatorios.Location = new System.Drawing.Point(4, 29);
-            this.tabPage_Relatorios.Name = "tabPage_Relatorios";
-            this.tabPage_Relatorios.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Relatorios.Size = new System.Drawing.Size(1010, 544);
-            this.tabPage_Relatorios.TabIndex = 2;
-            this.tabPage_Relatorios.Text = "Relatórios";
+            this.tabPage_A3_Relatorios.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage_A3_Relatorios.Controls.Add(this.tabControl_A3_Relatorios_CRD);
+            this.tabPage_A3_Relatorios.Location = new System.Drawing.Point(4, 29);
+            this.tabPage_A3_Relatorios.Name = "tabPage_A3_Relatorios";
+            this.tabPage_A3_Relatorios.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage_A3_Relatorios.Size = new System.Drawing.Size(1010, 544);
+            this.tabPage_A3_Relatorios.TabIndex = 2;
+            this.tabPage_A3_Relatorios.Text = "Relatórios";
             // 
             // tabControl_A3_Relatorios_CRD
             // 
@@ -1886,6 +1920,25 @@
             this.tabPage_A3_ReceDesp.TabIndex = 1;
             this.tabPage_A3_ReceDesp.Text = "Gráfico - Recetias X Despesas";
             this.tabPage_A3_ReceDesp.UseVisualStyleBackColor = true;
+            // 
+            // splitContainer11
+            // 
+            this.splitContainer11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer11.Location = new System.Drawing.Point(3, 29);
+            this.splitContainer11.Name = "splitContainer11";
+            // 
+            // splitContainer11.Panel1
+            // 
+            this.splitContainer11.Panel1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.splitContainer11.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            // 
+            // splitContainer11.Panel2
+            // 
+            this.splitContainer11.Panel2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.splitContainer11.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.splitContainer11.Size = new System.Drawing.Size(990, 473);
+            this.splitContainer11.SplitterDistance = 501;
+            this.splitContainer11.TabIndex = 12;
             // 
             // panel_A3_BarGrafi_RecDesp
             // 
@@ -2101,17 +2154,17 @@
             this.label_A3_BarDespesas.TabIndex = 14;
             this.label_A3_BarDespesas.Text = "DESPESAS";
             // 
-            // tabPage_Planejamento
+            // tabPage_A4_Planejamento
             // 
-            this.tabPage_Planejamento.BackColor = System.Drawing.Color.White;
-            this.tabPage_Planejamento.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tabPage_Planejamento.Controls.Add(this.splitContainer_A4);
-            this.tabPage_Planejamento.Location = new System.Drawing.Point(4, 29);
-            this.tabPage_Planejamento.Name = "tabPage_Planejamento";
-            this.tabPage_Planejamento.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Planejamento.Size = new System.Drawing.Size(1010, 544);
-            this.tabPage_Planejamento.TabIndex = 3;
-            this.tabPage_Planejamento.Text = "Planejamento";
+            this.tabPage_A4_Planejamento.BackColor = System.Drawing.Color.White;
+            this.tabPage_A4_Planejamento.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage_A4_Planejamento.Controls.Add(this.splitContainer_A4);
+            this.tabPage_A4_Planejamento.Location = new System.Drawing.Point(4, 29);
+            this.tabPage_A4_Planejamento.Name = "tabPage_A4_Planejamento";
+            this.tabPage_A4_Planejamento.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage_A4_Planejamento.Size = new System.Drawing.Size(1010, 544);
+            this.tabPage_A4_Planejamento.TabIndex = 3;
+            this.tabPage_A4_Planejamento.Text = "Planejamento";
             // 
             // splitContainer_A4
             // 
@@ -2549,6 +2602,7 @@
             this.toolStripButton_LancarRece.Name = "toolStripButton_LancarRece";
             this.toolStripButton_LancarRece.Size = new System.Drawing.Size(49, 42);
             this.toolStripButton_LancarRece.Text = "Lançar Receita";
+            this.toolStripButton_LancarRece.Click += new System.EventHandler(this.toolStripButton_LancarRece_Click);
             // 
             // toolStripSeparator7
             // 
@@ -2563,6 +2617,7 @@
             this.toolStripButtontoolStripButton_LancarDespe.Name = "toolStripButtontoolStripButton_LancarDespe";
             this.toolStripButtontoolStripButton_LancarDespe.Size = new System.Drawing.Size(49, 42);
             this.toolStripButtontoolStripButton_LancarDespe.Text = "Lançar Despesas";
+            this.toolStripButtontoolStripButton_LancarDespe.Click += new System.EventHandler(this.toolStripButtontoolStripButton_LancarDespe_Click);
             // 
             // toolStripSeparator8
             // 
@@ -2578,6 +2633,7 @@
             this.toolStripButton_ContasReceber.Size = new System.Drawing.Size(49, 42);
             this.toolStripButton_ContasReceber.Text = "Contas a Receber";
             this.toolStripButton_ContasReceber.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
+            this.toolStripButton_ContasReceber.Click += new System.EventHandler(this.toolStripButton_ContasReceber_Click);
             // 
             // toolStripSeparator9
             // 
@@ -2592,6 +2648,7 @@
             this.toolStripButton_ContasPagar.Name = "toolStripButton_ContasPagar";
             this.toolStripButton_ContasPagar.Size = new System.Drawing.Size(49, 42);
             this.toolStripButton_ContasPagar.Text = "Contas a Pagar";
+            this.toolStripButton_ContasPagar.Click += new System.EventHandler(this.toolStripButton_ContasPagar_Click);
             // 
             // toolStripSeparator10
             // 
@@ -2606,6 +2663,7 @@
             this.toolStripButton_Relatorios.Name = "toolStripButton_Relatorios";
             this.toolStripButton_Relatorios.Size = new System.Drawing.Size(49, 42);
             this.toolStripButton_Relatorios.Text = "Relatórios";
+            this.toolStripButton_Relatorios.Click += new System.EventHandler(this.toolStripButton_Relatorios_Click);
             // 
             // toolStripSeparator11
             // 
@@ -2675,25 +2733,6 @@
             this.toolStripButton2.Name = "toolStripButton2";
             this.toolStripButton2.Size = new System.Drawing.Size(47, 37);
             this.toolStripButton2.Text = "Gráficos";
-            // 
-            // splitContainer11
-            // 
-            this.splitContainer11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer11.Location = new System.Drawing.Point(3, 29);
-            this.splitContainer11.Name = "splitContainer11";
-            // 
-            // splitContainer11.Panel1
-            // 
-            this.splitContainer11.Panel1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.splitContainer11.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            // 
-            // splitContainer11.Panel2
-            // 
-            this.splitContainer11.Panel2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.splitContainer11.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.splitContainer11.Size = new System.Drawing.Size(990, 473);
-            this.splitContainer11.SplitterDistance = 501;
-            this.splitContainer11.TabIndex = 12;
             // 
             // Principal
             // 
@@ -2778,9 +2817,11 @@
             this.splitContainer_A2_HistoricoLancamentos.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer_A2_HistoricoLancamentos)).EndInit();
             this.splitContainer_A2_HistoricoLancamentos.ResumeLayout(false);
-            this.tabPage_Relatorios.ResumeLayout(false);
+            this.tabPage_A3_Relatorios.ResumeLayout(false);
             this.tabControl_A3_Relatorios_CRD.ResumeLayout(false);
             this.tabPage_A3_ReceDesp.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer11)).EndInit();
+            this.splitContainer11.ResumeLayout(false);
             this.panel_A3_BarGrafi_RecDesp.ResumeLayout(false);
             this.panel_A3_BarGrafi_RecDesp.PerformLayout();
             this.tabPage_A3_LancCategoria.ResumeLayout(false);
@@ -2800,7 +2841,7 @@
             this.splitContainer9.ResumeLayout(false);
             this.panel_A3_BarDespesas.ResumeLayout(false);
             this.panel_A3_BarDespesas.PerformLayout();
-            this.tabPage_Planejamento.ResumeLayout(false);
+            this.tabPage_A4_Planejamento.ResumeLayout(false);
             this.splitContainer_A4.Panel1.ResumeLayout(false);
             this.splitContainer_A4.Panel1.PerformLayout();
             this.splitContainer_A4.Panel2.ResumeLayout(false);
@@ -2821,8 +2862,6 @@
             this.statusStrip_Principal.PerformLayout();
             this.toolStrip_Principal.ResumeLayout(false);
             this.toolStrip_Principal.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer11)).EndInit();
-            this.splitContainer11.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2853,10 +2892,9 @@
         private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Calculadora;
         private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Word;
         private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Ajuda;
-        private System.Windows.Forms.TabControl tabControl_Geral;
         private System.Windows.Forms.TabPage tabPage_A2_Lancamentos;
-        private System.Windows.Forms.TabPage tabPage_Relatorios;
-        private System.Windows.Forms.TabPage tabPage_Planejamento;
+        private System.Windows.Forms.TabPage tabPage_A3_Relatorios;
+        private System.Windows.Forms.TabPage tabPage_A4_Planejamento;
         private System.Windows.Forms.TabPage tabPage_A1_VisaoGeral;
         private System.Windows.Forms.StatusStrip statusStrip_Principal;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel_Saudacao;
@@ -3055,6 +3093,10 @@
         private System.Windows.Forms.ColumnHeader columnValor;
         private System.Windows.Forms.ColumnHeader columnStatus;
         private System.Windows.Forms.SplitContainer splitContainer11;
+        private System.Windows.Forms.Panel panel_A2_BarStatus;
+        private System.Windows.Forms.Panel panel_A1_BarStatus;
+        private System.Windows.Forms.Panel panel_A2_BarStatus2;
+        public System.Windows.Forms.TabControl tabControl_Geral;
     }
 }
 

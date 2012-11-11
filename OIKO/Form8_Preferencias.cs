@@ -84,20 +84,20 @@ namespace Oiko
         // Salva os dados do usuário que foram atualizados ou cria um novo usuário caso ainda não exista.
         private void button_Prefe_A1_Salvar_Click(object sender, EventArgs e)
         {
-            string nome = textBox_PrefeA1_NomeUsuario.Text;
-            string email = textBox_PrefeA1_Email.Text;
-            string login = textBox_PrefeA1_Login.Text;
-            string senha = textBox_PrefeA1_Senha.Text;
+            Usuario usuario = new Usuario();
+            usuario.nome = textBox_PrefeA1_NomeUsuario.Text;
+            usuario.email = textBox_PrefeA1_Email.Text;
+            usuario.login = textBox_PrefeA1_Login.Text;
+            usuario.senha = textBox_PrefeA1_Senha.Text;
 
             try
             {
-                Usuario usuario = UsuarioController.getUsuario(0);
-                UsuarioController.updateUsuario(0, nome, email, login, senha);
+                UsuarioController.updateUsuario(usuario);
                 MessageBox.Show("Dados atualizados com sucesso!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-                UsuarioController.addUsuario(0, nome, email, login, senha);
+                UsuarioController.add(usuario);
                 MessageBox.Show("Usuário criado com sucesso!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
@@ -107,7 +107,7 @@ namespace Oiko
         // Carrega os dados atuais do usuário
         public void CarregarDadosUsuario()
         {
-            Usuario usuario = UsuarioController.getUsuario(0);
+            Usuario usuario = UsuarioController.get();
 
             textBox_PrefeA1_NomeUsuario.Text = usuario.nome;
             textBox_PrefeA1_Email.Text = usuario.email;

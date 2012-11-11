@@ -34,7 +34,6 @@
             this.textBox_PrefeA1_Login = new System.Windows.Forms.TextBox();
             this.label_PrefeA1_Login = new System.Windows.Forms.Label();
             this.button_PrefeA1_Salvar = new System.Windows.Forms.Button();
-            this.pictureBox_Prefe_A1 = new System.Windows.Forms.PictureBox();
             this.textBox_PrefeA1_Confir = new System.Windows.Forms.TextBox();
             this.label_PrefeA1_Confir = new System.Windows.Forms.Label();
             this.textBox_PrefeA1_Senha = new System.Windows.Forms.TextBox();
@@ -55,9 +54,7 @@
             this.button_PrefeA2_GravarCategoria = new System.Windows.Forms.Button();
             this.textBox_PrefeA2_NomeCatego = new System.Windows.Forms.TextBox();
             this.label_PrefeA2_NomeCatego = new System.Windows.Forms.Label();
-            this.pictureBox_PrefeA2 = new System.Windows.Forms.PictureBox();
             this.tabPage_PrefeA3_Contas = new System.Windows.Forms.TabPage();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.checkBoxSaldoNegativo = new System.Windows.Forms.CheckBox();
             this.buttonRemoverConta = new System.Windows.Forms.Button();
             this.buttonGravarConta = new System.Windows.Forms.Button();
@@ -72,7 +69,6 @@
             this.textBox_Prefe_A3_NomeConta = new System.Windows.Forms.TextBox();
             this.label_Prefe_A3_NomeConta = new System.Windows.Forms.Label();
             this.tabPage_PrefeA4_FormaPaga = new System.Windows.Forms.TabPage();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.buttonNovaFormaPagamento = new System.Windows.Forms.Button();
             this.buttonRemoverFormaPagamento = new System.Windows.Forms.Button();
             this.buttonGravarFormaPagamento = new System.Windows.Forms.Button();
@@ -81,14 +77,18 @@
             this.columnNomeFormaPagamento = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.textBoxFormaPagamento = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox_Prefe_A1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_PrefeA2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabControl_Menu_Cadastros.SuspendLayout();
             this.tabPage_PrefeA1_MeusDados.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Prefe_A1)).BeginInit();
             this.tabPage_PrefeA2_Categorias.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_PrefeA2)).BeginInit();
             this.tabPage_PrefeA3_Contas.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage_PrefeA4_FormaPaga.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Prefe_A1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_PrefeA2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -150,6 +150,7 @@
             // button_PrefeA1_Salvar
             // 
             this.button_PrefeA1_Salvar.BackColor = System.Drawing.Color.ForestGreen;
+            this.button_PrefeA1_Salvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_PrefeA1_Salvar.ForeColor = System.Drawing.Color.White;
             this.button_PrefeA1_Salvar.Location = new System.Drawing.Point(207, 116);
             this.button_PrefeA1_Salvar.Name = "button_PrefeA1_Salvar";
@@ -158,17 +159,6 @@
             this.button_PrefeA1_Salvar.Text = "Salvar";
             this.button_PrefeA1_Salvar.UseVisualStyleBackColor = false;
             this.button_PrefeA1_Salvar.Click += new System.EventHandler(this.button_Prefe_A1_Salvar_Click);
-            // 
-            // pictureBox_Prefe_A1
-            // 
-            this.pictureBox_Prefe_A1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox_Prefe_A1.Image = global::Oiko.Properties.Resources.user;
-            this.pictureBox_Prefe_A1.Location = new System.Drawing.Point(345, 89);
-            this.pictureBox_Prefe_A1.Name = "pictureBox_Prefe_A1";
-            this.pictureBox_Prefe_A1.Size = new System.Drawing.Size(162, 164);
-            this.pictureBox_Prefe_A1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_Prefe_A1.TabIndex = 45;
-            this.pictureBox_Prefe_A1.TabStop = false;
             // 
             // textBox_PrefeA1_Confir
             // 
@@ -257,10 +247,13 @@
             // 
             // button_PrefeA2_NovaCatego
             // 
-            this.button_PrefeA2_NovaCatego.Location = new System.Drawing.Point(305, 190);
+            this.button_PrefeA2_NovaCatego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_PrefeA2_NovaCatego.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_PrefeA2_NovaCatego.Location = new System.Drawing.Point(305, 193);
             this.button_PrefeA2_NovaCatego.Name = "button_PrefeA2_NovaCatego";
-            this.button_PrefeA2_NovaCatego.Size = new System.Drawing.Size(25, 25);
+            this.button_PrefeA2_NovaCatego.Size = new System.Drawing.Size(25, 22);
             this.button_PrefeA2_NovaCatego.TabIndex = 40;
+            this.button_PrefeA2_NovaCatego.Text = "+";
             this.button_PrefeA2_NovaCatego.UseVisualStyleBackColor = true;
             this.button_PrefeA2_NovaCatego.Click += new System.EventHandler(this.buttonNovaCategoria_Click);
             // 
@@ -321,10 +314,11 @@
             // 
             this.button_PrefeA2_RemoverCatego.BackColor = System.Drawing.Color.Red;
             this.button_PrefeA2_RemoverCatego.Enabled = false;
+            this.button_PrefeA2_RemoverCatego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_PrefeA2_RemoverCatego.ForeColor = System.Drawing.Color.White;
-            this.button_PrefeA2_RemoverCatego.Location = new System.Drawing.Point(402, 189);
+            this.button_PrefeA2_RemoverCatego.Location = new System.Drawing.Point(402, 192);
             this.button_PrefeA2_RemoverCatego.Name = "button_PrefeA2_RemoverCatego";
-            this.button_PrefeA2_RemoverCatego.Size = new System.Drawing.Size(63, 26);
+            this.button_PrefeA2_RemoverCatego.Size = new System.Drawing.Size(63, 23);
             this.button_PrefeA2_RemoverCatego.TabIndex = 36;
             this.button_PrefeA2_RemoverCatego.Text = "Remover";
             this.button_PrefeA2_RemoverCatego.UseVisualStyleBackColor = false;
@@ -334,10 +328,11 @@
             // 
             this.button_PrefeA2_GravarCategoria.BackColor = System.Drawing.Color.ForestGreen;
             this.button_PrefeA2_GravarCategoria.Enabled = false;
+            this.button_PrefeA2_GravarCategoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_PrefeA2_GravarCategoria.ForeColor = System.Drawing.Color.White;
-            this.button_PrefeA2_GravarCategoria.Location = new System.Drawing.Point(334, 189);
+            this.button_PrefeA2_GravarCategoria.Location = new System.Drawing.Point(334, 192);
             this.button_PrefeA2_GravarCategoria.Name = "button_PrefeA2_GravarCategoria";
-            this.button_PrefeA2_GravarCategoria.Size = new System.Drawing.Size(63, 26);
+            this.button_PrefeA2_GravarCategoria.Size = new System.Drawing.Size(63, 23);
             this.button_PrefeA2_GravarCategoria.TabIndex = 35;
             this.button_PrefeA2_GravarCategoria.Text = "Gravar";
             this.button_PrefeA2_GravarCategoria.UseVisualStyleBackColor = false;
@@ -358,17 +353,6 @@
             this.label_PrefeA2_NomeCatego.Size = new System.Drawing.Size(101, 13);
             this.label_PrefeA2_NomeCatego.TabIndex = 12;
             this.label_PrefeA2_NomeCatego.Text = "Nome da Categoria:";
-            // 
-            // pictureBox_PrefeA2
-            // 
-            this.pictureBox_PrefeA2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox_PrefeA2.Image = global::Oiko.Properties.Resources.category;
-            this.pictureBox_PrefeA2.Location = new System.Drawing.Point(334, 7);
-            this.pictureBox_PrefeA2.Name = "pictureBox_PrefeA2";
-            this.pictureBox_PrefeA2.Size = new System.Drawing.Size(107, 99);
-            this.pictureBox_PrefeA2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_PrefeA2.TabIndex = 15;
-            this.pictureBox_PrefeA2.TabStop = false;
             // 
             // tabPage_PrefeA3_Contas
             // 
@@ -391,17 +375,6 @@
             this.tabPage_PrefeA3_Contas.TabIndex = 2;
             this.tabPage_PrefeA3_Contas.Text = " Contas ";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Image = global::Oiko.Properties.Resources.config;
-            this.pictureBox1.Location = new System.Drawing.Point(341, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(86, 80);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 54;
-            this.pictureBox1.TabStop = false;
-            // 
             // checkBoxSaldoNegativo
             // 
             this.checkBoxSaldoNegativo.AutoSize = true;
@@ -416,10 +389,11 @@
             // 
             this.buttonRemoverConta.BackColor = System.Drawing.Color.Red;
             this.buttonRemoverConta.Enabled = false;
+            this.buttonRemoverConta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonRemoverConta.ForeColor = System.Drawing.Color.White;
-            this.buttonRemoverConta.Location = new System.Drawing.Point(402, 189);
+            this.buttonRemoverConta.Location = new System.Drawing.Point(402, 191);
             this.buttonRemoverConta.Name = "buttonRemoverConta";
-            this.buttonRemoverConta.Size = new System.Drawing.Size(63, 26);
+            this.buttonRemoverConta.Size = new System.Drawing.Size(63, 23);
             this.buttonRemoverConta.TabIndex = 51;
             this.buttonRemoverConta.Text = "Remover";
             this.buttonRemoverConta.UseVisualStyleBackColor = false;
@@ -429,10 +403,11 @@
             // 
             this.buttonGravarConta.BackColor = System.Drawing.Color.ForestGreen;
             this.buttonGravarConta.Enabled = false;
+            this.buttonGravarConta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonGravarConta.ForeColor = System.Drawing.Color.White;
-            this.buttonGravarConta.Location = new System.Drawing.Point(334, 189);
+            this.buttonGravarConta.Location = new System.Drawing.Point(334, 191);
             this.buttonGravarConta.Name = "buttonGravarConta";
-            this.buttonGravarConta.Size = new System.Drawing.Size(63, 26);
+            this.buttonGravarConta.Size = new System.Drawing.Size(63, 23);
             this.buttonGravarConta.TabIndex = 50;
             this.buttonGravarConta.Text = "Gravar";
             this.buttonGravarConta.UseVisualStyleBackColor = false;
@@ -440,10 +415,13 @@
             // 
             // buttonNovaConta
             // 
-            this.buttonNovaConta.Location = new System.Drawing.Point(305, 190);
+            this.buttonNovaConta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonNovaConta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonNovaConta.Location = new System.Drawing.Point(305, 192);
             this.buttonNovaConta.Name = "buttonNovaConta";
-            this.buttonNovaConta.Size = new System.Drawing.Size(25, 25);
+            this.buttonNovaConta.Size = new System.Drawing.Size(25, 23);
             this.buttonNovaConta.TabIndex = 52;
+            this.buttonNovaConta.Text = "+";
             this.buttonNovaConta.UseVisualStyleBackColor = true;
             this.buttonNovaConta.Click += new System.EventHandler(this.buttonNovaConta_Click);
             // 
@@ -537,23 +515,15 @@
             this.tabPage_PrefeA4_FormaPaga.TabIndex = 3;
             this.tabPage_PrefeA4_FormaPaga.Text = " Forma de Pagamento ";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Image = global::Oiko.Properties.Resources.payment;
-            this.pictureBox2.Location = new System.Drawing.Point(333, 20);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(116, 111);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 62;
-            this.pictureBox2.TabStop = false;
-            // 
             // buttonNovaFormaPagamento
             // 
-            this.buttonNovaFormaPagamento.Location = new System.Drawing.Point(305, 190);
+            this.buttonNovaFormaPagamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonNovaFormaPagamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonNovaFormaPagamento.Location = new System.Drawing.Point(305, 191);
             this.buttonNovaFormaPagamento.Name = "buttonNovaFormaPagamento";
-            this.buttonNovaFormaPagamento.Size = new System.Drawing.Size(25, 25);
+            this.buttonNovaFormaPagamento.Size = new System.Drawing.Size(25, 23);
             this.buttonNovaFormaPagamento.TabIndex = 61;
+            this.buttonNovaFormaPagamento.Text = "+";
             this.buttonNovaFormaPagamento.UseVisualStyleBackColor = true;
             this.buttonNovaFormaPagamento.Click += new System.EventHandler(this.buttonNovaFormaPagamento_Click);
             // 
@@ -561,10 +531,11 @@
             // 
             this.buttonRemoverFormaPagamento.BackColor = System.Drawing.Color.Red;
             this.buttonRemoverFormaPagamento.Enabled = false;
+            this.buttonRemoverFormaPagamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonRemoverFormaPagamento.ForeColor = System.Drawing.Color.White;
-            this.buttonRemoverFormaPagamento.Location = new System.Drawing.Point(402, 189);
+            this.buttonRemoverFormaPagamento.Location = new System.Drawing.Point(402, 190);
             this.buttonRemoverFormaPagamento.Name = "buttonRemoverFormaPagamento";
-            this.buttonRemoverFormaPagamento.Size = new System.Drawing.Size(63, 26);
+            this.buttonRemoverFormaPagamento.Size = new System.Drawing.Size(63, 23);
             this.buttonRemoverFormaPagamento.TabIndex = 60;
             this.buttonRemoverFormaPagamento.Text = "Remover";
             this.buttonRemoverFormaPagamento.UseVisualStyleBackColor = false;
@@ -574,10 +545,11 @@
             // 
             this.buttonGravarFormaPagamento.BackColor = System.Drawing.Color.ForestGreen;
             this.buttonGravarFormaPagamento.Enabled = false;
+            this.buttonGravarFormaPagamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonGravarFormaPagamento.ForeColor = System.Drawing.Color.White;
-            this.buttonGravarFormaPagamento.Location = new System.Drawing.Point(334, 189);
+            this.buttonGravarFormaPagamento.Location = new System.Drawing.Point(334, 190);
             this.buttonGravarFormaPagamento.Name = "buttonGravarFormaPagamento";
-            this.buttonGravarFormaPagamento.Size = new System.Drawing.Size(63, 26);
+            this.buttonGravarFormaPagamento.Size = new System.Drawing.Size(63, 23);
             this.buttonGravarFormaPagamento.TabIndex = 59;
             this.buttonGravarFormaPagamento.Text = "Gravar";
             this.buttonGravarFormaPagamento.UseVisualStyleBackColor = false;
@@ -623,7 +595,51 @@
             this.label2.TabIndex = 53;
             this.label2.Text = "Nome da Forma de Pagamento:";
             // 
-            // Preferencias
+            // pictureBox_Prefe_A1
+            // 
+            this.pictureBox_Prefe_A1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox_Prefe_A1.Image = global::Oiko.Properties.Resources.user;
+            this.pictureBox_Prefe_A1.Location = new System.Drawing.Point(351, 99);
+            this.pictureBox_Prefe_A1.Name = "pictureBox_Prefe_A1";
+            this.pictureBox_Prefe_A1.Size = new System.Drawing.Size(162, 164);
+            this.pictureBox_Prefe_A1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_Prefe_A1.TabIndex = 45;
+            this.pictureBox_Prefe_A1.TabStop = false;
+            // 
+            // pictureBox_PrefeA2
+            // 
+            this.pictureBox_PrefeA2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox_PrefeA2.Image = global::Oiko.Properties.Resources.icon_category;
+            this.pictureBox_PrefeA2.Location = new System.Drawing.Point(339, 6);
+            this.pictureBox_PrefeA2.Name = "pictureBox_PrefeA2";
+            this.pictureBox_PrefeA2.Size = new System.Drawing.Size(101, 99);
+            this.pictureBox_PrefeA2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_PrefeA2.TabIndex = 15;
+            this.pictureBox_PrefeA2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Image = global::Oiko.Properties.Resources.Icon_config;
+            this.pictureBox1.Location = new System.Drawing.Point(342, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(91, 82);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 54;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Image = global::Oiko.Properties.Resources.Icon_payment;
+            this.pictureBox2.Location = new System.Drawing.Point(333, 20);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(116, 111);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 62;
+            this.pictureBox2.TabStop = false;
+            // 
+            // Form8_Preferencias
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -633,22 +649,22 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Preferencias";
+            this.Name = "Form8_Preferencias";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Preferencias - Oiko";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Preferencias_FormClosed);
             this.tabControl_Menu_Cadastros.ResumeLayout(false);
             this.tabPage_PrefeA1_MeusDados.ResumeLayout(false);
             this.tabPage_PrefeA1_MeusDados.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Prefe_A1)).EndInit();
             this.tabPage_PrefeA2_Categorias.ResumeLayout(false);
             this.tabPage_PrefeA2_Categorias.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_PrefeA2)).EndInit();
             this.tabPage_PrefeA3_Contas.ResumeLayout(false);
             this.tabPage_PrefeA3_Contas.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage_PrefeA4_FormaPaga.ResumeLayout(false);
             this.tabPage_PrefeA4_FormaPaga.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Prefe_A1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_PrefeA2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 

@@ -15,7 +15,8 @@ namespace Oiko
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form3_Principal());
+            //Application.Run(new Form2_Login());
+            Application.Run(new Form1_Splash());
         }
     }
 }

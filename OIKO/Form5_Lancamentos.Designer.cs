@@ -34,9 +34,9 @@
             this.splitContainerNovoLancamento = new System.Windows.Forms.SplitContainer();
             this.tabControl_A2_NovoLancamento = new System.Windows.Forms.TabControl();
             this.tabPage_A2_NovoLancamento = new System.Windows.Forms.TabPage();
-            this.panel_A2_BarStatus = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.button_A2_DesfazerEdicao = new System.Windows.Forms.Button();
+            this.panel_A2_BarStatus = new System.Windows.Forms.Panel();
             this.comboBox_A2_FormaPaga = new System.Windows.Forms.ComboBox();
             this.formaPagamentoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.label_A2_FormaPaga = new System.Windows.Forms.Label();
@@ -109,7 +109,6 @@
             this.columnCategoria = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnValor = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnStatus = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer_A2)).BeginInit();
             this.splitContainer_A2.Panel1.SuspendLayout();
             this.splitContainer_A2.Panel2.SuspendLayout();
@@ -188,7 +187,6 @@
             this.tabPage_A2_NovoLancamento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tabPage_A2_NovoLancamento.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabPage_A2_NovoLancamento.Controls.Add(this.label1);
-            this.tabPage_A2_NovoLancamento.Controls.Add(this.button_A2_DesfazerEdicao);
             this.tabPage_A2_NovoLancamento.Controls.Add(this.panel_A2_BarStatus);
             this.tabPage_A2_NovoLancamento.Controls.Add(this.comboBox_A2_FormaPaga);
             this.tabPage_A2_NovoLancamento.Controls.Add(this.label_A2_FormaPaga);
@@ -209,6 +207,7 @@
             this.tabPage_A2_NovoLancamento.Controls.Add(this.textBox_A2_Descricao);
             this.tabPage_A2_NovoLancamento.Controls.Add(this.label_A2_Categoria);
             this.tabPage_A2_NovoLancamento.Controls.Add(this.label_A2_Multa);
+            this.tabPage_A2_NovoLancamento.Controls.Add(this.button_A2_DesfazerEdicao);
             this.tabPage_A2_NovoLancamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage_A2_NovoLancamento.Location = new System.Drawing.Point(4, 22);
             this.tabPage_A2_NovoLancamento.Name = "tabPage_A2_NovoLancamento";
@@ -216,15 +215,6 @@
             this.tabPage_A2_NovoLancamento.Size = new System.Drawing.Size(436, 285);
             this.tabPage_A2_NovoLancamento.TabIndex = 0;
             this.tabPage_A2_NovoLancamento.Text = "Novo Lançamento";
-            // 
-            // panel_A2_BarStatus
-            // 
-            this.panel_A2_BarStatus.BackColor = System.Drawing.Color.DarkGray;
-            this.panel_A2_BarStatus.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel_A2_BarStatus.Location = new System.Drawing.Point(3, 275);
-            this.panel_A2_BarStatus.Name = "panel_A2_BarStatus";
-            this.panel_A2_BarStatus.Size = new System.Drawing.Size(430, 7);
-            this.panel_A2_BarStatus.TabIndex = 33;
             // 
             // label1
             // 
@@ -250,6 +240,15 @@
             this.button_A2_DesfazerEdicao.UseVisualStyleBackColor = false;
             this.button_A2_DesfazerEdicao.Visible = false;
             this.button_A2_DesfazerEdicao.Click += new System.EventHandler(this.button_A2_DesfazerEdicao_Click);
+            // 
+            // panel_A2_BarStatus
+            // 
+            this.panel_A2_BarStatus.BackColor = System.Drawing.Color.DarkGray;
+            this.panel_A2_BarStatus.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel_A2_BarStatus.Location = new System.Drawing.Point(3, 275);
+            this.panel_A2_BarStatus.Name = "panel_A2_BarStatus";
+            this.panel_A2_BarStatus.Size = new System.Drawing.Size(430, 7);
+            this.panel_A2_BarStatus.TabIndex = 33;
             // 
             // comboBox_A2_FormaPaga
             // 
@@ -1036,17 +1035,6 @@
             this.columnStatus.Text = "Status";
             this.columnStatus.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnStatus.Width = 90;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(17, 253);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(152, 15);
-            this.label1.TabIndex = 35;
-            this.label1.Text = "* Campos Obrigatórios";
             // 
             // Form5_Lancamentos
             // 

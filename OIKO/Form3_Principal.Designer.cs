@@ -69,6 +69,7 @@
             this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton_Preferencia = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
             this.panel_Central = new System.Windows.Forms.Panel();
             this.toolStripButton_Home = new System.Windows.Forms.ToolStripButton();
@@ -77,7 +78,6 @@
             this.toolStripButton_ContasReceber = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton_ContasPagar = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton_Relatorios = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_Preferencia = new System.Windows.Forms.ToolStripButton();
             this.menuStrip_Principal.SuspendLayout();
             this.statusStrip_Principal.SuspendLayout();
             this.toolStrip_Principal.SuspendLayout();
@@ -359,6 +359,16 @@
             this.toolStripSeparator11.Name = "toolStripSeparator11";
             this.toolStripSeparator11.Size = new System.Drawing.Size(6, 45);
             // 
+            // toolStripButton_Preferencia
+            // 
+            this.toolStripButton_Preferencia.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton_Preferencia.Image = global::Oiko.Properties.Resources.icon_prefere;
+            this.toolStripButton_Preferencia.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton_Preferencia.Name = "toolStripButton_Preferencia";
+            this.toolStripButton_Preferencia.Size = new System.Drawing.Size(49, 42);
+            this.toolStripButton_Preferencia.Text = "Preferências";
+            this.toolStripButton_Preferencia.Click += new System.EventHandler(this.toolStripButton_Preferencia_Click);
+            // 
             // toolStripButton9
             // 
             this.toolStripButton9.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -380,7 +390,7 @@
             // toolStripButton_Home
             // 
             this.toolStripButton_Home.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton_Home.Image = global::Oiko.Properties.Resources.icon_home_fw;
+            this.toolStripButton_Home.Image = global::Oiko.Properties.Resources.icon_home;
             this.toolStripButton_Home.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton_Home.Name = "toolStripButton_Home";
             this.toolStripButton_Home.Size = new System.Drawing.Size(49, 42);
@@ -437,16 +447,6 @@
             this.toolStripButton_Relatorios.Size = new System.Drawing.Size(49, 42);
             this.toolStripButton_Relatorios.Text = "Relatórios";
             this.toolStripButton_Relatorios.Click += new System.EventHandler(this.toolStripButton_Relatorios_Click);
-            // 
-            // toolStripButton_Preferencia
-            // 
-            this.toolStripButton_Preferencia.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton_Preferencia.Image = global::Oiko.Properties.Resources.icon_prefere_fw;
-            this.toolStripButton_Preferencia.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Preferencia.Name = "toolStripButton_Preferencia";
-            this.toolStripButton_Preferencia.Size = new System.Drawing.Size(49, 42);
-            this.toolStripButton_Preferencia.Text = "Preferências";
-            this.toolStripButton_Preferencia.Click += new System.EventHandler(this.toolStripButton_Preferencia_Click);
             // 
             // Form3_Principal
             // 

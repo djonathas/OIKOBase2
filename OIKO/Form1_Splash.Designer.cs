@@ -1,6 +1,6 @@
 ﻿namespace Oiko
 {
-    partial class Splash
+    partial class Form1_Splash
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Splash));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1_Splash));
             this.progressBar_Splash = new System.Windows.Forms.ProgressBar();
             this.timer_Splash = new System.Windows.Forms.Timer(this.components);
             this.label_Sobre_Text2 = new System.Windows.Forms.Label();
@@ -90,7 +90,7 @@
             // 
             this.pictureBox_Sobre.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox_Sobre.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox_Sobre.Image = global::Oiko.Properties.Resources.MiniLogo___Oiko;
+            this.pictureBox_Sobre.Image = global::Oiko.Properties.Resources.MiniLogoOiko;
             this.pictureBox_Sobre.Location = new System.Drawing.Point(242, 1);
             this.pictureBox_Sobre.Name = "pictureBox_Sobre";
             this.pictureBox_Sobre.Size = new System.Drawing.Size(307, 309);
@@ -98,11 +98,10 @@
             this.pictureBox_Sobre.TabIndex = 13;
             this.pictureBox_Sobre.TabStop = false;
             // 
-            // Splash
+            // Form1_Splash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Oiko.Properties.Resources.Background;
             this.ClientSize = new System.Drawing.Size(520, 307);
             this.Controls.Add(this.label_Sobre_Text3);
             this.Controls.Add(this.progressBar_Splash);
@@ -111,7 +110,7 @@
             this.Controls.Add(this.label_Sobre_Text2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Splash";
+            this.Name = "Form1_Splash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Splash";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Sobre)).EndInit();

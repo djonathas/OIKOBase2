@@ -6,12 +6,13 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Oiko.controllers;
 
 namespace Oiko
 {
-    public partial class Splash : Form
+    public partial class Form1_Splash : Form
     {
-        public Splash()
+        public Form1_Splash()
         {
             InitializeComponent();
         }
@@ -25,8 +26,16 @@ namespace Oiko
             else
             {
                 timer_Splash.Enabled = false;
-                Form2_Login nf = new Form2_Login();
-                nf.Show();
+                if (UsuarioController.existeUsuario())
+                {
+                    Form2_Login l = new Form2_Login();
+                    l.Show();
+                }
+                else
+                {
+                    Form10_PrimeAcesso p = new Form10_PrimeAcesso();
+                    p.Show();
+                }
                 this.Hide();
             }
         }

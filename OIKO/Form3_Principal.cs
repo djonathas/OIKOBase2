@@ -20,7 +20,13 @@ namespace Oiko
 
         private void ToolStripMenuItem_Receita_Click(object sender, EventArgs e)
         {
-
+            Form5_Lancamentos novo = new Form5_Lancamentos("receita");
+            novo.TopLevel = false;
+            novo.FormBorderStyle = FormBorderStyle.None;
+            novo.WindowState = FormWindowState.Maximized;
+            panel_Central.Controls.Clear();
+            panel_Central.Controls.Add(novo);
+            novo.Show();
         }
 
         private void ToolStripMenuItem_Despesa_Click(object sender, EventArgs e)

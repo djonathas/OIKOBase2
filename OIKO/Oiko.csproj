@@ -48,7 +48,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon_Oiko1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Oiko.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Linq" />
@@ -72,6 +80,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DataClassesOiko.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Form10_PrimeAcesso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10_PrimeAcesso.Designer.cs">
+      <DependentUpon>Form10_PrimeAcesso.cs</DependentUpon>
     </Compile>
     <Compile Include="Form4_VisaoGeral.cs">
       <SubType>Form</SubType>
@@ -111,11 +125,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Form6_Relatorio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +143,9 @@
     <Compile Include="Form1_Splash.Designer.cs">
       <DependentUpon>Form1_Splash.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Form10_PrimeAcesso.resx">
+      <DependentUpon>Form10_PrimeAcesso.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form4_VisaoGeral.resx">
       <DependentUpon>Form4_VisaoGeral.cs</DependentUpon>
     </EmbeddedResource>
@@ -188,6 +200,11 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -235,15 +252,19 @@
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="icon_Oiko1.ico" />
     <Content Include="img\icon_baixa.png" />
+    <None Include="img\icon_category.png" />
+    <None Include="img\Icon_config.png" />
     <Content Include="img\icon_contaPaga.png" />
     <Content Include="img\icon_contaRece.png" />
     <Content Include="img\icon_edit.png" />
     <Content Include="img\icon_excluir.png" />
-    <Content Include="img\icon_home.fw.png" />
-    <Content Include="img\icon_Oiko1.ico" />
+    <Content Include="img\icon_home.png" />
+    <None Include="img\icon_login.png" />
     <Content Include="img\icon_pagar.png" />
-    <Content Include="img\icon_prefere.fw.png" />
+    <None Include="img\icon_prefere.png" />
+    <None Include="img\Icon_payment.png" />
     <Content Include="img\icon_receita.png" />
     <Content Include="img\icon_relatorio.png" />
     <Content Include="img\MiniLogoOiko.png" />

@@ -91,7 +91,7 @@ namespace Oiko.controllers
             }
         }
 
-        public static List<Conta> All()
+        public static List<Conta> all()
         {
             using (OikoDataContext db = new OikoDataContext())
             {

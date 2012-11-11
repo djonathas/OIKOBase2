@@ -23,3 +23,39 @@ C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Release\GenerateResour
 C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Release\GenerateResource.write.1.tlog
 C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Release\Oiko.exe
 C:\Users\Djonathas\Documents\GitHub\OIKOBase\OIKO\obj\x86\Release\Oiko.pdb
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\bin\Release\Oiko.exe.config
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\bin\Release\Oiko.exe
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\bin\Release\Oiko.pdb
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Release\Oiko.Form5_Lancamentos.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Release\Oiko.Form2_Login.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Release\Oiko.Form7_Planejamento.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Release\Oiko.Form8_Preferencias.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Release\Oiko.Form3_Principal.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Release\Oiko.Properties.Resources.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Release\Oiko.Form6_Relatorio.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Release\Oiko.Form9_Sobre.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Release\Oiko.Splash.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Release\Oiko.Form4_VisaoGeral.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Release\Oiko.exe
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Release\Oiko.pdb
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\bin\Release\Oiko.exe.config
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\bin\Release\Oiko.exe
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\bin\Release\Oiko.pdb
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Release\Oiko.Form4_VisaoGeral.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Release\Oiko.Form5_Lancamentos.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Release\Oiko.Form2_Login.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Release\Oiko.Form7_Planejamento.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Release\Oiko.Form8_Preferencias.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Release\Oiko.Form3_Principal.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Release\Oiko.Properties.Resources.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Release\Oiko.Form6_Relatorio.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Release\Oiko.Form9_Sobre.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Release\Oiko.Splash.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Release\Oiko.exe
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Release\Oiko.pdb

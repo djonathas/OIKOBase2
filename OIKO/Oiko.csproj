@@ -52,6 +52,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -72,23 +73,41 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataClassesOiko.dbml</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="Form4_VisaoGeral.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="Form4_VisaoGeral.Designer.cs">
+      <DependentUpon>Form4_VisaoGeral.cs</DependentUpon>
     </Compile>
-    <Compile Include="Preferencias.cs">
+    <Compile Include="Form5_Lancamentos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Preferencias.Designer.cs">
-      <DependentUpon>Preferencias.cs</DependentUpon>
+    <Compile Include="Form5_Lancamentos.Designer.cs">
+      <DependentUpon>Form5_Lancamentos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Principal.cs">
+    <Compile Include="Form2_Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Principal.Designer.cs">
-      <DependentUpon>Principal.cs</DependentUpon>
+    <Compile Include="Form2_Login.Designer.cs">
+      <DependentUpon>Form2_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7_Planejamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7_Planejamento.Designer.cs">
+      <DependentUpon>Form7_Planejamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8_Preferencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8_Preferencias.Designer.cs">
+      <DependentUpon>Form8_Preferencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_Principal.Designer.cs">
+      <DependentUpon>Form3_Principal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -97,26 +116,41 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Sobre.cs">
+    <Compile Include="Form6_Relatorio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sobre.Designer.cs">
-      <DependentUpon>Sobre.cs</DependentUpon>
+    <Compile Include="Form6_Relatorio.Designer.cs">
+      <DependentUpon>Form6_Relatorio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Splash.cs">
+    <Compile Include="Form9_Sobre.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Splash.Designer.cs">
-      <DependentUpon>Splash.cs</DependentUpon>
+    <Compile Include="Form9_Sobre.Designer.cs">
+      <DependentUpon>Form9_Sobre.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="Form1_Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1_Splash.Designer.cs">
+      <DependentUpon>Form1_Splash.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form4_VisaoGeral.resx">
+      <DependentUpon>Form4_VisaoGeral.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Preferencias.resx">
-      <DependentUpon>Preferencias.cs</DependentUpon>
+    <EmbeddedResource Include="Form5_Lancamentos.resx">
+      <DependentUpon>Form5_Lancamentos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Principal.resx">
-      <DependentUpon>Principal.cs</DependentUpon>
+    <EmbeddedResource Include="Form2_Login.resx">
+      <DependentUpon>Form2_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7_Planejamento.resx">
+      <DependentUpon>Form7_Planejamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8_Preferencias.resx">
+      <DependentUpon>Form8_Preferencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_Principal.resx">
+      <DependentUpon>Form3_Principal.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -124,11 +158,14 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sobre.resx">
-      <DependentUpon>Sobre.cs</DependentUpon>
+    <EmbeddedResource Include="Form6_Relatorio.resx">
+      <DependentUpon>Form6_Relatorio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Splash.resx">
-      <DependentUpon>Splash.cs</DependentUpon>
+    <EmbeddedResource Include="Form9_Sobre.resx">
+      <DependentUpon>Form9_Sobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1_Splash.resx">
+      <DependentUpon>Form1_Splash.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config">
       <SubType>Designer</SubType>
@@ -195,63 +232,21 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="img\contasPagar.fw.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="img\Background.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="img\contasReceber.fw.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="img\relatorios.fw.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="img\lancarReceita.fw.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="img\lancarDespesas.fw.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="img\graficos.fw.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="img\red.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="img\green.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="img\LogoOiko.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="img\baixar.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="img\editar.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="img\blue.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="img\Splash.fw.png" />
-    <None Include="img\Background2.jpg" />
-    <None Include="img\login.png" />
-    <None Include="img\minimize.png" />
-    <None Include="img\user.png" />
-    <None Include="img\category.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="img\payment.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="img\config.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="img\MiniLogo - Oiko.png" />
+    <Content Include="img\icon_baixa.png" />
+    <Content Include="img\icon_contaPaga.png" />
+    <Content Include="img\icon_contaRece.png" />
+    <Content Include="img\icon_edit.png" />
+    <Content Include="img\icon_excluir.png" />
+    <Content Include="img\icon_home.fw.png" />
+    <Content Include="img\icon_Oiko1.ico" />
+    <Content Include="img\icon_pagar.png" />
+    <Content Include="img\icon_prefere.fw.png" />
+    <Content Include="img\icon_receita.png" />
+    <Content Include="img\icon_relatorio.png" />
+    <Content Include="img\MiniLogoOiko.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

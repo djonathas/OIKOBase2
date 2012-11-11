@@ -10,19 +10,19 @@ using Oiko.controllers;
 
 namespace Oiko
 {
-    public partial class Preferencias : Form
+    public partial class Form8_Preferencias : Form
     {
         int idCategoria = -1; // Armazena o id da categoria selecionada
         int idConta = -1; // Armazena o id da conta selecionada
         int idFormaPagamento = -1; // Armazena o id formaPagamento selecionada
 
-        public Preferencias()
+        public Form8_Preferencias()
         {
             InitializeComponent();
             CarregarDadosUsuario();
         }
 
-        public Preferencias(string opcao)
+        public Form8_Preferencias(string opcao)
             : base()
         {
             InitializeComponent();
@@ -308,7 +308,7 @@ namespace Oiko
         public void AtualizarListaContas()
         {
             listViewContas.Items.Clear();
-            foreach (Conta conta in ContaController.All())
+            foreach (Conta conta in ContaController.all())
             {
                 ListViewItem item = new ListViewItem(new string[] { 
                     conta.id.ToString(),

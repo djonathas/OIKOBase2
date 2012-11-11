@@ -1,6 +1,6 @@
 ﻿namespace Oiko
 {
-    partial class Principal
+    partial class Menu
     {
         /// <summary>
         /// Required designer variable.
@@ -28,32 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.menuStrip_Principal = new System.Windows.Forms.MenuStrip();
-            this.ToolStripMenuItem_Cadastro = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItem_Receita = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItem_Despesa = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItem_Categorias = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItem_FormasPaga = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
-            this.ToolStripMenuItem_Sair = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItem_Consultar = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItem_ContaPagar = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItem_ContaRece = new System.Windows.Forms.ToolStripMenuItem();
-            this.utilitáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItem_Calculadora = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItem_Word = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItem_Excel = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItem_Explorer = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItem_Ajuda = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItem_Sobre = new System.Windows.Forms.ToolStripMenuItem();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.tabControl_Geral = new System.Windows.Forms.TabControl();
             this.tabPage_A1_VisaoGeral = new System.Windows.Forms.TabPage();
             this.splitContainer_A1_Logo = new System.Windows.Forms.SplitContainer();
@@ -61,7 +36,6 @@
             this.groupBox_A1_LancRapido = new System.Windows.Forms.GroupBox();
             this.panel_A1_BarStatus = new System.Windows.Forms.Panel();
             this.comboBox_A1_Conta = new System.Windows.Forms.ComboBox();
-            this.contaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.label_A1_Conta = new System.Windows.Forms.Label();
             this.button_A1_Despesa = new System.Windows.Forms.Button();
             this.button_A1_Receita = new System.Windows.Forms.Button();
@@ -104,14 +78,12 @@
             this.tabPage_A2_NovoLancamento = new System.Windows.Forms.TabPage();
             this.panel_A2_BarStatus = new System.Windows.Forms.Panel();
             this.comboBox_A2_FormaPaga = new System.Windows.Forms.ComboBox();
-            this.formaPagamentoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.label_A2_FormaPaga = new System.Windows.Forms.Label();
             this.button_A2_Despesa = new System.Windows.Forms.Button();
             this.button_A2_Receita = new System.Windows.Forms.Button();
             this.comboBox_A2_Conta = new System.Windows.Forms.ComboBox();
             this.textBox_A2_Valor = new System.Windows.Forms.TextBox();
             this.comboBox_A2_Categoria = new System.Windows.Forms.ComboBox();
-            this.categoriaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dateTimePicker_A2_DataLanca = new System.Windows.Forms.DateTimePicker();
             this.label_A2_JurosDia = new System.Windows.Forms.Label();
             this.button_A2_Lancar = new System.Windows.Forms.Button();
@@ -232,33 +204,6 @@
             this.label_A4_BarReceita = new System.Windows.Forms.Label();
             this.panel_A4_BarInfo = new System.Windows.Forms.Panel();
             this.label_A4_TextBarInfo = new System.Windows.Forms.Label();
-            this.statusStrip_Principal = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel_Saudacao = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel_Data = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel_Bar = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel_Hora = new System.Windows.Forms.ToolStripStatusLabel();
-            this.timer_Principal = new System.Windows.Forms.Timer(this.components);
-            this.toolTip_Principal = new System.Windows.Forms.ToolTip(this.components);
-            this.contextMenuStrip_Principal = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.toolStrip_Principal = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton_LancarRece = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButtontoolStripButton_LancarDespe = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton_ContasReceber = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton_ContasPagar = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton_Relatorios = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton_Preferencia = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.menuStrip_Principal.SuspendLayout();
             this.tabControl_Geral.SuspendLayout();
             this.tabPage_A1_VisaoGeral.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer_A1_Logo)).BeginInit();
@@ -270,7 +215,6 @@
             this.splitContainer_A1_LancamentoPlanejamento.Panel2.SuspendLayout();
             this.splitContainer_A1_LancamentoPlanejamento.SuspendLayout();
             this.groupBox_A1_LancRapido.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.contaBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
             this.splitContainer4.Panel1.SuspendLayout();
             this.splitContainer4.Panel2.SuspendLayout();
@@ -301,8 +245,6 @@
             this.splitContainerNovoLancamento.SuspendLayout();
             this.tabControl_A2_NovoLancamento.SuspendLayout();
             this.tabPage_A2_NovoLancamento.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.formaPagamentoBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.categoriaBindingSource)).BeginInit();
             this.tabControl_A2_DetalhesLancamento.SuspendLayout();
             this.tabPage_A2_DetalhesLancamento.SuspendLayout();
             this.tabPage_A2_BaixaLancamento.SuspendLayout();
@@ -347,173 +289,7 @@
             this.panel_A4_BarDespesas.SuspendLayout();
             this.panel_A4_BarReceita.SuspendLayout();
             this.panel_A4_BarInfo.SuspendLayout();
-            this.statusStrip_Principal.SuspendLayout();
-            this.toolStrip_Principal.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 40);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 40);
-            // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 40);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 40);
-            // 
-            // toolStripSeparator6
-            // 
-            this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 40);
-            // 
-            // toolStripSeparator5
-            // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 40);
-            // 
-            // menuStrip_Principal
-            // 
-            this.menuStrip_Principal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItem_Cadastro,
-            this.ToolStripMenuItem_Consultar,
-            this.utilitáriosToolStripMenuItem,
-            this.ToolStripMenuItem_Ajuda});
-            this.menuStrip_Principal.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip_Principal.Name = "menuStrip_Principal";
-            this.menuStrip_Principal.Size = new System.Drawing.Size(1018, 24);
-            this.menuStrip_Principal.TabIndex = 3;
-            this.menuStrip_Principal.Text = "menuStrip1";
-            // 
-            // ToolStripMenuItem_Cadastro
-            // 
-            this.ToolStripMenuItem_Cadastro.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItem_Receita,
-            this.ToolStripMenuItem_Despesa,
-            this.ToolStripMenuItem_Categorias,
-            this.ToolStripMenuItem_FormasPaga,
-            this.toolStripMenuItem1,
-            this.ToolStripMenuItem_Sair});
-            this.ToolStripMenuItem_Cadastro.Name = "ToolStripMenuItem_Cadastro";
-            this.ToolStripMenuItem_Cadastro.Size = new System.Drawing.Size(66, 20);
-            this.ToolStripMenuItem_Cadastro.Text = "Cadastro";
-            // 
-            // ToolStripMenuItem_Receita
-            // 
-            this.ToolStripMenuItem_Receita.Name = "ToolStripMenuItem_Receita";
-            this.ToolStripMenuItem_Receita.Size = new System.Drawing.Size(188, 22);
-            this.ToolStripMenuItem_Receita.Text = "Receita";
-            // 
-            // ToolStripMenuItem_Despesa
-            // 
-            this.ToolStripMenuItem_Despesa.Name = "ToolStripMenuItem_Despesa";
-            this.ToolStripMenuItem_Despesa.Size = new System.Drawing.Size(188, 22);
-            this.ToolStripMenuItem_Despesa.Text = "Despesa";
-            // 
-            // ToolStripMenuItem_Categorias
-            // 
-            this.ToolStripMenuItem_Categorias.Name = "ToolStripMenuItem_Categorias";
-            this.ToolStripMenuItem_Categorias.Size = new System.Drawing.Size(188, 22);
-            this.ToolStripMenuItem_Categorias.Text = "Categorias";
-            this.ToolStripMenuItem_Categorias.Click += new System.EventHandler(this.ToolStripMenuItemCategorias_Click);
-            // 
-            // ToolStripMenuItem_FormasPaga
-            // 
-            this.ToolStripMenuItem_FormasPaga.Name = "ToolStripMenuItem_FormasPaga";
-            this.ToolStripMenuItem_FormasPaga.Size = new System.Drawing.Size(188, 22);
-            this.ToolStripMenuItem_FormasPaga.Text = "Forma de Pagamento";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(185, 6);
-            // 
-            // ToolStripMenuItem_Sair
-            // 
-            this.ToolStripMenuItem_Sair.Name = "ToolStripMenuItem_Sair";
-            this.ToolStripMenuItem_Sair.Size = new System.Drawing.Size(188, 22);
-            this.ToolStripMenuItem_Sair.Text = "Sair";
-            this.ToolStripMenuItem_Sair.Click += new System.EventHandler(this.ToolStripMenuItem_Sair_Click);
-            // 
-            // ToolStripMenuItem_Consultar
-            // 
-            this.ToolStripMenuItem_Consultar.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItem_ContaPagar,
-            this.ToolStripMenuItem_ContaRece});
-            this.ToolStripMenuItem_Consultar.Name = "ToolStripMenuItem_Consultar";
-            this.ToolStripMenuItem_Consultar.Size = new System.Drawing.Size(70, 20);
-            this.ToolStripMenuItem_Consultar.Text = "Consultar";
-            // 
-            // ToolStripMenuItem_ContaPagar
-            // 
-            this.ToolStripMenuItem_ContaPagar.Name = "ToolStripMenuItem_ContaPagar";
-            this.ToolStripMenuItem_ContaPagar.Size = new System.Drawing.Size(165, 22);
-            this.ToolStripMenuItem_ContaPagar.Text = "Contas a Pagar";
-            // 
-            // ToolStripMenuItem_ContaRece
-            // 
-            this.ToolStripMenuItem_ContaRece.Name = "ToolStripMenuItem_ContaRece";
-            this.ToolStripMenuItem_ContaRece.Size = new System.Drawing.Size(165, 22);
-            this.ToolStripMenuItem_ContaRece.Text = "Contas a Receber";
-            // 
-            // utilitáriosToolStripMenuItem
-            // 
-            this.utilitáriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItem_Calculadora,
-            this.ToolStripMenuItem_Word,
-            this.ToolStripMenuItem_Excel,
-            this.ToolStripMenuItem_Explorer});
-            this.utilitáriosToolStripMenuItem.Name = "utilitáriosToolStripMenuItem";
-            this.utilitáriosToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
-            this.utilitáriosToolStripMenuItem.Text = "Utilitários";
-            // 
-            // ToolStripMenuItem_Calculadora
-            // 
-            this.ToolStripMenuItem_Calculadora.Name = "ToolStripMenuItem_Calculadora";
-            this.ToolStripMenuItem_Calculadora.Size = new System.Drawing.Size(137, 22);
-            this.ToolStripMenuItem_Calculadora.Text = "Calculadora";
-            // 
-            // ToolStripMenuItem_Word
-            // 
-            this.ToolStripMenuItem_Word.Name = "ToolStripMenuItem_Word";
-            this.ToolStripMenuItem_Word.Size = new System.Drawing.Size(137, 22);
-            this.ToolStripMenuItem_Word.Text = "Word";
-            // 
-            // ToolStripMenuItem_Excel
-            // 
-            this.ToolStripMenuItem_Excel.Name = "ToolStripMenuItem_Excel";
-            this.ToolStripMenuItem_Excel.Size = new System.Drawing.Size(137, 22);
-            this.ToolStripMenuItem_Excel.Text = "Excel";
-            // 
-            // ToolStripMenuItem_Explorer
-            // 
-            this.ToolStripMenuItem_Explorer.Name = "ToolStripMenuItem_Explorer";
-            this.ToolStripMenuItem_Explorer.Size = new System.Drawing.Size(137, 22);
-            this.ToolStripMenuItem_Explorer.Text = "Explorer";
-            // 
-            // ToolStripMenuItem_Ajuda
-            // 
-            this.ToolStripMenuItem_Ajuda.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItem_Sobre});
-            this.ToolStripMenuItem_Ajuda.Name = "ToolStripMenuItem_Ajuda";
-            this.ToolStripMenuItem_Ajuda.Size = new System.Drawing.Size(50, 20);
-            this.ToolStripMenuItem_Ajuda.Text = "Ajuda";
-            // 
-            // ToolStripMenuItem_Sobre
-            // 
-            this.ToolStripMenuItem_Sobre.Name = "ToolStripMenuItem_Sobre";
-            this.ToolStripMenuItem_Sobre.Size = new System.Drawing.Size(104, 22);
-            this.ToolStripMenuItem_Sobre.Text = "Sobre";
-            this.ToolStripMenuItem_Sobre.Click += new System.EventHandler(this.ToolStripMenuItem_Sobre_Click);
             // 
             // tabControl_Geral
             // 
@@ -526,14 +302,13 @@
             this.tabControl_Geral.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl_Geral.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.tabControl_Geral.ItemSize = new System.Drawing.Size(96, 25);
-            this.tabControl_Geral.Location = new System.Drawing.Point(0, 69);
+            this.tabControl_Geral.Location = new System.Drawing.Point(0, 0);
             this.tabControl_Geral.Multiline = true;
             this.tabControl_Geral.Name = "tabControl_Geral";
             this.tabControl_Geral.SelectedIndex = 0;
-            this.tabControl_Geral.Size = new System.Drawing.Size(1018, 577);
+            this.tabControl_Geral.Size = new System.Drawing.Size(1018, 668);
             this.tabControl_Geral.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.tabControl_Geral.TabIndex = 1;
-            this.tabControl_Geral.SelectedIndexChanged += new System.EventHandler(this.tabControl_Geral_SelectedIndexChanged);
+            this.tabControl_Geral.TabIndex = 2;
             // 
             // tabPage_A1_VisaoGeral
             // 
@@ -543,7 +318,7 @@
             this.tabPage_A1_VisaoGeral.Location = new System.Drawing.Point(4, 29);
             this.tabPage_A1_VisaoGeral.Name = "tabPage_A1_VisaoGeral";
             this.tabPage_A1_VisaoGeral.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_A1_VisaoGeral.Size = new System.Drawing.Size(1010, 544);
+            this.tabPage_A1_VisaoGeral.Size = new System.Drawing.Size(1010, 635);
             this.tabPage_A1_VisaoGeral.TabIndex = 4;
             this.tabPage_A1_VisaoGeral.Text = "Visão Geral";
             // 
@@ -561,7 +336,7 @@
             // splitContainer_A1_Logo.Panel2
             // 
             this.splitContainer_A1_Logo.Panel2.Controls.Add(this.splitContainer4);
-            this.splitContainer_A1_Logo.Size = new System.Drawing.Size(1004, 538);
+            this.splitContainer_A1_Logo.Size = new System.Drawing.Size(1004, 629);
             this.splitContainer_A1_Logo.SplitterDistance = 369;
             this.splitContainer_A1_Logo.TabIndex = 13;
             // 
@@ -579,8 +354,8 @@
             // splitContainer_A1_LancamentoPlanejamento.Panel2
             // 
             this.splitContainer_A1_LancamentoPlanejamento.Panel2.Controls.Add(this.groupBox_A1_Planej);
-            this.splitContainer_A1_LancamentoPlanejamento.Size = new System.Drawing.Size(369, 538);
-            this.splitContainer_A1_LancamentoPlanejamento.SplitterDistance = 289;
+            this.splitContainer_A1_LancamentoPlanejamento.Size = new System.Drawing.Size(369, 629);
+            this.splitContainer_A1_LancamentoPlanejamento.SplitterDistance = 337;
             this.splitContainer_A1_LancamentoPlanejamento.TabIndex = 0;
             // 
             // groupBox_A1_LancRapido
@@ -606,7 +381,7 @@
             this.groupBox_A1_LancRapido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox_A1_LancRapido.Location = new System.Drawing.Point(0, 0);
             this.groupBox_A1_LancRapido.Name = "groupBox_A1_LancRapido";
-            this.groupBox_A1_LancRapido.Size = new System.Drawing.Size(369, 289);
+            this.groupBox_A1_LancRapido.Size = new System.Drawing.Size(369, 337);
             this.groupBox_A1_LancRapido.TabIndex = 0;
             this.groupBox_A1_LancRapido.TabStop = false;
             this.groupBox_A1_LancRapido.Text = "Lançamento Rápido";
@@ -615,14 +390,13 @@
             // 
             this.panel_A1_BarStatus.BackColor = System.Drawing.Color.Gainsboro;
             this.panel_A1_BarStatus.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel_A1_BarStatus.Location = new System.Drawing.Point(3, 279);
+            this.panel_A1_BarStatus.Location = new System.Drawing.Point(3, 327);
             this.panel_A1_BarStatus.Name = "panel_A1_BarStatus";
             this.panel_A1_BarStatus.Size = new System.Drawing.Size(363, 7);
             this.panel_A1_BarStatus.TabIndex = 35;
             // 
             // comboBox_A1_Conta
             // 
-            this.comboBox_A1_Conta.DataSource = this.contaBindingSource;
             this.comboBox_A1_Conta.DisplayMember = "nome";
             this.comboBox_A1_Conta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox_A1_Conta.FormattingEnabled = true;
@@ -631,10 +405,6 @@
             this.comboBox_A1_Conta.Size = new System.Drawing.Size(150, 24);
             this.comboBox_A1_Conta.TabIndex = 4;
             this.comboBox_A1_Conta.ValueMember = "id";
-            // 
-            // contaBindingSource
-            // 
-            this.contaBindingSource.DataSource = typeof(Oiko.Conta);
             // 
             // label_A1_Conta
             // 
@@ -657,7 +427,6 @@
             this.button_A1_Despesa.TabIndex = 32;
             this.button_A1_Despesa.Text = "Despesa";
             this.button_A1_Despesa.UseVisualStyleBackColor = false;
-            this.button_A1_Despesa.Click += new System.EventHandler(this.buttonDespesa_Click);
             // 
             // button_A1_Receita
             // 
@@ -670,7 +439,6 @@
             this.button_A1_Receita.TabIndex = 31;
             this.button_A1_Receita.Text = "Receita";
             this.button_A1_Receita.UseVisualStyleBackColor = false;
-            this.button_A1_Receita.Click += new System.EventHandler(this.buttonReceita_Click);
             // 
             // label_A1_FormPagam
             // 
@@ -776,7 +544,6 @@
             this.textBox_A1_Valor.Name = "textBox_A1_Valor";
             this.textBox_A1_Valor.Size = new System.Drawing.Size(150, 22);
             this.textBox_A1_Valor.TabIndex = 1;
-            this.toolTip_Principal.SetToolTip(this.textBox_A1_Valor, "Ex.: 0,00");
             // 
             // groupBox_A1_Planej
             // 
@@ -786,7 +553,7 @@
             this.groupBox_A1_Planej.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox_A1_Planej.Location = new System.Drawing.Point(0, 0);
             this.groupBox_A1_Planej.Name = "groupBox_A1_Planej";
-            this.groupBox_A1_Planej.Size = new System.Drawing.Size(369, 245);
+            this.groupBox_A1_Planej.Size = new System.Drawing.Size(369, 288);
             this.groupBox_A1_Planej.TabIndex = 12;
             this.groupBox_A1_Planej.TabStop = false;
             this.groupBox_A1_Planej.Text = "Planejamento";
@@ -804,7 +571,7 @@
             // splitContainer4.Panel2
             // 
             this.splitContainer4.Panel2.Controls.Add(this.splitContainer6);
-            this.splitContainer4.Size = new System.Drawing.Size(631, 538);
+            this.splitContainer4.Size = new System.Drawing.Size(631, 629);
             this.splitContainer4.SplitterDistance = 349;
             this.splitContainer4.TabIndex = 0;
             // 
@@ -822,8 +589,8 @@
             // splitContainer5.Panel2
             // 
             this.splitContainer5.Panel2.Controls.Add(this.groupBox2);
-            this.splitContainer5.Size = new System.Drawing.Size(349, 538);
-            this.splitContainer5.SplitterDistance = 285;
+            this.splitContainer5.Size = new System.Drawing.Size(349, 629);
+            this.splitContainer5.SplitterDistance = 333;
             this.splitContainer5.TabIndex = 0;
             // 
             // splitContainer_A1_SaldoTotal
@@ -842,27 +609,26 @@
             // splitContainer_A1_SaldoTotal.Panel2
             // 
             this.splitContainer_A1_SaldoTotal.Panel2.Controls.Add(this.groupBox1);
-            this.splitContainer_A1_SaldoTotal.Size = new System.Drawing.Size(349, 285);
-            this.splitContainer_A1_SaldoTotal.SplitterDistance = 37;
+            this.splitContainer_A1_SaldoTotal.Size = new System.Drawing.Size(349, 333);
+            this.splitContainer_A1_SaldoTotal.SplitterDistance = 43;
             this.splitContainer_A1_SaldoTotal.TabIndex = 0;
             // 
             // textBox1
             // 
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(200, 5);
+            this.textBox1.Location = new System.Drawing.Point(200, 8);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(135, 22);
             this.textBox1.TabIndex = 14;
-            this.toolTip_Principal.SetToolTip(this.textBox1, "Ex.: 0,00");
             // 
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(176, 8);
+            this.label1.Location = new System.Drawing.Point(176, 11);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(25, 16);
             this.label1.TabIndex = 15;
@@ -873,7 +639,7 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(13, 8);
+            this.label2.Location = new System.Drawing.Point(13, 11);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 16);
             this.label2.TabIndex = 13;
@@ -887,7 +653,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(349, 244);
+            this.groupBox1.Size = new System.Drawing.Size(349, 286);
             this.groupBox1.TabIndex = 19;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Saldos";
@@ -903,7 +669,7 @@
             this.listView1.GridLines = true;
             this.listView1.Location = new System.Drawing.Point(3, 18);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(343, 223);
+            this.listView1.Size = new System.Drawing.Size(343, 265);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -932,7 +698,7 @@
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(349, 249);
+            this.groupBox2.Size = new System.Drawing.Size(349, 292);
             this.groupBox2.TabIndex = 20;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Contas a Pagar/Receber";
@@ -948,7 +714,7 @@
             this.listView2.GridLines = true;
             this.listView2.Location = new System.Drawing.Point(3, 18);
             this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(343, 228);
+            this.listView2.Size = new System.Drawing.Size(343, 271);
             this.listView2.TabIndex = 1;
             this.listView2.UseCompatibleStateImageBehavior = false;
             this.listView2.View = System.Windows.Forms.View.Details;
@@ -984,8 +750,8 @@
             // splitContainer6.Panel2
             // 
             this.splitContainer6.Panel2.Controls.Add(this.groupBox_A1_Grafico);
-            this.splitContainer6.Size = new System.Drawing.Size(278, 538);
-            this.splitContainer6.SplitterDistance = 97;
+            this.splitContainer6.Size = new System.Drawing.Size(278, 629);
+            this.splitContainer6.SplitterDistance = 113;
             this.splitContainer6.TabIndex = 0;
             // 
             // label_A1_Usuario
@@ -1005,7 +771,7 @@
             this.pictureBox_LogoOiko.Image = global::Oiko.Properties.Resources.LogoOiko;
             this.pictureBox_LogoOiko.Location = new System.Drawing.Point(0, 0);
             this.pictureBox_LogoOiko.Name = "pictureBox_LogoOiko";
-            this.pictureBox_LogoOiko.Size = new System.Drawing.Size(256, 97);
+            this.pictureBox_LogoOiko.Size = new System.Drawing.Size(256, 113);
             this.pictureBox_LogoOiko.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox_LogoOiko.TabIndex = 0;
             this.pictureBox_LogoOiko.TabStop = false;
@@ -1017,7 +783,7 @@
             this.groupBox_A1_Grafico.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox_A1_Grafico.Location = new System.Drawing.Point(0, 0);
             this.groupBox_A1_Grafico.Name = "groupBox_A1_Grafico";
-            this.groupBox_A1_Grafico.Size = new System.Drawing.Size(278, 437);
+            this.groupBox_A1_Grafico.Size = new System.Drawing.Size(278, 512);
             this.groupBox_A1_Grafico.TabIndex = 18;
             this.groupBox_A1_Grafico.TabStop = false;
             this.groupBox_A1_Grafico.Text = "Gráfico";
@@ -1029,7 +795,7 @@
             this.tabPage_A2_Lancamentos.Location = new System.Drawing.Point(4, 29);
             this.tabPage_A2_Lancamentos.Name = "tabPage_A2_Lancamentos";
             this.tabPage_A2_Lancamentos.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_A2_Lancamentos.Size = new System.Drawing.Size(1010, 544);
+            this.tabPage_A2_Lancamentos.Size = new System.Drawing.Size(1010, 635);
             this.tabPage_A2_Lancamentos.TabIndex = 1;
             this.tabPage_A2_Lancamentos.Text = "Lançamentos";
             // 
@@ -1047,7 +813,7 @@
             // splitContainer_A2.Panel2
             // 
             this.splitContainer_A2.Panel2.Controls.Add(this.tabControl_A2_HistoricoLanc);
-            this.splitContainer_A2.Size = new System.Drawing.Size(1004, 538);
+            this.splitContainer_A2.Size = new System.Drawing.Size(1004, 629);
             this.splitContainer_A2.SplitterDistance = 444;
             this.splitContainer_A2.TabIndex = 23;
             // 
@@ -1066,8 +832,8 @@
             // 
             this.splitContainerNovoLancamento.Panel2.Controls.Add(this.tabControl_A2_DetalhesLancamento);
             this.splitContainerNovoLancamento.Panel2.Controls.Add(this.panel_A2_Button);
-            this.splitContainerNovoLancamento.Size = new System.Drawing.Size(444, 538);
-            this.splitContainerNovoLancamento.SplitterDistance = 311;
+            this.splitContainerNovoLancamento.Size = new System.Drawing.Size(444, 629);
+            this.splitContainerNovoLancamento.SplitterDistance = 363;
             this.splitContainerNovoLancamento.TabIndex = 0;
             // 
             // tabControl_A2_NovoLancamento
@@ -1077,7 +843,7 @@
             this.tabControl_A2_NovoLancamento.Location = new System.Drawing.Point(0, 0);
             this.tabControl_A2_NovoLancamento.Name = "tabControl_A2_NovoLancamento";
             this.tabControl_A2_NovoLancamento.SelectedIndex = 0;
-            this.tabControl_A2_NovoLancamento.Size = new System.Drawing.Size(444, 311);
+            this.tabControl_A2_NovoLancamento.Size = new System.Drawing.Size(444, 363);
             this.tabControl_A2_NovoLancamento.TabIndex = 9;
             // 
             // tabPage_A2_NovoLancamento
@@ -1107,7 +873,7 @@
             this.tabPage_A2_NovoLancamento.Location = new System.Drawing.Point(4, 25);
             this.tabPage_A2_NovoLancamento.Name = "tabPage_A2_NovoLancamento";
             this.tabPage_A2_NovoLancamento.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_A2_NovoLancamento.Size = new System.Drawing.Size(436, 282);
+            this.tabPage_A2_NovoLancamento.Size = new System.Drawing.Size(436, 334);
             this.tabPage_A2_NovoLancamento.TabIndex = 0;
             this.tabPage_A2_NovoLancamento.Text = "Novo Lançamento";
             this.tabPage_A2_NovoLancamento.UseVisualStyleBackColor = true;
@@ -1116,14 +882,13 @@
             // 
             this.panel_A2_BarStatus.BackColor = System.Drawing.Color.Gainsboro;
             this.panel_A2_BarStatus.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel_A2_BarStatus.Location = new System.Drawing.Point(3, 272);
+            this.panel_A2_BarStatus.Location = new System.Drawing.Point(3, 324);
             this.panel_A2_BarStatus.Name = "panel_A2_BarStatus";
             this.panel_A2_BarStatus.Size = new System.Drawing.Size(430, 7);
             this.panel_A2_BarStatus.TabIndex = 33;
             // 
             // comboBox_A2_FormaPaga
             // 
-            this.comboBox_A2_FormaPaga.DataSource = this.formaPagamentoBindingSource;
             this.comboBox_A2_FormaPaga.DisplayMember = "nome";
             this.comboBox_A2_FormaPaga.Enabled = false;
             this.comboBox_A2_FormaPaga.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1133,10 +898,6 @@
             this.comboBox_A2_FormaPaga.Size = new System.Drawing.Size(171, 24);
             this.comboBox_A2_FormaPaga.TabIndex = 18;
             this.comboBox_A2_FormaPaga.ValueMember = "id";
-            // 
-            // formaPagamentoBindingSource
-            // 
-            this.formaPagamentoBindingSource.DataSource = typeof(Oiko.FormaPagamento);
             // 
             // label_A2_FormaPaga
             // 
@@ -1160,7 +921,6 @@
             this.button_A2_Despesa.TabIndex = 12;
             this.button_A2_Despesa.Text = "Despesa";
             this.button_A2_Despesa.UseVisualStyleBackColor = false;
-            this.button_A2_Despesa.Click += new System.EventHandler(this.buttonDespesa_Click);
             // 
             // button_A2_Receita
             // 
@@ -1173,11 +933,9 @@
             this.button_A2_Receita.TabIndex = 11;
             this.button_A2_Receita.Text = "Receita";
             this.button_A2_Receita.UseVisualStyleBackColor = false;
-            this.button_A2_Receita.Click += new System.EventHandler(this.buttonReceita_Click);
             // 
             // comboBox_A2_Conta
             // 
-            this.comboBox_A2_Conta.DataSource = this.contaBindingSource;
             this.comboBox_A2_Conta.DisplayMember = "nome";
             this.comboBox_A2_Conta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox_A2_Conta.FormattingEnabled = true;
@@ -1186,7 +944,6 @@
             this.comboBox_A2_Conta.Size = new System.Drawing.Size(197, 24);
             this.comboBox_A2_Conta.TabIndex = 17;
             this.comboBox_A2_Conta.ValueMember = "id";
-            this.comboBox_A2_Conta.SelectedIndexChanged += new System.EventHandler(this.comboBox_A2_Contas_SelectedIndexChanged);
             // 
             // textBox_A2_Valor
             // 
@@ -1195,11 +952,9 @@
             this.textBox_A2_Valor.Name = "textBox_A2_Valor";
             this.textBox_A2_Valor.Size = new System.Drawing.Size(203, 22);
             this.textBox_A2_Valor.TabIndex = 14;
-            this.toolTip_Principal.SetToolTip(this.textBox_A2_Valor, "Ex.: 0,00");
             // 
             // comboBox_A2_Categoria
             // 
-            this.comboBox_A2_Categoria.DataSource = this.categoriaBindingSource;
             this.comboBox_A2_Categoria.DisplayMember = "nome";
             this.comboBox_A2_Categoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox_A2_Categoria.FormattingEnabled = true;
@@ -1209,10 +964,6 @@
             this.comboBox_A2_Categoria.TabIndex = 16;
             this.comboBox_A2_Categoria.ValueMember = "id";
             // 
-            // categoriaBindingSource
-            // 
-            this.categoriaBindingSource.DataSource = typeof(Oiko.Categoria);
-            // 
             // dateTimePicker_A2_DataLanca
             // 
             this.dateTimePicker_A2_DataLanca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1221,7 +972,6 @@
             this.dateTimePicker_A2_DataLanca.Name = "dateTimePicker_A2_DataLanca";
             this.dateTimePicker_A2_DataLanca.Size = new System.Drawing.Size(171, 22);
             this.dateTimePicker_A2_DataLanca.TabIndex = 13;
-            this.dateTimePicker_A2_DataLanca.Leave += new System.EventHandler(this.dateTimePickerDataLancamento_Leave);
             // 
             // label_A2_JurosDia
             // 
@@ -1245,7 +995,6 @@
             this.button_A2_Lancar.TabIndex = 21;
             this.button_A2_Lancar.Text = "Lançar";
             this.button_A2_Lancar.UseVisualStyleBackColor = false;
-            this.button_A2_Lancar.Click += new System.EventHandler(this.buttonLancar_Click);
             // 
             // label_A2_Valor
             // 
@@ -1285,7 +1034,6 @@
             this.textBox_A2_Multa.Name = "textBox_A2_Multa";
             this.textBox_A2_Multa.Size = new System.Drawing.Size(94, 22);
             this.textBox_A2_Multa.TabIndex = 19;
-            this.toolTip_Principal.SetToolTip(this.textBox_A2_Multa, "Ex.: 0,00");
             // 
             // textBox_A2_JurosDia
             // 
@@ -1295,7 +1043,6 @@
             this.textBox_A2_JurosDia.Name = "textBox_A2_JurosDia";
             this.textBox_A2_JurosDia.Size = new System.Drawing.Size(100, 22);
             this.textBox_A2_JurosDia.TabIndex = 20;
-            this.toolTip_Principal.SetToolTip(this.textBox_A2_JurosDia, "Ex.: 0,00");
             // 
             // label_A2_DataLanca
             // 
@@ -1344,7 +1091,7 @@
             this.tabControl_A2_DetalhesLancamento.Location = new System.Drawing.Point(0, 0);
             this.tabControl_A2_DetalhesLancamento.Name = "tabControl_A2_DetalhesLancamento";
             this.tabControl_A2_DetalhesLancamento.SelectedIndex = 0;
-            this.tabControl_A2_DetalhesLancamento.Size = new System.Drawing.Size(444, 177);
+            this.tabControl_A2_DetalhesLancamento.Size = new System.Drawing.Size(444, 216);
             this.tabControl_A2_DetalhesLancamento.TabIndex = 22;
             // 
             // tabPage_A2_DetalhesLancamento
@@ -1371,7 +1118,7 @@
             this.tabPage_A2_DetalhesLancamento.Location = new System.Drawing.Point(4, 25);
             this.tabPage_A2_DetalhesLancamento.Name = "tabPage_A2_DetalhesLancamento";
             this.tabPage_A2_DetalhesLancamento.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_A2_DetalhesLancamento.Size = new System.Drawing.Size(436, 148);
+            this.tabPage_A2_DetalhesLancamento.Size = new System.Drawing.Size(436, 187);
             this.tabPage_A2_DetalhesLancamento.TabIndex = 1;
             this.tabPage_A2_DetalhesLancamento.Text = "Detalhes do Lançamento";
             // 
@@ -1379,7 +1126,7 @@
             // 
             this.panel_A2_BarStatus2.BackColor = System.Drawing.Color.Gainsboro;
             this.panel_A2_BarStatus2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel_A2_BarStatus2.Location = new System.Drawing.Point(3, 138);
+            this.panel_A2_BarStatus2.Location = new System.Drawing.Point(3, 177);
             this.panel_A2_BarStatus2.Name = "panel_A2_BarStatus2";
             this.panel_A2_BarStatus2.Size = new System.Drawing.Size(430, 7);
             this.panel_A2_BarStatus2.TabIndex = 34;
@@ -1567,10 +1314,10 @@
             this.tabPage_A2_BaixaLancamento.Controls.Add(this.dateTimePicker_A2_DataRecebimentoPagamento);
             this.tabPage_A2_BaixaLancamento.Controls.Add(this.label_A2_DataReceb);
             this.tabPage_A2_BaixaLancamento.Controls.Add(this.label_A2_RecebReceita);
-            this.tabPage_A2_BaixaLancamento.Location = new System.Drawing.Point(4, 25);
+            this.tabPage_A2_BaixaLancamento.Location = new System.Drawing.Point(4, 22);
             this.tabPage_A2_BaixaLancamento.Name = "tabPage_A2_BaixaLancamento";
             this.tabPage_A2_BaixaLancamento.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_A2_BaixaLancamento.Size = new System.Drawing.Size(436, 148);
+            this.tabPage_A2_BaixaLancamento.Size = new System.Drawing.Size(436, 151);
             this.tabPage_A2_BaixaLancamento.TabIndex = 2;
             this.tabPage_A2_BaixaLancamento.Text = "Baixa de Lançamento Futuro";
             // 
@@ -1587,7 +1334,6 @@
             // 
             // comboBoxContaOrigemRecebimento
             // 
-            this.comboBoxContaOrigemRecebimento.DataSource = this.contaBindingSource;
             this.comboBoxContaOrigemRecebimento.DisplayMember = "nome";
             this.comboBoxContaOrigemRecebimento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxContaOrigemRecebimento.FormattingEnabled = true;
@@ -1636,7 +1382,7 @@
             this.panel_A2_Button.Controls.Add(this.button_A2_BaixaLancamento);
             this.panel_A2_Button.Controls.Add(this.button_A2_EditarLancamento);
             this.panel_A2_Button.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel_A2_Button.Location = new System.Drawing.Point(0, 177);
+            this.panel_A2_Button.Location = new System.Drawing.Point(0, 216);
             this.panel_A2_Button.Name = "panel_A2_Button";
             this.panel_A2_Button.Size = new System.Drawing.Size(444, 46);
             this.panel_A2_Button.TabIndex = 25;
@@ -1662,7 +1408,6 @@
             this.button_A2_BaixaLancamento.Size = new System.Drawing.Size(42, 39);
             this.button_A2_BaixaLancamento.TabIndex = 24;
             this.button_A2_BaixaLancamento.UseVisualStyleBackColor = true;
-            this.button_A2_BaixaLancamento.Click += new System.EventHandler(this.button_A2_BaixaLancamento_Click);
             // 
             // button_A2_EditarLancamento
             // 
@@ -1674,7 +1419,6 @@
             this.button_A2_EditarLancamento.Size = new System.Drawing.Size(42, 39);
             this.button_A2_EditarLancamento.TabIndex = 23;
             this.button_A2_EditarLancamento.UseVisualStyleBackColor = true;
-            this.button_A2_EditarLancamento.Click += new System.EventHandler(this.button_A2_EditarLancamento_Click);
             // 
             // tabControl_A2_HistoricoLanc
             // 
@@ -1683,7 +1427,7 @@
             this.tabControl_A2_HistoricoLanc.Location = new System.Drawing.Point(0, 0);
             this.tabControl_A2_HistoricoLanc.Name = "tabControl_A2_HistoricoLanc";
             this.tabControl_A2_HistoricoLanc.SelectedIndex = 0;
-            this.tabControl_A2_HistoricoLanc.Size = new System.Drawing.Size(556, 538);
+            this.tabControl_A2_HistoricoLanc.Size = new System.Drawing.Size(556, 629);
             this.tabControl_A2_HistoricoLanc.TabIndex = 16;
             // 
             // tabPagel_A2_HistoricoLanc
@@ -1695,7 +1439,7 @@
             this.tabPagel_A2_HistoricoLanc.Location = new System.Drawing.Point(4, 25);
             this.tabPagel_A2_HistoricoLanc.Name = "tabPagel_A2_HistoricoLanc";
             this.tabPagel_A2_HistoricoLanc.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPagel_A2_HistoricoLanc.Size = new System.Drawing.Size(548, 509);
+            this.tabPagel_A2_HistoricoLanc.Size = new System.Drawing.Size(548, 600);
             this.tabPagel_A2_HistoricoLanc.TabIndex = 0;
             this.tabPagel_A2_HistoricoLanc.Text = "Histórico de Lançamentos";
             // 
@@ -1722,8 +1466,8 @@
             // splitContainer_A2_HistoricoLancamentos.Panel2
             // 
             this.splitContainer_A2_HistoricoLancamentos.Panel2.Controls.Add(this.listView_A2_Lancamentos);
-            this.splitContainer_A2_HistoricoLancamentos.Size = new System.Drawing.Size(542, 503);
-            this.splitContainer_A2_HistoricoLancamentos.SplitterDistance = 53;
+            this.splitContainer_A2_HistoricoLancamentos.Size = new System.Drawing.Size(542, 594);
+            this.splitContainer_A2_HistoricoLancamentos.SplitterDistance = 62;
             this.splitContainer_A2_HistoricoLancamentos.TabIndex = 12;
             // 
             // label_A2_TipoCateg
@@ -1843,11 +1587,10 @@
             this.listView_A2_Lancamentos.GridLines = true;
             this.listView_A2_Lancamentos.Location = new System.Drawing.Point(0, 0);
             this.listView_A2_Lancamentos.Name = "listView_A2_Lancamentos";
-            this.listView_A2_Lancamentos.Size = new System.Drawing.Size(542, 446);
+            this.listView_A2_Lancamentos.Size = new System.Drawing.Size(542, 528);
             this.listView_A2_Lancamentos.TabIndex = 15;
             this.listView_A2_Lancamentos.UseCompatibleStateImageBehavior = false;
             this.listView_A2_Lancamentos.View = System.Windows.Forms.View.Details;
-            this.listView_A2_Lancamentos.SelectedIndexChanged += new System.EventHandler(this.listView_A2_Lancamentos_SelectedIndexChanged);
             // 
             // columnId
             // 
@@ -1892,7 +1635,7 @@
             this.tabPage_A3_Relatorios.Location = new System.Drawing.Point(4, 29);
             this.tabPage_A3_Relatorios.Name = "tabPage_A3_Relatorios";
             this.tabPage_A3_Relatorios.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_A3_Relatorios.Size = new System.Drawing.Size(1010, 544);
+            this.tabPage_A3_Relatorios.Size = new System.Drawing.Size(1010, 635);
             this.tabPage_A3_Relatorios.TabIndex = 2;
             this.tabPage_A3_Relatorios.Text = "Relatórios";
             // 
@@ -1906,7 +1649,7 @@
             this.tabControl_A3_Relatorios_CRD.Name = "tabControl_A3_Relatorios_CRD";
             this.tabControl_A3_Relatorios_CRD.Padding = new System.Drawing.Point(3, 3);
             this.tabControl_A3_Relatorios_CRD.SelectedIndex = 0;
-            this.tabControl_A3_Relatorios_CRD.Size = new System.Drawing.Size(1004, 538);
+            this.tabControl_A3_Relatorios_CRD.Size = new System.Drawing.Size(1004, 629);
             this.tabControl_A3_Relatorios_CRD.TabIndex = 13;
             // 
             // tabPage_A3_ReceDesp
@@ -1967,7 +1710,7 @@
             this.tabPage_A3_LancCategoria.Location = new System.Drawing.Point(4, 29);
             this.tabPage_A3_LancCategoria.Name = "tabPage_A3_LancCategoria";
             this.tabPage_A3_LancCategoria.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_A3_LancCategoria.Size = new System.Drawing.Size(996, 505);
+            this.tabPage_A3_LancCategoria.Size = new System.Drawing.Size(996, 596);
             this.tabPage_A3_LancCategoria.TabIndex = 0;
             this.tabPage_A3_LancCategoria.Text = "Gráfico - Lançamentos por Categorias";
             this.tabPage_A3_LancCategoria.UseVisualStyleBackColor = true;
@@ -1988,8 +1731,8 @@
             // 
             this.splitContainer7.Panel2.Controls.Add(this.splitContainer9);
             this.splitContainer7.Panel2.Controls.Add(this.panel_A3_BarDespesas);
-            this.splitContainer7.Size = new System.Drawing.Size(990, 499);
-            this.splitContainer7.SplitterDistance = 261;
+            this.splitContainer7.Size = new System.Drawing.Size(990, 590);
+            this.splitContainer7.SplitterDistance = 308;
             this.splitContainer7.TabIndex = 0;
             // 
             // splitContainer8
@@ -2005,7 +1748,7 @@
             // splitContainer8.Panel2
             // 
             this.splitContainer8.Panel2.Controls.Add(this.listView_A3_ReceitaCatog);
-            this.splitContainer8.Size = new System.Drawing.Size(990, 235);
+            this.splitContainer8.Size = new System.Drawing.Size(990, 282);
             this.splitContainer8.SplitterDistance = 474;
             this.splitContainer8.TabIndex = 10;
             // 
@@ -2014,7 +1757,7 @@
             this.groupBox_A3_GrafiReceita.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox_A3_GrafiReceita.Location = new System.Drawing.Point(0, 0);
             this.groupBox_A3_GrafiReceita.Name = "groupBox_A3_GrafiReceita";
-            this.groupBox_A3_GrafiReceita.Size = new System.Drawing.Size(474, 235);
+            this.groupBox_A3_GrafiReceita.Size = new System.Drawing.Size(474, 282);
             this.groupBox_A3_GrafiReceita.TabIndex = 10;
             this.groupBox_A3_GrafiReceita.TabStop = false;
             this.groupBox_A3_GrafiReceita.Text = "Gráfico";
@@ -2030,7 +1773,7 @@
             this.listView_A3_ReceitaCatog.GridLines = true;
             this.listView_A3_ReceitaCatog.Location = new System.Drawing.Point(0, 0);
             this.listView_A3_ReceitaCatog.Name = "listView_A3_ReceitaCatog";
-            this.listView_A3_ReceitaCatog.Size = new System.Drawing.Size(512, 235);
+            this.listView_A3_ReceitaCatog.Size = new System.Drawing.Size(512, 282);
             this.listView_A3_ReceitaCatog.TabIndex = 8;
             this.listView_A3_ReceitaCatog.UseCompatibleStateImageBehavior = false;
             this.listView_A3_ReceitaCatog.View = System.Windows.Forms.View.Details;
@@ -2086,7 +1829,7 @@
             // splitContainer9.Panel2
             // 
             this.splitContainer9.Panel2.Controls.Add(this.listView_A3_DepesaCatog);
-            this.splitContainer9.Size = new System.Drawing.Size(990, 208);
+            this.splitContainer9.Size = new System.Drawing.Size(990, 252);
             this.splitContainer9.SplitterDistance = 474;
             this.splitContainer9.TabIndex = 13;
             // 
@@ -2095,7 +1838,7 @@
             this.groupBox_A3_GrafiDespesas.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox_A3_GrafiDespesas.Location = new System.Drawing.Point(0, 0);
             this.groupBox_A3_GrafiDespesas.Name = "groupBox_A3_GrafiDespesas";
-            this.groupBox_A3_GrafiDespesas.Size = new System.Drawing.Size(474, 208);
+            this.groupBox_A3_GrafiDespesas.Size = new System.Drawing.Size(474, 252);
             this.groupBox_A3_GrafiDespesas.TabIndex = 13;
             this.groupBox_A3_GrafiDespesas.TabStop = false;
             this.groupBox_A3_GrafiDespesas.Text = "Gráfico";
@@ -2111,7 +1854,7 @@
             this.listView_A3_DepesaCatog.GridLines = true;
             this.listView_A3_DepesaCatog.Location = new System.Drawing.Point(0, 0);
             this.listView_A3_DepesaCatog.Name = "listView_A3_DepesaCatog";
-            this.listView_A3_DepesaCatog.Size = new System.Drawing.Size(512, 208);
+            this.listView_A3_DepesaCatog.Size = new System.Drawing.Size(512, 252);
             this.listView_A3_DepesaCatog.TabIndex = 11;
             this.listView_A3_DepesaCatog.UseCompatibleStateImageBehavior = false;
             this.listView_A3_DepesaCatog.View = System.Windows.Forms.View.Details;
@@ -2162,7 +1905,7 @@
             this.tabPage_A4_Planejamento.Location = new System.Drawing.Point(4, 29);
             this.tabPage_A4_Planejamento.Name = "tabPage_A4_Planejamento";
             this.tabPage_A4_Planejamento.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_A4_Planejamento.Size = new System.Drawing.Size(1010, 544);
+            this.tabPage_A4_Planejamento.Size = new System.Drawing.Size(1010, 635);
             this.tabPage_A4_Planejamento.TabIndex = 3;
             this.tabPage_A4_Planejamento.Text = "Planejamento";
             // 
@@ -2192,7 +1935,7 @@
             // 
             this.splitContainer_A4.Panel2.Controls.Add(this.splitContainer_A4_Despesas);
             this.splitContainer_A4.Panel2.Controls.Add(this.panel_A4_BarInfo);
-            this.splitContainer_A4.Size = new System.Drawing.Size(1004, 538);
+            this.splitContainer_A4.Size = new System.Drawing.Size(1004, 629);
             this.splitContainer_A4.SplitterDistance = 303;
             this.splitContainer_A4.TabIndex = 1;
             // 
@@ -2359,8 +2102,8 @@
             // 
             this.splitContainer_A4_Despesas.Panel2.Controls.Add(this.listView_A4_Receita);
             this.splitContainer_A4_Despesas.Panel2.Controls.Add(this.panel_A4_BarReceita);
-            this.splitContainer_A4_Despesas.Size = new System.Drawing.Size(697, 494);
-            this.splitContainer_A4_Despesas.SplitterDistance = 270;
+            this.splitContainer_A4_Despesas.Size = new System.Drawing.Size(697, 585);
+            this.splitContainer_A4_Despesas.SplitterDistance = 319;
             this.splitContainer_A4_Despesas.TabIndex = 14;
             // 
             // listView_A4_Despesa
@@ -2376,7 +2119,7 @@
             this.listView_A4_Despesa.GridLines = true;
             this.listView_A4_Despesa.Location = new System.Drawing.Point(0, 26);
             this.listView_A4_Despesa.Name = "listView_A4_Despesa";
-            this.listView_A4_Despesa.Size = new System.Drawing.Size(697, 244);
+            this.listView_A4_Despesa.Size = new System.Drawing.Size(697, 293);
             this.listView_A4_Despesa.TabIndex = 17;
             this.listView_A4_Despesa.UseCompatibleStateImageBehavior = false;
             this.listView_A4_Despesa.View = System.Windows.Forms.View.Details;
@@ -2444,7 +2187,7 @@
             this.listView_A4_Receita.GridLines = true;
             this.listView_A4_Receita.Location = new System.Drawing.Point(0, 26);
             this.listView_A4_Receita.Name = "listView_A4_Receita";
-            this.listView_A4_Receita.Size = new System.Drawing.Size(697, 194);
+            this.listView_A4_Receita.Size = new System.Drawing.Size(697, 236);
             this.listView_A4_Receita.TabIndex = 13;
             this.listView_A4_Receita.UseCompatibleStateImageBehavior = false;
             this.listView_A4_Receita.View = System.Windows.Forms.View.Details;
@@ -2522,239 +2265,14 @@
             this.label_A4_TextBarInfo.Text = resources.GetString("label_A4_TextBarInfo.Text");
             this.label_A4_TextBarInfo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // statusStrip_Principal
-            // 
-            this.statusStrip_Principal.BackColor = System.Drawing.SystemColors.Control;
-            this.statusStrip_Principal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel_Saudacao,
-            this.toolStripStatusLabel_Data,
-            this.toolStripStatusLabel_Bar,
-            this.toolStripStatusLabel_Hora});
-            this.statusStrip_Principal.Location = new System.Drawing.Point(0, 646);
-            this.statusStrip_Principal.Name = "statusStrip_Principal";
-            this.statusStrip_Principal.RenderMode = System.Windows.Forms.ToolStripRenderMode.ManagerRenderMode;
-            this.statusStrip_Principal.Size = new System.Drawing.Size(1018, 22);
-            this.statusStrip_Principal.SizingGrip = false;
-            this.statusStrip_Principal.TabIndex = 6;
-            this.statusStrip_Principal.Text = "statusStrip1";
-            // 
-            // toolStripStatusLabel_Saudacao
-            // 
-            this.toolStripStatusLabel_Saudacao.Name = "toolStripStatusLabel_Saudacao";
-            this.toolStripStatusLabel_Saudacao.Size = new System.Drawing.Size(341, 17);
-            this.toolStripStatusLabel_Saudacao.Text = "Seja bem vindo ao OIKO - Seu Gerenciador Financeiro Pessoal  |";
-            // 
-            // toolStripStatusLabel_Data
-            // 
-            this.toolStripStatusLabel_Data.Name = "toolStripStatusLabel_Data";
-            this.toolStripStatusLabel_Data.Size = new System.Drawing.Size(31, 17);
-            this.toolStripStatusLabel_Data.Text = "Data";
-            // 
-            // toolStripStatusLabel_Bar
-            // 
-            this.toolStripStatusLabel_Bar.Name = "toolStripStatusLabel_Bar";
-            this.toolStripStatusLabel_Bar.Size = new System.Drawing.Size(16, 17);
-            this.toolStripStatusLabel_Bar.Text = " | ";
-            // 
-            // toolStripStatusLabel_Hora
-            // 
-            this.toolStripStatusLabel_Hora.Name = "toolStripStatusLabel_Hora";
-            this.toolStripStatusLabel_Hora.Size = new System.Drawing.Size(33, 17);
-            this.toolStripStatusLabel_Hora.Text = "Hora";
-            // 
-            // timer_Principal
-            // 
-            this.timer_Principal.Enabled = true;
-            this.timer_Principal.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // contextMenuStrip_Principal
-            // 
-            this.contextMenuStrip_Principal.Name = "contextMenuStrip1";
-            this.contextMenuStrip_Principal.Size = new System.Drawing.Size(61, 4);
-            // 
-            // toolStrip_Principal
-            // 
-            this.toolStrip_Principal.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
-            this.toolStrip_Principal.ImageScalingSize = new System.Drawing.Size(45, 38);
-            this.toolStrip_Principal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton_LancarRece,
-            this.toolStripSeparator7,
-            this.toolStripButtontoolStripButton_LancarDespe,
-            this.toolStripSeparator8,
-            this.toolStripButton_ContasReceber,
-            this.toolStripSeparator9,
-            this.toolStripButton_ContasPagar,
-            this.toolStripSeparator10,
-            this.toolStripButton_Relatorios,
-            this.toolStripSeparator11,
-            this.toolStripButton_Preferencia});
-            this.toolStrip_Principal.Location = new System.Drawing.Point(0, 24);
-            this.toolStrip_Principal.Name = "toolStrip_Principal";
-            this.toolStrip_Principal.Size = new System.Drawing.Size(1018, 45);
-            this.toolStrip_Principal.TabIndex = 0;
-            this.toolStrip_Principal.Text = "toolStrip1";
-            // 
-            // toolStripButton_LancarRece
-            // 
-            this.toolStripButton_LancarRece.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton_LancarRece.Image = global::Oiko.Properties.Resources.lancarReceita_fw;
-            this.toolStripButton_LancarRece.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_LancarRece.Name = "toolStripButton_LancarRece";
-            this.toolStripButton_LancarRece.Size = new System.Drawing.Size(49, 42);
-            this.toolStripButton_LancarRece.Text = "Lançar Receita";
-            this.toolStripButton_LancarRece.Click += new System.EventHandler(this.toolStripButton_LancarRece_Click);
-            // 
-            // toolStripSeparator7
-            // 
-            this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 45);
-            // 
-            // toolStripButtontoolStripButton_LancarDespe
-            // 
-            this.toolStripButtontoolStripButton_LancarDespe.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButtontoolStripButton_LancarDespe.Image = global::Oiko.Properties.Resources.lancarDespesas_fw;
-            this.toolStripButtontoolStripButton_LancarDespe.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtontoolStripButton_LancarDespe.Name = "toolStripButtontoolStripButton_LancarDespe";
-            this.toolStripButtontoolStripButton_LancarDespe.Size = new System.Drawing.Size(49, 42);
-            this.toolStripButtontoolStripButton_LancarDespe.Text = "Lançar Despesas";
-            this.toolStripButtontoolStripButton_LancarDespe.Click += new System.EventHandler(this.toolStripButtontoolStripButton_LancarDespe_Click);
-            // 
-            // toolStripSeparator8
-            // 
-            this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 45);
-            // 
-            // toolStripButton_ContasReceber
-            // 
-            this.toolStripButton_ContasReceber.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton_ContasReceber.Image = global::Oiko.Properties.Resources.contasReceber_fw;
-            this.toolStripButton_ContasReceber.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_ContasReceber.Name = "toolStripButton_ContasReceber";
-            this.toolStripButton_ContasReceber.Size = new System.Drawing.Size(49, 42);
-            this.toolStripButton_ContasReceber.Text = "Contas a Receber";
-            this.toolStripButton_ContasReceber.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
-            this.toolStripButton_ContasReceber.Click += new System.EventHandler(this.toolStripButton_ContasReceber_Click);
-            // 
-            // toolStripSeparator9
-            // 
-            this.toolStripSeparator9.Name = "toolStripSeparator9";
-            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 45);
-            // 
-            // toolStripButton_ContasPagar
-            // 
-            this.toolStripButton_ContasPagar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton_ContasPagar.Image = global::Oiko.Properties.Resources.contasPagar_fw;
-            this.toolStripButton_ContasPagar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_ContasPagar.Name = "toolStripButton_ContasPagar";
-            this.toolStripButton_ContasPagar.Size = new System.Drawing.Size(49, 42);
-            this.toolStripButton_ContasPagar.Text = "Contas a Pagar";
-            this.toolStripButton_ContasPagar.Click += new System.EventHandler(this.toolStripButton_ContasPagar_Click);
-            // 
-            // toolStripSeparator10
-            // 
-            this.toolStripSeparator10.Name = "toolStripSeparator10";
-            this.toolStripSeparator10.Size = new System.Drawing.Size(6, 45);
-            // 
-            // toolStripButton_Relatorios
-            // 
-            this.toolStripButton_Relatorios.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton_Relatorios.Image = global::Oiko.Properties.Resources.relatorios1;
-            this.toolStripButton_Relatorios.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Relatorios.Name = "toolStripButton_Relatorios";
-            this.toolStripButton_Relatorios.Size = new System.Drawing.Size(49, 42);
-            this.toolStripButton_Relatorios.Text = "Relatórios";
-            this.toolStripButton_Relatorios.Click += new System.EventHandler(this.toolStripButton_Relatorios_Click);
-            // 
-            // toolStripSeparator11
-            // 
-            this.toolStripSeparator11.Name = "toolStripSeparator11";
-            this.toolStripSeparator11.Size = new System.Drawing.Size(6, 45);
-            // 
-            // toolStripButton_Preferencia
-            // 
-            this.toolStripButton_Preferencia.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton_Preferencia.Image = global::Oiko.Properties.Resources.config;
-            this.toolStripButton_Preferencia.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Preferencia.Name = "toolStripButton_Preferencia";
-            this.toolStripButton_Preferencia.Size = new System.Drawing.Size(49, 42);
-            this.toolStripButton_Preferencia.Text = "Preferências";
-            this.toolStripButton_Preferencia.Click += new System.EventHandler(this.toolStripButton_Preferencia_Click);
-            // 
-            // toolStripButton9
-            // 
-            this.toolStripButton9.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton9.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton9.Name = "toolStripButton9";
-            this.toolStripButton9.Size = new System.Drawing.Size(47, 37);
-            this.toolStripButton9.Text = "Contas a Receber";
-            this.toolStripButton9.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
-            // 
-            // toolStripButton6
-            // 
-            this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton6.Image = global::Oiko.Properties.Resources.lancarReceita_fw;
-            this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton6.Name = "toolStripButton6";
-            this.toolStripButton6.Size = new System.Drawing.Size(47, 37);
-            this.toolStripButton6.Text = "Lançar Receita";
-            // 
-            // toolStripButton7
-            // 
-            this.toolStripButton7.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton7.Image = global::Oiko.Properties.Resources.lancarDespesas_fw;
-            this.toolStripButton7.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton7.Name = "toolStripButton7";
-            this.toolStripButton7.Size = new System.Drawing.Size(47, 37);
-            this.toolStripButton7.Text = "Lançar Despesas";
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = global::Oiko.Properties.Resources.contasPagar_fw;
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(47, 37);
-            this.toolStripButton1.Text = "Contas a Pagar";
-            // 
-            // toolStripButton3
-            // 
-            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton3.Image = global::Oiko.Properties.Resources.relatorios1;
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(47, 37);
-            this.toolStripButton3.Text = "Relatórios";
-            // 
-            // toolStripButton2
-            // 
-            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton2.Image = global::Oiko.Properties.Resources.graficos_fw;
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(47, 37);
-            this.toolStripButton2.Text = "Gráficos";
-            // 
-            // Principal
+            // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(1018, 668);
             this.Controls.Add(this.tabControl_Geral);
-            this.Controls.Add(this.toolStrip_Principal);
-            this.Controls.Add(this.menuStrip_Principal);
-            this.Controls.Add(this.statusStrip_Principal);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.IsMdiContainer = true;
-            this.Name = "Principal";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Oiko - Gerenciador Financeiro Pessoal ";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Principal_FormClosing);
-            this.Load += new System.EventHandler(this.Principal_Load);
-            this.menuStrip_Principal.ResumeLayout(false);
-            this.menuStrip_Principal.PerformLayout();
+            this.Name = "Menu";
+            this.Text = "Menu";
             this.tabControl_Geral.ResumeLayout(false);
             this.tabPage_A1_VisaoGeral.ResumeLayout(false);
             this.splitContainer_A1_Logo.Panel1.ResumeLayout(false);
@@ -2768,7 +2286,6 @@
             this.splitContainer_A1_LancamentoPlanejamento.ResumeLayout(false);
             this.groupBox_A1_LancRapido.ResumeLayout(false);
             this.groupBox_A1_LancRapido.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.contaBindingSource)).EndInit();
             this.splitContainer4.Panel1.ResumeLayout(false);
             this.splitContainer4.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
@@ -2802,8 +2319,6 @@
             this.tabControl_A2_NovoLancamento.ResumeLayout(false);
             this.tabPage_A2_NovoLancamento.ResumeLayout(false);
             this.tabPage_A2_NovoLancamento.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.formaPagamentoBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.categoriaBindingSource)).EndInit();
             this.tabControl_A2_DetalhesLancamento.ResumeLayout(false);
             this.tabPage_A2_DetalhesLancamento.ResumeLayout(false);
             this.tabPage_A2_DetalhesLancamento.PerformLayout();
@@ -2858,51 +2373,24 @@
             this.panel_A4_BarReceita.PerformLayout();
             this.panel_A4_BarInfo.ResumeLayout(false);
             this.panel_A4_BarInfo.PerformLayout();
-            this.statusStrip_Principal.ResumeLayout(false);
-            this.statusStrip_Principal.PerformLayout();
-            this.toolStrip_Principal.ResumeLayout(false);
-            this.toolStrip_Principal.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ToolStripButton toolStripButton1;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripButton toolStripButton9;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
-        private System.Windows.Forms.ToolStripButton toolStripButton6;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
-        private System.Windows.Forms.ToolStripButton toolStripButton7;
-        private System.Windows.Forms.MenuStrip menuStrip_Principal;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Cadastro;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Receita;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Despesa;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Categorias;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_FormasPaga;
-        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Sair;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Consultar;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_ContaPagar;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_ContaRece;
-        private System.Windows.Forms.ToolStripMenuItem utilitáriosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Calculadora;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Word;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Ajuda;
-        private System.Windows.Forms.TabPage tabPage_A2_Lancamentos;
-        private System.Windows.Forms.TabPage tabPage_A3_Relatorios;
-        private System.Windows.Forms.TabPage tabPage_A4_Planejamento;
+        public System.Windows.Forms.TabControl tabControl_Geral;
         private System.Windows.Forms.TabPage tabPage_A1_VisaoGeral;
-        private System.Windows.Forms.StatusStrip statusStrip_Principal;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel_Saudacao;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel_Data;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel_Bar;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel_Hora;
-        private System.Windows.Forms.Timer timer_Principal;
+        private System.Windows.Forms.SplitContainer splitContainer_A1_Logo;
+        private System.Windows.Forms.SplitContainer splitContainer_A1_LancamentoPlanejamento;
         private System.Windows.Forms.GroupBox groupBox_A1_LancRapido;
+        private System.Windows.Forms.Panel panel_A1_BarStatus;
+        private System.Windows.Forms.ComboBox comboBox_A1_Conta;
+        private System.Windows.Forms.Label label_A1_Conta;
+        private System.Windows.Forms.Button button_A1_Despesa;
+        private System.Windows.Forms.Button button_A1_Receita;
+        private System.Windows.Forms.Label label_A1_FormPagam;
+        private System.Windows.Forms.ComboBox comboBox_A1__FormPagam;
         private System.Windows.Forms.Button button_A1_Lancar;
         private System.Windows.Forms.Label label_A1_Catego;
         private System.Windows.Forms.ComboBox comboBox_A1_Categorias;
@@ -2912,41 +2400,35 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker_A1_DataLanc;
         private System.Windows.Forms.Label label_A1_DataLanc;
         private System.Windows.Forms.TextBox textBox_A1_Valor;
-        private System.Windows.Forms.ToolTip toolTip_Principal;
         private System.Windows.Forms.GroupBox groupBox_A1_Planej;
-        private System.Windows.Forms.Label label_A1_FormPagam;
-        private System.Windows.Forms.ComboBox comboBox_A1__FormPagam;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Sobre;
-        private System.Windows.Forms.ToolStripButton toolStripButton2;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
-        private System.Windows.Forms.ToolStripButton toolStripButton3;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip_Principal;
-        private System.Windows.Forms.Label label_A1_Usuario;
-        private System.Windows.Forms.ToolStrip toolStrip_Principal;
-        private System.Windows.Forms.ToolStripButton toolStripButton_LancarRece;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
-        private System.Windows.Forms.ToolStripButton toolStripButtontoolStripButton_LancarDespe;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
-        private System.Windows.Forms.ToolStripButton toolStripButton_ContasReceber;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
-        private System.Windows.Forms.ToolStripButton toolStripButton_ContasPagar;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
-        private System.Windows.Forms.ToolStripButton toolStripButton_Relatorios;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator11;
-        private System.Windows.Forms.Button button_A1_Despesa;
-        private System.Windows.Forms.Button button_A1_Receita;
-        private System.Windows.Forms.SplitContainer splitContainer_A2;
-        private System.Windows.Forms.TabControl tabControl_A2_HistoricoLanc;
-        private System.Windows.Forms.SplitContainer splitContainer_A1_Logo;
         private System.Windows.Forms.SplitContainer splitContainer4;
         private System.Windows.Forms.SplitContainer splitContainer5;
+        private System.Windows.Forms.SplitContainer splitContainer_A1_SaldoTotal;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ColumnHeader columnHeader7;
+        private System.Windows.Forms.ColumnHeader columnHeader8;
+        private System.Windows.Forms.ColumnHeader columnHeader9;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.ListView listView2;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.SplitContainer splitContainer6;
+        private System.Windows.Forms.Label label_A1_Usuario;
         private System.Windows.Forms.PictureBox pictureBox_LogoOiko;
         private System.Windows.Forms.GroupBox groupBox_A1_Grafico;
+        private System.Windows.Forms.TabPage tabPage_A2_Lancamentos;
+        private System.Windows.Forms.SplitContainer splitContainer_A2;
         private System.Windows.Forms.SplitContainer splitContainerNovoLancamento;
         private System.Windows.Forms.TabControl tabControl_A2_NovoLancamento;
         private System.Windows.Forms.TabPage tabPage_A2_NovoLancamento;
+        private System.Windows.Forms.Panel panel_A2_BarStatus;
+        private System.Windows.Forms.ComboBox comboBox_A2_FormaPaga;
+        private System.Windows.Forms.Label label_A2_FormaPaga;
         private System.Windows.Forms.Button button_A2_Despesa;
         private System.Windows.Forms.Button button_A2_Receita;
         private System.Windows.Forms.ComboBox comboBox_A2_Conta;
@@ -2966,17 +2448,57 @@
         private System.Windows.Forms.Label label_A2_Multa;
         private System.Windows.Forms.TabControl tabControl_A2_DetalhesLancamento;
         private System.Windows.Forms.TabPage tabPage_A2_DetalhesLancamento;
+        private System.Windows.Forms.Panel panel_A2_BarStatus2;
+        private System.Windows.Forms.Label label_A2_ContaUtilizada2;
+        private System.Windows.Forms.Label label_A2_ContaUtilizada;
+        private System.Windows.Forms.Label label_A2_DataRecePaga2;
+        private System.Windows.Forms.Label label_A2_DataRecePaga;
+        private System.Windows.Forms.Label label_A2_DataLancaVenc2;
+        private System.Windows.Forms.Label label_A2_DataLancaVenc;
+        private System.Windows.Forms.Label label_A2_JurosLanca2;
+        private System.Windows.Forms.Label label_A2_JurosLanca;
+        private System.Windows.Forms.Label label_A2_MultaLanca2;
+        private System.Windows.Forms.Label label_A2_MultaLanca;
+        private System.Windows.Forms.Label label_A2_Status2;
+        private System.Windows.Forms.Label label_A2_Status;
+        private System.Windows.Forms.Label label_A2_DescricaoLanca2;
+        private System.Windows.Forms.Label label_A2_IdLanca2;
+        private System.Windows.Forms.Label label_A2_DescricaoLanca;
+        private System.Windows.Forms.Label label_A2_IdLanca;
         private System.Windows.Forms.TabPage tabPage_A2_BaixaLancamento;
+        private System.Windows.Forms.Button button_A2_ConcluirBaixa;
+        private System.Windows.Forms.ComboBox comboBoxContaOrigemRecebimento;
         private System.Windows.Forms.DateTimePicker dateTimePicker_A2_DataRecebimentoPagamento;
         private System.Windows.Forms.Label label_A2_DataReceb;
         private System.Windows.Forms.Label label_A2_RecebReceita;
         private System.Windows.Forms.Panel panel_A2_Button;
+        private System.Windows.Forms.Button button_A2_ExcluirLancamento;
         private System.Windows.Forms.Button button_A2_BaixaLancamento;
         private System.Windows.Forms.Button button_A2_EditarLancamento;
-        private System.Windows.Forms.ComboBox comboBox_A2_FormaPaga;
-        private System.Windows.Forms.Label label_A2_FormaPaga;
+        private System.Windows.Forms.TabControl tabControl_A2_HistoricoLanc;
+        private System.Windows.Forms.TabPage tabPagel_A2_HistoricoLanc;
+        private System.Windows.Forms.SplitContainer splitContainer_A2_HistoricoLancamentos;
+        private System.Windows.Forms.Label label_A2_TipoCateg;
+        private System.Windows.Forms.ComboBox comboBox_A2_TipoCateg;
+        private System.Windows.Forms.Label label_A2_TipoLanc;
+        private System.Windows.Forms.Label label_A2_DataInicial;
+        private System.Windows.Forms.Button button_A2_Filtrar;
+        private System.Windows.Forms.Label label_A2_DataFinal;
+        private System.Windows.Forms.DateTimePicker dateTimePicker_A2_DataFinal;
+        private System.Windows.Forms.DateTimePicker dateTimePicker_A2_DataInicial;
+        private System.Windows.Forms.ComboBox comboBox_A2_TipoLanc;
+        private System.Windows.Forms.ListView listView_A2_Lancamentos;
+        private System.Windows.Forms.ColumnHeader columnId;
+        private System.Windows.Forms.ColumnHeader columnDataLancamento;
+        private System.Windows.Forms.ColumnHeader columnDescricao;
+        private System.Windows.Forms.ColumnHeader columnTipo;
+        private System.Windows.Forms.ColumnHeader columnCategoria;
+        private System.Windows.Forms.ColumnHeader columnValor;
+        private System.Windows.Forms.ColumnHeader columnStatus;
+        private System.Windows.Forms.TabPage tabPage_A3_Relatorios;
         private System.Windows.Forms.TabControl tabControl_A3_Relatorios_CRD;
         private System.Windows.Forms.TabPage tabPage_A3_ReceDesp;
+        private System.Windows.Forms.SplitContainer splitContainer11;
         private System.Windows.Forms.Panel panel_A3_BarGrafi_RecDesp;
         private System.Windows.Forms.Label label_A3_Grafi_RecDesp;
         private System.Windows.Forms.TabPage tabPage_A3_LancCategoria;
@@ -2997,31 +2519,7 @@
         private System.Windows.Forms.ColumnHeader columnHeader16;
         private System.Windows.Forms.Panel panel_A3_BarDespesas;
         private System.Windows.Forms.Label label_A3_BarDespesas;
-        private System.Windows.Forms.ToolStripButton toolStripButton_Preferencia;
-        private System.Windows.Forms.BindingSource contaBindingSource;
-        private System.Windows.Forms.BindingSource formaPagamentoBindingSource;
-        private System.Windows.Forms.BindingSource categoriaBindingSource;
-        private System.Windows.Forms.Label label_A2_ContaUtilizada2;
-        private System.Windows.Forms.Label label_A2_ContaUtilizada;
-        private System.Windows.Forms.Label label_A2_DataRecePaga2;
-        private System.Windows.Forms.Label label_A2_DataRecePaga;
-        private System.Windows.Forms.Label label_A2_DataLancaVenc2;
-        private System.Windows.Forms.Label label_A2_DataLancaVenc;
-        private System.Windows.Forms.Label label_A2_JurosLanca2;
-        private System.Windows.Forms.Label label_A2_JurosLanca;
-        private System.Windows.Forms.Label label_A2_MultaLanca2;
-        private System.Windows.Forms.Label label_A2_MultaLanca;
-        private System.Windows.Forms.Label label_A2_Status2;
-        private System.Windows.Forms.Label label_A2_Status;
-        private System.Windows.Forms.Label label_A2_DescricaoLanca2;
-        private System.Windows.Forms.Label label_A2_IdLanca2;
-        private System.Windows.Forms.Label label_A2_DescricaoLanca;
-        private System.Windows.Forms.Label label_A2_IdLanca;
-        private System.Windows.Forms.ComboBox comboBoxContaOrigemRecebimento;
-        private System.Windows.Forms.Button button_A2_ExcluirLancamento;
-        private System.Windows.Forms.Button button_A2_ConcluirBaixa;
-        private System.Windows.Forms.ComboBox comboBox_A1_Conta;
-        private System.Windows.Forms.Label label_A1_Conta;
+        private System.Windows.Forms.TabPage tabPage_A4_Planejamento;
         private System.Windows.Forms.SplitContainer splitContainer_A4;
         private System.Windows.Forms.Label label_A4_Mes;
         private System.Windows.Forms.Panel panel_A4_BarButton;
@@ -3056,47 +2554,5 @@
         private System.Windows.Forms.Label label_A4_BarReceita;
         private System.Windows.Forms.Panel panel_A4_BarInfo;
         private System.Windows.Forms.Label label_A4_TextBarInfo;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Excel;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem_Explorer;
-        private System.Windows.Forms.SplitContainer splitContainer_A1_SaldoTotal;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader columnHeader7;
-        private System.Windows.Forms.ColumnHeader columnHeader8;
-        private System.Windows.Forms.ColumnHeader columnHeader9;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.ListView listView2;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.SplitContainer splitContainer_A1_LancamentoPlanejamento;
-        private System.Windows.Forms.TabPage tabPagel_A2_HistoricoLanc;
-        private System.Windows.Forms.SplitContainer splitContainer_A2_HistoricoLancamentos;
-        private System.Windows.Forms.Label label_A2_TipoCateg;
-        private System.Windows.Forms.ComboBox comboBox_A2_TipoCateg;
-        private System.Windows.Forms.Label label_A2_TipoLanc;
-        private System.Windows.Forms.Label label_A2_DataInicial;
-        private System.Windows.Forms.Button button_A2_Filtrar;
-        private System.Windows.Forms.Label label_A2_DataFinal;
-        private System.Windows.Forms.DateTimePicker dateTimePicker_A2_DataFinal;
-        private System.Windows.Forms.DateTimePicker dateTimePicker_A2_DataInicial;
-        private System.Windows.Forms.ComboBox comboBox_A2_TipoLanc;
-        private System.Windows.Forms.ListView listView_A2_Lancamentos;
-        private System.Windows.Forms.ColumnHeader columnId;
-        private System.Windows.Forms.ColumnHeader columnDataLancamento;
-        private System.Windows.Forms.ColumnHeader columnDescricao;
-        private System.Windows.Forms.ColumnHeader columnTipo;
-        private System.Windows.Forms.ColumnHeader columnCategoria;
-        private System.Windows.Forms.ColumnHeader columnValor;
-        private System.Windows.Forms.ColumnHeader columnStatus;
-        private System.Windows.Forms.SplitContainer splitContainer11;
-        private System.Windows.Forms.Panel panel_A2_BarStatus;
-        private System.Windows.Forms.Panel panel_A1_BarStatus;
-        private System.Windows.Forms.Panel panel_A2_BarStatus2;
-        public System.Windows.Forms.TabControl tabControl_Geral;
     }
 }
-

@@ -1,6 +1,6 @@
 ﻿namespace Oiko
 {
-    partial class Preferencias
+    partial class Form8_Preferencias
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Preferencias));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form8_Preferencias));
             this.tabControl_Menu_Cadastros = new System.Windows.Forms.TabControl();
             this.tabPage_PrefeA1_MeusDados = new System.Windows.Forms.TabPage();
             this.textBox_PrefeA1_Login = new System.Windows.Forms.TextBox();
@@ -257,7 +257,6 @@
             // 
             // button_PrefeA2_NovaCatego
             // 
-            this.button_PrefeA2_NovaCatego.Image = global::Oiko.Properties.Resources.baixar;
             this.button_PrefeA2_NovaCatego.Location = new System.Drawing.Point(305, 190);
             this.button_PrefeA2_NovaCatego.Name = "button_PrefeA2_NovaCatego";
             this.button_PrefeA2_NovaCatego.Size = new System.Drawing.Size(25, 25);
@@ -441,7 +440,6 @@
             // 
             // buttonNovaConta
             // 
-            this.buttonNovaConta.Image = global::Oiko.Properties.Resources.baixar;
             this.buttonNovaConta.Location = new System.Drawing.Point(305, 190);
             this.buttonNovaConta.Name = "buttonNovaConta";
             this.buttonNovaConta.Size = new System.Drawing.Size(25, 25);
@@ -552,7 +550,6 @@
             // 
             // buttonNovaFormaPagamento
             // 
-            this.buttonNovaFormaPagamento.Image = global::Oiko.Properties.Resources.baixar;
             this.buttonNovaFormaPagamento.Location = new System.Drawing.Point(305, 190);
             this.buttonNovaFormaPagamento.Name = "buttonNovaFormaPagamento";
             this.buttonNovaFormaPagamento.Size = new System.Drawing.Size(25, 25);

@@ -121,17 +121,65 @@ C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Sobre.resour
 C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Splash.resources
 C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.csproj.GenerateResource.Cache
 C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Login.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form5_Lançamentos.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form2_Login.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form7_Planejamento.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form8_Preferencias.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form3_Principal.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form6_Relatorio.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form9_Sobre.resources
+C:\Users\LloyDog\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form4_VisaoGeral.resources
 C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\bin\Debug\Oiko.exe.config
 C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.exe
-C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.pdb
-C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\bin\Debug\Oiko.exe
-C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\bin\Debug\Oiko.pdb
 C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Login.resources
-C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Preferencias.resources
-C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Principal.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form2_Login.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form7_Planejamento.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form8_Preferencias.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form3_Principal.resources
 C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Properties.Resources.resources
-C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Sobre.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form6_Relatorio.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form9_Sobre.resources
 C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Splash.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form4_VisaoGeral.resources
 C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\bin\Debug\Oiko.exe
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\bin\Debug\Oiko.pdb
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.Form5_Lancamentos.resources
+C:\Users\Djonathas\Documents\GitHub\OIKOBase2\OIKO\obj\x86\Debug\Oiko.pdb
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\bin\Debug\Oiko.exe.config
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Debug\Oiko.exe
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Debug\Oiko.pdb
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\bin\Debug\Oiko.exe
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\bin\Debug\Oiko.pdb
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Debug\Oiko.Form4_VisaoGeral.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Debug\Oiko.Form5_Lancamentos.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Debug\Oiko.Form2_Login.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Debug\Oiko.Form7_Planejamento.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Debug\Oiko.Form8_Preferencias.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Debug\Oiko.Form3_Principal.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Debug\Oiko.Properties.Resources.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Debug\Oiko.Form6_Relatorio.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Debug\Oiko.Form9_Sobre.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Debug\Oiko.Splash.resources
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Djonathas\Google Drive\Documentos\4º Período\4N - LPC I\G2\Projeto OIKO - Backup\OIKO\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\DJ\OIKO\bin\Debug\Oiko.exe.config
+D:\DJ\OIKO\obj\x86\Debug\Oiko.exe
+D:\DJ\OIKO\obj\x86\Debug\Oiko.pdb
+D:\DJ\OIKO\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\DJ\OIKO\obj\x86\Debug\Oiko.Form4_VisaoGeral.resources
+D:\DJ\OIKO\obj\x86\Debug\Oiko.Form5_Lancamentos.resources
+D:\DJ\OIKO\obj\x86\Debug\Oiko.Form2_Login.resources
+D:\DJ\OIKO\obj\x86\Debug\Oiko.Form7_Planejamento.resources
+D:\DJ\OIKO\obj\x86\Debug\Oiko.Form8_Preferencias.resources
+D:\DJ\OIKO\obj\x86\Debug\Oiko.Form3_Principal.resources
+D:\DJ\OIKO\obj\x86\Debug\Oiko.Properties.Resources.resources
+D:\DJ\OIKO\obj\x86\Debug\Oiko.Form6_Relatorio.resources
+D:\DJ\OIKO\obj\x86\Debug\Oiko.Form9_Sobre.resources
+D:\DJ\OIKO\obj\x86\Debug\Oiko.Splash.resources
+D:\DJ\OIKO\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\DJ\OIKO\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\DJ\OIKO\bin\Debug\Oiko.exe
+D:\DJ\OIKO\bin\Debug\Oiko.pdb

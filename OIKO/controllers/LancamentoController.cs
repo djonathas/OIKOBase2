@@ -43,20 +43,27 @@ namespace Oiko.controllers
                 throw new Exception("Ocorreu um erro ao tentar retornar o lancamento", ex);
             }
         }
-        public static void update(Lancamento lancamentoAtualizado)
+        public static void update(Lancamento nl)
         {
             try
             {
                 using (OikoDataContext db = new OikoDataContext())
                 {
-                    Lancamento lancamento = db.Lancamento.SingleOrDefault(l => l.id == lancamentoAtualizado.id);
+                    Lancamento lancamento = db.Lancamento.SingleOrDefault(l => l.id == nl.id);
                     if (lancamento == null)
                     {
                         throw new Exception(
-                            string.Format("O lancamento com id {0} não foi encontrado", lancamentoAtualizado.id)
+                            string.Format("O lancamento com id {0} não foi encontrado", nl.id)
                             );
                     }
-                    lancamento = lancamentoAtualizado;
+                    lancamento.dataLancamento = nl.dataLancamento;
+                    lancamento.valor = nl.valor;
+                    lancamento.descricao = nl.descricao;
+                    lancamento.idCategoria = nl.idCategoria;
+                    lancamento.idConta = nl.idConta;
+                    lancamento.idFormaPagamento = nl.idFormaPagamento;
+                    lancamento.multa = nl.multa;
+                    lancamento.jurosPorDia = nl.jurosPorDia;
 
                     db.SubmitChanges();
                 }
@@ -66,6 +73,33 @@ namespace Oiko.controllers
                 throw new Exception("Ocorreu um erro ao tentar atualizar o lancamento", ex);
             }
         }
+
+        public static void baixa(int id, DateTime dataRecebimentoPagamento, int idConta)
+        {
+            try
+            {
+                using (OikoDataContext db = new OikoDataContext())
+                {
+                    Lancamento lancamento = db.Lancamento.SingleOrDefault(l => l.id == id);
+                    if (lancamento == null)
+                    {
+                        throw new Exception(
+                            string.Format("O lancamento com id {0} não foi encontrado", id)
+                            );
+                    }
+                    lancamento.dataRecebimentoPagamento = dataRecebimentoPagamento;
+                    lancamento.idConta = idConta;
+                    lancamento.status = true;
+
+                    db.SubmitChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Ocorreu um erro ao tentar atualizar o lancamento", ex);
+            }
+        }
+
         public static void delete(int id)
         {
             try
